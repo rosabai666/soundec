@@ -1,0 +1,52 @@
+/*
+var regMap =
+{
+	peripheral:"Codec",offset:"0x70007000",size:"5",reg:[
+		{
+			regname:"RGE_1",offset:"0",desc:"this xxxxxxxxxx",bits:[
+				{start:"0",end:"2",attr:"R",defval:"0b010"},
+				{start:"3",end:"5",attr:"R/W",defval:"0b001"},
+				{start:"6",end:"8",attr:"R",defval:"0b011"},
+				{start:"9",end:"11",attr:"W",defval:"0b001"},
+				{start:"12",end:"16",attr:"R/W",defval:"0b00101"},
+				{start:"17",end:"22",attr:"R",defval:"0b001011"},
+				{start:"23",end:"31",attr:"W",defval:"0b100101101"},
+			]
+		},
+		{
+			regname:"RGE_2",offset:"0",desc:"this xxxxxxxxxx",bits:[
+				{start:"0",end:"3",attr:"R",defval:"0b0010"},
+				{start:"4",end:"6",attr:"R/W",defval:"0b001"},
+				{start:"7",end:"8",attr:"R",defval:"0b11"},
+				{start:"9",end:"12",attr:"R",defval:"0b0011"},
+				{start:"13",end:"31",attr:"Rev",defval:"null"},
+			]
+		},
+		{
+			regname:"RGE_3",offset:"0",desc:"this xxxxxxxxxx",bits:[
+				{start:"0",end:"3",attr:"R",defval:"0b0010"},
+				{start:"4",end:"5",attr:"R/W",defval:"0b01"},
+				{start:"6",end:"10",attr:"R",defval:"0b00011"},
+				{start:"11",end:"15",attr:"R",defval:"0b01100"},
+				{start:"16",end:"31",attr:"Rev",defval:"null"},
+			]
+		},
+		{
+			regname:"RGE_4",offset:"0",desc:"this xxxxxxxxxx",bits:[
+				{start:"0",end:"3",attr:"R",defval:"0b0010"},
+				{start:"4",end:"6",attr:"R/W",defval:"0b001"},
+				{start:"7",end:"12",attr:"R",defval:"0b001011"},
+				{start:"13",end:"31",attr:"Rev",defval:"null"},
+			]
+		},
+		{
+			regname:"RGE_5",offset:"0",desc:"this xxxxxxxxxx",bits:[
+				{start:"0",end:"3",attr:"R",defval:"0b0010"},
+				{start:"4",end:"6",attr:"R/W",defval:"0b001"},
+				{start:"7",end:"12",attr:"R",defval:"0b001011"},
+				{start:"13",end:"31",attr:"Rev",defval:"null"},
+			]
+		},
+	]
+}
+*/
