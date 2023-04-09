@@ -1,0 +1,27 @@
+/* CONFIDENTIAL */
+/********************************************************************
+  "DD-2SP/SPR-2 Firmware DSE Mode" Revision History
+  
+  File Name : DD-2inst_DSE.mdspcfg
+  
+  Copyright(c) 2012 Yamaha Corporation
+  09/27/2012
+ *******************************************************************/
+
+---------------------------------------------------------------------
+version 0.01.00
+  06/28/2012
+  
+  Supported manual version: 0.01
+---------------------------------------------------------------------
+Newly-created.
+
+---------------------------------------------------------------------
+version 1.00.00
+  08/08/2012
+  
+  Supported manual version: 0.02, 1.00
+---------------------------------------------------------------------
+Changed Harmonics expander, Spacious sound 3D firmware.
+Changed Top.FWMode[15:0] value to 0x110E.
+

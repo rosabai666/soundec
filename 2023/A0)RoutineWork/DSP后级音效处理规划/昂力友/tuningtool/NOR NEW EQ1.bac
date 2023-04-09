@@ -1,0 +1,97 @@
+{
+    "SampleRate": {
+        "Setting": 44100
+    },
+    "HeadRoom": {
+        "Setting": 4
+    },
+    "PreGain": {
+        "Setting": 7
+    },
+    "PostGain": {
+        "Setting": -7
+    },
+    "PreEQ": {
+        "filters": [
+            {
+                "type": "HighPass",
+                "frequency": 75,
+                "gain": 0,
+                "Q": 0.707
+            },
+            {
+                "type": "Peaking",
+                "frequency": 85,
+                "gain": 12,
+                "Q": 2.2
+            },
+            {
+                "type": "Peaking",
+                "frequency": 82,
+                "gain": 5,
+                "Q": 2
+            },
+            {
+                "type": "Peaking",
+                "frequency": 320,
+                "gain": 10,
+                "Q": 0.7
+            },
+            {
+                "type": "Peaking",
+                "frequency": 500,
+                "gain": 8,
+                "Q": 0.707
+            },
+            {
+                "type": "Peaking",
+                "frequency": 6000,
+                "gain": 10,
+                "Q": 1.7
+            },
+            {
+                "type": "Peaking",
+                "frequency": 4000,
+                "gain": 8,
+                "Q": 0.7
+            }
+        ]
+    },
+    "PostEQ": {
+        "filters": [
+            {
+                "type": "HighPass",
+                "frequency": 60,
+                "gain": 0,
+                "Q": 0.707
+            },
+            {
+                "type": "Peaking",
+                "frequency": 320,
+                "gain": -5,
+                "Q": 0.7
+            },
+            {
+                "type": "Peaking",
+                "frequency": 11290,
+                "gain": 7,
+                "Q": 3
+            }
+        ]
+    },
+    "limiter": {
+        "crossFreq": 320,
+        "Lp": {
+            "ThresHold": -4,
+            "HoldTime": 20.0,
+            "AttacTime": 1,
+            "ReleasTime": 1000
+        },
+        "Hp": {
+            "ThresHold": -8,
+            "HoldTime": 20.0,
+            "AttacTime": 1,
+            "ReleasTime": 2000
+        }
+    }
+}

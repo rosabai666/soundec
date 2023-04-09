@@ -1,0 +1,835 @@
+list3.bat
+readme.txt
+From EQ to Reverb & Distortion-DSP Audio Effects in Matlab.pdf
+hifi-dsps-ds.pdf
+Implementation of sound effects in DSP.pdf
+多采样率数字信号处理.pdf
+浅析ADC的六种分类及六大关键性能指标.docx
+待确认的一些Features.xlsx
+音频IC相关Features.xlsx
+Q&A 硬件类.txt
+Q&A 编译类.txt
+Q&A 软件类.txt
+SNC86XX DSP 应用方案简介_V1.1.pdf
+SNC86XX DSP 应用方案简介_V1.1.pptx
+SNC86XX DSP 应用方案简介_V1.1.rar
+Soundec 麦克风智能降噪补偿方案.pptx
+无线手持麦克风降噪需求分析.pptx
+SNC8600 Core board 测试说明.docx
+SNC8600 USB设备版本信息查看.docx
+SNC8600 双麦降噪Demo板使用说明.docx
+SNC8600 双麦降噪Demo板使用说明.pdf
+SNC8600核心板（耳道拾音应用）使用说明.docx
+~$C8600核心板（耳道拾音应用）使用说明.docx
+SNC86xx核心板应用—USB麦克风.pdf
+SNC86xx核心板应用——USB麦克风.pptx
+~$板 USB麦克风接法.docx
+核心板 USB麦克风接法.docx
+SNC8600 核心板板使用说明-通用耳机.docx
+SNC8600 核心板板使用说明-通用耳机.pdf
+[模组资料]SNC8600BMT02-14x14.rar
+[模组资料]SNC8600BMT03-26x21.rar
+32bits DSP Digital Audio Signal Process Module模组规格书-V1.1_14x14(1).pdf
+32bits DSP Digital Audio Signal Process Module模组规格书-V1.1_14x14-改.docx
+SNC8600BMT02 模块 2ECM Mic参考设计-ECM mic.PDF
+SNC8600BMT02 模块 4Mic会议音箱参考设计.PDF
+模组改进提议.docx
+SNC8600BMT03_模组资料.rar
+模组改进提议.docx
+SNC8600BMT03 Spec-V1.1.docx
+SNC8600BMT03 模组规格书-V1.1 .docx
+SNC8600BMT03 模组规格书-V1.1 .pdf
+SNC8600BMT03_PCB_V1.0.PrjPcb
+SNC8600BMT03_原理图_v1.0.SchDoc
+SNC8600BMT03_参考设计V1.1.PDF
+SNC8600_Stamp_hole_plate(1).rar
+SNC8600_Stamp_hole_plate_V1.1.PDF
+大模组封装及参考设计说明.zip
+邮票孔参考设计及封装.rar
+邮票孔模组资料.zip
+SNC8600BMT03 元件库.SCHLIB
+SNC8600BMT03 封装.PcbLib
+SNC8600BMT03 模块参考设计-20210823.PDF
+SNC8600BMT03 模组规格书-V1.1 .pdf
+SNC8600BMT03_PCB_V1.0.PrjPcb
+SNC8600BMT03_SCH_v1.0.SchDoc
+SNC8600BMT03_原理图_V1.1.PDF
+邮票孔元件库.SCHLIB
+邮票孔参考设计.PDF
+邮票孔参考设计.SchDoc
+邮票孔封装.PcbLib
+3_Soundec 会议音箱解决方案（内）.pdf
+snc8600 4mic会议音箱解决方案.pptx
+会议音箱EVB-调试图纸.pdf
+Soundec 会议音箱解决方案.pdf
+Soundec 会议音箱解决方案.pptx
+Soundec麦阵列方案介绍_QMZ.docx
+会议音箱产品声学结构设计建议.docx
+会议音箱产品声学结构设计建议_V1.0.docx
+会议音箱产品声学结构设计建议_V1.0.pdf
+会议音箱麦克风隔离设计建议.pdf
+下周测试三款音箱前准备.doc
+麦克风阵列产品需求_20220109.pdf
+麦克风阵列解决方案及设计需求_20220109-2.pdf
+麦克风阵列解决方案及设计需求_20220109.docx
+Soundec 麦克风智能降噪补偿方案.pdf
+Soundec 麦克风智能降噪补偿方案_v1.1.pdf
+Soundec 麦克风智能降噪补偿方案_v1.1.pptx
+VPC 产品功能介绍2(1).docx
+SoundecUSB麦克风解决方案.pdf
+SoundecUSB麦克风解决方案.pptx
+SoundecUSB麦克风解决方案_v1.1.pdf
+TypeC mini 耳放资料.rar
+USB 耳机耳放.pptx
+九音TYPEC迷你耳放20210101.PcbDoc
+九音TYPEC迷你耳放20210101.rar
+Soundec UAC2.0 评估板信息说明.docx
+Soundec UAC2.0 评估板信息说明.pdf
+话务耳机规格.pptx
+ReleaseNote.txt
+SNC86xx 超强抗噪ENC耳机解决方案 v1.1.pdf
+SNC86xx 超强抗噪ENC耳机解决方案 v1.2.pdf
+SNC86xx 超强抗噪ENC耳机解决方案 v1.2.rar
+SNC86xx 超强抗噪ENC耳机解决方案 v1.3.pdf
+SNC86xx 超强抗噪ENC耳机解决方案 v1.3.pptx
+SNC86xx 超强抗噪ENC耳机解决方案 v1.3.rar
+SNC86xx 超强抗噪ENC耳机解决方案 v1.3b.pdf
+麦克风需求.png
+昂思东莞实验室测试文件.rar
+snc8600 TWS耳机ENC解决方案参考设计_V1.0.pdf
+snc8600 TWS耳机ENC解决方案参考设计_V1.0_Cfdt.pdf
+snc8600 TWS耳机ENC解决方案参考设计_V1.1.pptx
+snc8600 TWS耳机ENC解决方案参考设计_V1.1.rar
+SNC86xx TWS耳机ENC解决方案参考设计_V1.1_Cfdt.pdf
+SNC86xx FB+FF TWS ENC耳机解决方案参考设计_V1.0.pdf
+SNC86xx FB+FF TWS ENC耳机解决方案参考设计_V1.0.pptx
+SNC86xx FB单耳蓝牙耳机解决方案.pdf
+SNC86xx FB单耳蓝牙耳机解决方案_V0.1.pptx
+snc8600 颈挂式蓝牙FB 耳机ENC 解决方案_V1.3.pptx
+Soundec USB指向性麦克风设计说明.docx
+Soundec USB指向性麦克风设计说明.pdf
+Soundec 无线降噪麦克风解决方案 - 单麦.pptx
+Soundec 无线降噪麦克风解决方案.pdf
+Soundec 无线降噪麦克风解决方案.pptx
+Little?Bee_0224_Sch_F.pdf
+小蜜蜂参考设计.rar
+SNC8600D DSP Processor_v1.0.pptx
+对讲机系统框图.pptx
+SNC8600A_双MIC输入_I2S&HP输出_REV1.0_2021090301.pdf
+SNC8600系列 LAYOUT设计规范 REV1.0.pdf
+蓝牙耳机参考设计_V1.0-20210719.rar
+BK3288-2.PDF
+SNC.8600ASchDoc.PDF
+tws_left_V1.1-FB_bottom.PDF
+tws_left_V1.1-FB_topPDF.PDF
+4麦会议音箱参考设计-2021-0713.rar
+4麦音箱参考设计-0716.PDF
+SNC8600 SPH14X14.PDF
+元件库.SchDoc
+封装.PcbDoc
+SNC8600.SchDoc
+VER.SchDoc
+4麦音箱参考设计-0719-Ubeida.pdf
+元件库.SchDoc
+封装.PcbDoc
+4麦音箱参考设计-20210719.PrjPcb
+SNC8600.SchDoc
+VER.SchDoc
+SNC8600.SchDocPreview
+VER.SchDocPreview
+B3ZX004-M V0.2 0630-FR（主板）.pdf
+B3ZX004-P V0.2 0630（充电）.pdf
+B4ZX003.rar
+Conbox_PCBA_0329.dxf
+Speaker_schematic_ADM1520 V0.1.pdf
+SNC8600A - core_board.PcbDoc
+颈挂FB耳机设计资料(1).zip
+snc8600 颈挂式蓝牙FB 耳机ENC 解决方案.pdf
+snc8600 颈挂式蓝牙FB 耳机ENC 解决方案_V1.1x.ppt
+snc8600 颈挂式蓝牙FB 耳机ENC 解决方案_V1.1x.pptx
+snc8600 颈挂式蓝牙FB 耳机ENC 解决方案_V1.2.pdf
+snc8600 颈挂式蓝牙FB 耳机ENC 解决方案_V1.2.pptx
+snc8600 颈挂式蓝牙FB 耳机ENC 解决方案_V1.2.rar
+snc8600 颈挂式蓝牙FB 耳机_开发Spec.pptx
+（出线孔2.0）3D20210508.stp
+项目开发计划—ENC超强降噪耳机_2.docx
+BT .SchDoc
+JGEJ_V1.0.PcbLib
+JGEJ_V1.0.SCHLIB
+JGEJ_V1.3.PcbDoc
+JGEJ_V1.3.PrjPcb
+SNC8600A.SchDoc
+VER1.3.SchDoc
+SNC86xx_颈挂蓝牙耳机设计建议（结构、声学、Layout）.docx
+封装.PcbDoc
+蓝牙耳机参考设计-20210719.PDF
+系统框图_V1.0_20210719.SchDoc
+蓝牙耳机参考设计-20210719.PrjPcb
+蓝牙耳机参考设计_V1.0-20210719.SchDoc
+Soundec?SNC8600?从机应用手册_v0.5.docx
+Soundec?SNC8600?从机应用手册_v0.5.pdf
+ECM转PDM ADC功能需求.docx
+HidTestToolV02_Boxed.rar
+Soundec HID 测试工具使用简介.docx
+激活工具解除写保护方法.docx
+~$产品线方案汇总.pptx
+~$方案收敛.xlsx
+~$方案收敛2.xlsx
+产品线方案汇总.pptx
+方案收敛.xlsx
+方案收敛2.xlsx
+DSP后级音效处理器.png
+Hi-Res耳放.png
+USB麦克风.png
+扩音器.png
+拾音器.png
+麦克风阵列.png
+26M晶振升级问题解决方案.pdf
+26M晶振升级问题解决方案.pptx
+26M晶振升级问题解决方案.rar
+HiFi3汇编和指令集资料.docx
+SNC8600优化资料.rar
+九音DSP优化方案.pptx
+capp_ug.pdf
+HiFi3_ug.pdf
+HiFi3_VFPU_Demo.rar
+HiFi3_VFPU_Library.zip
+isa_rm.pdf
+NatureDSP_Signal Library Performance_HiFi3.pdf
+Use Cadence's HiFi3 library-v1.0.pdf
+[DRD]实现Const定义.docx
+~$耳放竞品比较.xlsx
+耳放竞品比较.xlsx
+AKM-DAC Family.jpg
+主流DAC信息.txt
+CT7601PR 典型应用.jpg
+CT7601PR- USB主控参数1.jpg
+CT7601PR.txt
+CT7601PR选型表.jpg
+KA3 架构.jpg
+外观+性能.jpg
+USB 耳机测试20230306.pdf
+Anker PowerConf 会议音箱拆解图报告20220523(1).pptx
+麦克风阵列音频检查方法及标准V2.8.pdf
+e719ee103af7b15123119ea15031f46.png
+XFM-GXCMEMS-4MIC V1 规格书(1).pdf
+XFM-GXECM-46MIC V1 规格书(1).pdf
+声加科技算法参数调试工具使用说明.docx
+声智麦克风阵列方案.pdf
+CDB43131_REV_B_Schematic_Layout.pdf
+CS43131_DS1155F2.pdf
+ES9281A-80A PRO_ProductBrief.pdf
+Intelligo VS Soundec.xlsx
+3000-tools.7z
+sw_vocalfusion_control_guide.pdf
+sw_vocalfusion_tuning.pdf
+YDA174 DSE_Mode2018.rar
+DSE Mode Evaluation Environment Manual Revision History.txt
+DSE Mode Evaluation Environment Manual.pdf
+DSE Mode Manual Revision History.txt
+DSE Mode Manual.pdf
+ReleaseNote.txt
+S3D,HXT Sound Tuning Tool Manual .pdf
+dd-1fixcnv Manual Revision History.txt
+dd-1fixcnv Manual.pdf
+dd-1fixcnv Revision History.txt
+dd-1fixcnv.exe
+dd-1iirdgn Manual Revision History.txt
+dd-1iirdgn Manual.pdf
+dd-1iirdgn Revision History.txt
+dd-1iirdgn.exe
+DD2HXT8u.dll
+DD2S3D8u.dll
+DD-2CTL Revision History.txt
+DD-2CTL.exe
+DD-2CTL.ini
+DD-2CTL.log
+DD-2SP.pit
+DD-2SP.rgn
+DD2CF8.dll
+DD2HXT8u.dll
+DD2HXT8u.ini
+DD2LMT8.dll
+DD2PEQ8.dll
+DD2S3D8u.dll
+DD2S3D8u.ini
+DD2VLE8.dll
+DD-2inst_DSE.mdspcfg
+DSE Mode Revision History.txt
+1Way.ebc
+1Way2Band.ebc
+2.1Channel.ebc
+2Way.ebc
+AEQOff.ebc
+AEQOn.ebc
+DigitalInput.ebc
+DSEInit.ebc
+FMSeqPlay.ebc
+HXTBass1+High1.ebc
+HXTBass1.ebc
+HXTBass2+High2.ebc
+HXTBass2.ebc
+HXTHigh1.ebc
+HXTHigh2.ebc
+HXTOff.ebc
+ILDOff.ebc
+ILDOn.ebc
+LineInput.ebc
+Mute.ebc
+MuteRelease.ebc
+PowerLimit1+SoftClip.ebc
+PowerLimit1.ebc
+PowerLimit2+SoftClip.ebc
+PowerLimit2.ebc
+PowerLimitOff.ebc
+S3DHall.ebc
+S3DNatural.ebc
+S3DOff.ebc
+S3DStadium.ebc
+S3DWide1.ebc
+S3DWide2.ebc
+VolumeLinkedEQOff.ebc
+VolumeLinkedEQOn.ebc
+DD-2coef_AC_AEQOff.mdspcfg
+DD-2coef_AC_AEQOn.mdspcfg
+DD-2coef_CF_1Way.mdspcfg
+DD-2coef_CF_2.1ChannelButterworth.mdspcfg
+DD-2coef_CF_2WayButterworth.mdspcfg
+DD-2coef_CF_2WayLinkwitz.mdspcfg
+DD-2coef_Headroom8bit.mdspcfg
+DD-2coef_HXT_Bass1+High1.mdspcfg
+DD-2coef_HXT_Bass1.mdspcfg
+DD-2coef_HXT_Bass2+High2.mdspcfg
+DD-2coef_HXT_Bass2.mdspcfg
+DD-2coef_HXT_High1.mdspcfg
+DD-2coef_HXT_High2.mdspcfg
+DD-2coef_HXT_Off.mdspcfg
+DD-2coef_ILD_Off.mdspcfg
+DD-2coef_ILD_On.mdspcfg
+DD-2coef_LMT_LoMixOff.mdspcfg
+DD-2coef_LMT_LoMixOn.mdspcfg
+DD-2coef_LMT_Output.mdspcfg
+DD-2coef_LMT_PowerLimit1.mdspcfg
+DD-2coef_LMT_PowerLimit2.mdspcfg
+DD-2coef_LMT_PowerLimitOff.mdspcfg
+DD-2coef_LMT_SoftClipOff.mdspcfg
+DD-2coef_LMT_SoftClipOn.mdspcfg
+DD-2coef_MDSP2Through.mdspcfg
+DD-2coef_S3D_Hall.mdspcfg
+DD-2coef_S3D_Natural.mdspcfg
+DD-2coef_S3D_Off.mdspcfg
+DD-2coef_S3D_Stadium.mdspcfg
+DD-2coef_S3D_Wide1.mdspcfg
+DD-2coef_S3D_Wide2.mdspcfg
+DD-2coef_SV_10bPEQSel.mdspcfg
+DD-2coef_SV_FMMix.mdspcfg
+DD-2coef_SV_Mute.mdspcfg
+DD-2coef_SV_MuteRelease.mdspcfg
+DD-2coef_SV_VolumeLinkedEQOff.mdspcfg
+DD-2coef_SV_VolumeLinkedEQOn.mdspcfg
+DD-2coef_10bPEQThrough.sdspcfg
+DD-2coef_AEQOff.sdspcfg
+DD-2coef_AEQOn.sdspcfg
+1Way(2Band).vstcfg
+1Way.vstcfg
+2.1ch.vstcfg
+2Way.vstcfg
+PowerLimit1+SoftClip.vstcfg
+PowerLimit1.vstcfg
+PowerLimit2+SoftClip.vstcfg
+PowerLimit2.vstcfg
+VolumeLinkedEQ.vstcfg
+DSE Mode Control MCU Sample Program Manual Revision History.txt
+DSE Mode Control MCU Sample Program Manual.pdf
+DSE Mode Control MCU Sample Program Revision History.txt
+common.h
+dsp_access.c
+dsp_access.h
+dsp_coef_data.h
+dsp_control.c
+dsp_control.h
+dsp_inst_data.h
+init.c
+init.h
+ioctrl.c
+ioctrl.h
+main.c
+main.h
+tlv320aic3104.pdf
+多路转换器-分析.xlsx
+list.txt
+pcmd3140-q1.pdf
+产品列表-直播声卡.xlsx
+ALC5686.pdf
+SSS1700_USB声卡芯片_规格书datasheet.pdf.pdf
+todo.txt
+ADI数模转换.xlsx
+ADI模数转换.xlsx
+ADI音频信号处理器.xlsx
+ADI音频编解码器.xlsx
+TI 产品线分析.xlsx
+TI ADC转换器.xlsx
+TI DAC转换器.csv
+TI媒体音频处理器.csv
+TI音频编解码器.csv
+放大器-运放.xlsx
+音频-专用音频IC.xlsx
+音频-音频接口 IC.xlsx
+音频-音频放大器.xlsx
+音频-音频转换器.xlsx
+零散信息待收录.txt
+ADI VS Soundec.xlsx
+TI VS Soundec.xlsx
+2022-客户需求信息.xlsx
+关于DSP开发路线的建议.pptx
+NewCoo 规格参数表0719max(1).xlsx
+音箱.xlsx
+SNC8600产品线分类.xlsx
+snc8600应用及现状.xlsx
+SNC86XX DSP 开发汇总_V0.4.pptx
+九音项目汇总表-2022.10.24.xlsx
+重要项目周小结汇总表-20230204.xlsx
+九音项目销售汇总表-2023.03.04.xlsx
+商机导出_20230304.xlsx
+销售重要项目周小结汇总表-20230304.xlsx
+DSP开发立项评估.xlsx
+Shure MV7 使用手册.docx
+~$合作商列表.xlsx
+合作商列表.xlsx
+RealClear音频方案.rar
+RealClear音频技术方案提供商.pdf
+intput1.pk
+output1.pk
+【Demo1处理前】intput1.wav
+【Demo1处理后】output1.wav
+near1.pk
+output1.pk
+【Demo2处理前】near1.wav
+【Demo2处理后】output1.wav
+near1.pk
+output1.pk
+【Demo3处理前】near1.pcm
+【Demo3处理后】output1.pcm
+2mic_beamform_out.pk
+2mic_beamform_out.wav
+left_in.pk
+left_in.wav
+AI降噪算法介绍.pptx
+小问智能会议宝产品介绍（加视频）.pptx
+声菲特语音转写系统方案说明.docx
+A8102 Datasheet v0.95(Preliminary).pdf
+TWS200 datasheet V0.2.pdf
+TWS200.zip
+TWS206.zip
+TWS206 datasheet V0.2.pdf
+TWS206_DEMO.pdf
+TWS20x_硬件设计指南_V0.1-1.pdf
+客户列表.xlsx
+Note.txt
+Soundec DSP简介.pptx
+versionList.txt
+九音科技音频信号处理器 简介-v4.1.pptx
+九音科技音频信号处理器 简介-v4.4.pptx
+九音科技音频信号处理器 简介-v4.4.rar
+九音科技音频信号处理器 简介-v4.4白.pptx
+九音科技音频信号处理器 简介-v4.4白.rar
+九音科技音频信号处理器 简介-v4.5.pdf
+九音科技音频信号处理器 简介-v4.51.pdf
+九音科技音频信号处理器 简介-v4.5白.pptx
+九音科技音频信号处理器 简介-v4.2.pptx
+九音科技音频信号处理器 简介-v4.3b.pptx
+九音科技音频信号处理器 简介-v4.4b.pptx
+SNC8600 简介_V2.0b_ch - 副本.pptx
+SNC8600 简介_V2.0b_ch.pptx
+SNC8600 简介_V2.0b_ch.rar
+SNC8600 简介_V2.0b_en.pptx
+SNC8600 简介_V2.0b_en.zip
+SNC8600 简介_V2.0_ch.rar
+SNC8600 简介_V2.1b_ch.zip
+SNC8600 简介_V2.2b_ch.rar
+九音科技 DSP简介_V2.31b_ch.pptx
+readme.txt
+SNC8600 简介_to Honghe V2(2).pptx
+SNC8600 简介_V2.0_ch.pptx
+九音科技音频信号处理器 简介_to NewLine_增加测试音频试听.pptx
+九音科技音频信号处理器 简介_to NewLine_增加测试音频试听2.pptx
+降噪前.wav
+降噪后.wav
+降噪前.wav
+降噪后.wav
+降噪前3.wav
+降噪后3.wav
+九音科技 公司及产品简介_ 2022 v1.2.4.pptx
+九音科技 公司及产品简介_ 2022_腾讯.pptx
+九音科技公司及产品方案简介_20211215.pdf
+SNC8600 简介_V0.1.pptx
+SNC8600 简介_V1.2.rar
+SNC8600 简介_V1.3.pdf
+SNC8600 简介_V1.3.pptx
+SNC8600 简介_V1.3.rar
+SNC8600 简介_V1.5.pptx
+SNC8600 简介_V1.5.rar
+SNC8600 简介_V1.6.pdf
+SNC8600 简介_V1.6_临时版本，废弃.rar
+SNC8600 简介_V1.7.1_ch.pptx
+SNC8600 简介_V1.7.1_ch.rar
+SNC8600 简介_V1.7.pdf
+SNC8600 简介_V1.7x_ch.rar
+SNC8600 简介_V1.7_en.pptx
+SNC8600 简介_V1.7_en.rar
+SNC8600 简介_V1.8.1_ch.rar
+SNC8600 简介_V1.8_ch.pdf
+SNC8600 简介_V1.9_ch.rar
+SNC8600 简介_V2.0b_ch.pdf
+~$SNC8600 简介_V1.5.pptx
+SNC8600 产品应用-白蓉.pptx
+SNC8600产品介绍-20200803.pptx
+TWS耳机市场分析报告.pptx
+TWS耳机市场分析报告（降噪）.pptx
+主要合作伙伴.pptx
+九音公司简介20210608--外做.pptx
+九音科技_2021 v1.7.0_ to 兆威.pptx
+九音科技产品介绍-20210315-刘海明.pptx
+九音科技公司介绍-初级.pptx
+九音科技公司及产品方案简介20210519.pptx
+九音科技公司及产品方案简介20220208.pptx
+九音话务耳机方案0402-巧红.pptx
+九音麦克风案例.pptx
+命名规则.pptx
+无线麦克风方案1.0.pptx
+智能音箱市场分析报告.pptx
+网红直播麦克风方案v1.0.pptx
+耳道拾音通话降噪效果对比-海洋.pptx
+耳道拾音通话降噪效果对比.pptx
+超强抗噪ENC耳机解决方案 v1.2.pptx
+鹅颈麦克风.pptx
+九音公司简介20210608.pdf
+九音科技公司及产品方案简介20220208.pdf
+九音科技公司及产品方案简介_20211215.pdf
+九音话务耳机方案0402--巧红.pdf
+九音麦克风案例.pdf
+无线麦克风.pdf
+网红直播麦克风方案v1.0.pdf
+耳机市场分析报告（降噪）.pdf
+超强抗噪ENC耳机解决方案 v1.2.pdf
+SOUNDEC Company profile & product plan introduction_2022 v1.0.pptx
+超强抗噪ENC耳机解决方案（English） v1.2(1).pptx
+ADI AUDIO DSP 2022.pdf
+QBR FQ2 UWB Distributor Training.pdf
+oppo.pkf
+oppo.wav
+vivo.pkf
+vivo.wav
+万魔.pkf
+万魔.wav
+九音.pkf
+九音.wav
+九音2.pkf
+九音2.wav
+华为.pkf
+华为.wav
+小鸟.pkf
+小鸟.wav
+耳机效果对比.pptx
+苹果.pkf
+苹果.wav
+OPPO3-4m风噪.wav
+OPPO8-10m风噪.wav
+OPPO地铁噪声100db+风噪3-4m.wav
+OPPO地铁噪声100db.wav
+OPPO地铁噪声110db+风噪3-4m.wav
+OPPO地铁噪声110db.wav
+OPPO地铁噪声80db.wav
+OPPO地铁噪声90db+风噪3-4m.wav
+OPPO地铁噪声90db.wav
+OPPO安静环境.wav
+OPPO白噪声100db+风噪3-4m.wav
+OPPO白噪声100db.wav
+OPPO白噪声110db+风噪3-4m.wav
+OPPO白噪声110db.wav
+OPPO白噪声80db.wav
+OPPO白噪声90db+风噪3-4m.wav
+OPPO白噪声90db.wav
+VIVI地铁噪声110db.wav
+VIVO地铁噪声100db+风噪3-4m.wav
+VIVO地铁噪声100db.wav
+VIVO地铁噪声110db+风噪3-4m.wav
+VIVO地铁噪声80db.wav
+VIVO地铁噪声90db+风噪3-4m.wav
+VIVO地铁噪声90db.wav
+VIVO安静环境.wav
+VIVO白噪声100db+风噪3-4m.wav
+VIVO白噪声100db.wav
+VIVO白噪声110db+风噪3-4m.wav
+VIVO白噪声80db.wav
+VIVO白噪声90db+风噪3-4m.wav
+VIVO白噪声90db.wav
+VIVO风噪3-4m.wav
+VIVO风噪8-10m.wav
+万魔地铁噪声100db+风噪3-4m.wav
+万魔地铁噪声100db.wav
+万魔地铁噪声110db+风噪3-4m.wav
+万魔地铁噪声110db.wav
+万魔地铁噪声80db.wav
+万魔地铁噪声90db+风噪3-4m.wav
+万魔地铁噪声90db.wav
+万魔安静环境.wav
+万魔白噪声100db+风噪3-4m.wav
+万魔白噪声100db.wav
+万魔白噪声110db+风噪3-4m.wav
+万魔白噪声110db.wav
+万魔白噪声80db.wav
+万魔白噪声90db+风噪3-4m.wav
+万魔白噪声90db.wav
+万魔风噪3-4m.wav
+万魔风噪8-10m.wav
+九音地铁噪声100db+风噪3-4m.wav
+九音地铁噪声100db.wav
+九音地铁噪声110db+风噪3-4m.wav
+九音地铁噪声110db.wav
+九音地铁噪声80db.wav
+九音地铁噪声90db+风噪3-4m.wav
+九音地铁噪声90db.wav
+九音安静环境.wav
+九音安静环境BF.wav
+九音安静环境Tmic.wav
+九音白噪声100db+风噪3-4m.wav
+九音白噪声100db.wav
+九音白噪声110db+风噪3-4m.wav
+九音白噪声110db.wav
+九音白噪声80db-BF.wav
+九音白噪声80db-Tmic.wav
+九音白噪声80db.wav
+九音白噪声90db+风噪3-4m.wav
+九音白噪声90db-BF.wav
+九音白噪声90db-Tmic.wav
+九音白噪声90db.wav
+九音风噪3-4m.wav
+九音风噪8-10m.wav
+华为地铁噪声100db+风噪3-4m.wav
+华为地铁噪声100db.wav
+华为地铁噪声110db+风噪3-4m.wav
+华为地铁噪声110db.wav
+华为地铁噪声80db.wav
+华为地铁噪声90db+风噪3-4m.wav
+华为地铁噪声90db.wav
+华为安静环境.wav
+华为白噪声100db+风噪3-4m.wav
+华为白噪声100db.wav
+华为白噪声110db+风噪3-4m.wav
+华为白噪声110db.wav
+华为白噪声80db.wav
+华为白噪声90db+风噪3-4m.wav
+华为白噪声90db.wav
+华为风噪3-4m.wav
+华为风噪8-10m.wav
+小鸟地铁噪声100db+风噪3-4m.wav
+小鸟地铁噪声100db.wav
+小鸟地铁噪声110db+风噪3-4m.wav
+小鸟地铁噪声110db.wav
+小鸟地铁噪声80db.wav
+小鸟地铁噪声90db+风噪3-4m.wav
+小鸟地铁噪声90db.wav
+小鸟安静环境.wav
+小鸟白噪声100db+风噪3-4m.wav
+小鸟白噪声100db.wav
+小鸟白噪声110db+风噪3-4m.wav
+小鸟白噪声110db.wav
+小鸟白噪声80db.wav
+小鸟白噪声90db+风噪3-4m.wav
+小鸟白噪声90db.wav
+小鸟风噪3-4m.wav
+小鸟风噪8-10m.wav
+苹果地铁噪声100db+风噪3-4m.wav
+苹果地铁噪声100db.wav
+苹果地铁噪声110db+风噪3-4m.wav
+苹果地铁噪声110db.wav
+苹果地铁噪声80db.wav
+苹果地铁噪声90db+风噪3-4m.wav
+苹果地铁噪声90db.wav
+苹果安静环境.wav
+苹果白噪声100db+风噪3-4m.wav
+苹果白噪声100db.wav
+苹果白噪声110db+风噪3-4m.wav
+苹果白噪声110db.wav
+苹果白噪声80db.wav
+苹果白噪声90db+风噪3-4m.wav
+苹果白噪声90db.wav
+苹果风噪3-4m.wav
+苹果风噪8-10m.wav
+OPPO3-4m风噪.jpg
+OPPO8-10m风噪.jpg
+OPPO地铁噪声100db+风噪3-4m.jpg
+OPPO地铁噪声100db.jpg
+OPPO地铁噪声110db+风噪3-4m.jpg
+OPPO地铁噪声110db.jpg
+OPPO地铁噪声80db.jpg
+OPPO地铁噪声90db+风噪3-4m.jpg
+OPPO地铁噪声90db.jpg
+OPPO安静环境.jpg
+OPPO白噪声100db+风噪3-4m.jpg
+OPPO白噪声100db.jpg
+OPPO白噪声110db+风噪3-4m.jpg
+OPPO白噪声110db.jpg
+OPPO白噪声80db.jpg
+OPPO白噪声90db+风噪3-4m.jpg
+OPPO白噪声90db.jpg
+VIVO地铁噪声100db+风噪3-4m.jpg
+VIVO地铁噪声100db.jpg
+VIVO地铁噪声110db+风噪3-4m.jpg
+VIVO地铁噪声110db.jpg
+VIVO地铁噪声80db.jpg
+VIVO地铁噪声90db+风噪3-4m.jpg
+VIVO地铁噪声90db.jpg
+VIVO安静环境.jpg
+VIVO白噪声100db+风噪3-4m.jpg
+VIVO白噪声100db.jpg
+VIVO白噪声110db+风噪3-4m.jpg
+VIVO白噪声80db.jpg
+VIVO白噪声90db+风噪3-4m.jpg
+VIVO白噪声90db.jpg
+VIVO风噪3-4m.jpg
+VIVO风噪8-10m.jpg
+万魔地铁噪声100db+风噪3-4m.jpg
+万魔地铁噪声100db.jpg
+万魔地铁噪声110db+风噪3-4m.jpg
+万魔地铁噪声110db.jpg
+万魔地铁噪声80db.jpg
+万魔地铁噪声90db+风噪3-4m.jpg
+万魔地铁噪声90db.jpg
+万魔安静环境.jpg
+万魔白噪声100db+风噪3-4m.jpg
+万魔白噪声100db.jpg
+万魔白噪声110db+风噪3-4m.jpg
+万魔白噪声110db.jpg
+万魔白噪声80db.jpg
+万魔白噪声90db+风噪3-4m.jpg
+万魔白噪声90db.jpg
+万魔风噪3-4m.jpg
+万魔风噪8-10m.jpg
+九音地铁噪声100db+风噪3-4m.jpg
+九音地铁噪声100db.jpg
+九音地铁噪声110db+风噪3-4m.jpg
+九音地铁噪声110db.jpg
+九音地铁噪声80db.jpg
+九音地铁噪声90db+风噪3-4m.jpg
+九音地铁噪声90db.jpg
+九音安静环境.jpg
+九音安静环境BF.jpg
+九音安静环境Tmic.jpg
+九音白噪声100db+风噪3-4m.jpg
+九音白噪声100db.jpg
+九音白噪声110db+风噪3-4m.jpg
+九音白噪声110db.jpg
+九音白噪声80db-BF.jpg
+九音白噪声80db-Tmic.jpg
+九音白噪声80db.jpg
+九音白噪声90db+风噪3-4m.jpg
+九音白噪声90db-BF.jpg
+九音白噪声90db-Tmic.jpg
+九音白噪声90db.jpg
+九音风噪3-4m.jpg
+九音风噪8-10m.jpg
+华为地铁噪声100db+风噪3-4m.jpg
+华为地铁噪声100db.jpg
+华为地铁噪声110db+风噪3-4m.jpg
+华为地铁噪声110db.jpg
+华为地铁噪声80db.jpg
+华为地铁噪声90db+风噪3-4m.jpg
+华为地铁噪声90db.jpg
+华为安静环境.jpg
+华为白噪声100db+风噪3-4m.jpg
+华为白噪声100db.jpg
+华为白噪声110db+风噪3-4m.jpg
+华为白噪声110db.jpg
+华为白噪声80db.jpg
+华为白噪声90db+风噪3-4m.jpg
+华为白噪声90db.jpg
+华为风噪3-4m.jpg
+华为风噪8-10m.jpg
+小鸟地铁噪声100db+风噪3-4m.jpg
+小鸟地铁噪声100db.jpg
+小鸟地铁噪声110db+风噪3-4m.jpg
+小鸟地铁噪声110db.jpg
+小鸟地铁噪声80db.jpg
+小鸟地铁噪声90db+风噪3-4m.jpg
+小鸟地铁噪声90db.jpg
+小鸟安静环境.jpg
+小鸟白噪声100db+风噪3-4m.jpg
+小鸟白噪声100db.jpg
+小鸟白噪声110db+风噪3-4m.jpg
+小鸟白噪声110db.jpg
+小鸟白噪声80db.jpg
+小鸟白噪声90db+风噪3-4m.jpg
+小鸟白噪声90db.jpg
+小鸟风噪3-4m.jpg
+小鸟风噪8-10m.jpg
+苹果地铁噪声100db+风噪3-4m.jpg
+苹果地铁噪声100db.jpg
+苹果地铁噪声110db+风噪3-4m.jpg
+苹果地铁噪声110db.jpg
+苹果地铁噪声80db.jpg
+苹果地铁噪声90db+风噪3-4m.jpg
+苹果地铁噪声90db.jpg
+苹果安静环境.jpg
+苹果白噪声100db+风噪3-4m.jpg
+苹果白噪声100db.jpg
+苹果白噪声110db+风噪3-4m.jpg
+苹果白噪声110db.jpg
+苹果白噪声80db.jpg
+苹果白噪声90db+风噪3-4m.jpg
+苹果白噪声90db.jpg
+苹果风噪3-4m.jpg
+苹果风噪8-10m.jpg
+1Speech_English.wav
+cafe.wav
+callcenter.wav
+car.wav
+mensa.wav
+pub.wav
+road.wav
+train.wav
+Xroad.wav
+粉噪.wav
+SNC8600 SDK性能测试报告_1.2.docx
+SNC8600 SDK性能测试报告_1.2.rar
+副本snc-usb.xlsx
+副本双唛降噪话务耳机-0208-zw.pptx
+Soundec麦阵列方案介绍.docx
+九音方案_QMZ.pptx
+九音方案_QMZ.rar
+媒体投放信息收集.xlsx
+竞品相关信息补充-Bai.xlsx
+麦克风阵列方案0225V1.pdf
+麦克风阵列方案0225V1.pptx
+九音科技-麦克风阵列.pptx
+麦克风阵列方案0221V1-addPage6-7.pptx
+麦克风阵列方案0221V1-改.pptx
+麦克风阵列方案0224-白.pptx
+九音科技音频解决方案v1.1.pptx
+2022年AIoT产业全景图谱报告.pdf
+2023-2028年全球与中国耳机SoC市场回顾分析与发展趋势预测报告.docx
+2023年中国AIoT产业全景图谱报告.pdf
+2023年全球骨传导耳机市场规模预测分析，10年增长超2800%.docx
+The intelligent industry of the future.pdf
+中国主要硬件视频会议厂商市场份额，2021.png
+报告来源收录.xlsx
+2023 工作内容和计划.pptx
+2023工作目标计划.xlsx
+Daily Action.xlsx
+~$2023工作目标计划.xlsx
+待开发商机.xlsx
+DSP后级音效处理器 迭代计划.xlsx
+EVBPhaseVocoder算法与MaxxBass算法在虚拟低音增强应用中的比较-郭杰.pdf
+DSP系统资源测试.xlsx
+音效处理算法资源.pptx
+tuningtool.rar
+开发板.jpg
+BuerAudio.exe
+DSP.json
+leadelity.P
+LeadelityJieLi.exe
+licence.txt
+NOR NEW EQ1.bac
+IoT开发及应用规划.pptx
+86盒整机说明书.pdf

@@ -1,0 +1,18 @@
+;******************************************************************************
+;   CONFIDENTIAL
+;   DD-2SP/SPR-2 Command File: PowerLimit1+SoftClip.ebc
+;
+;   version 1.00.00 (*RAM8 2.01.03)
+;
+;   Copyright(c) 2012-2013 Yamaha Corporation
+;******************************************************************************
+
+;--------------------------------------------
+; Output power limit 1
+;--------------------------------------------
+#DOWNLOADM MDSP\DD-2coef_LMT_PowerLimit1.mdspcfg
+
+;--------------------------------------------
+; Soft clipper ON
+;--------------------------------------------
+#DOWNLOADM MDSP\DD-2coef_LMT_SoftClipOn.mdspcfg

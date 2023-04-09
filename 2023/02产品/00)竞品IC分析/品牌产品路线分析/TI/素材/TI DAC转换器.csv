@@ -1,0 +1,108 @@
+﻿View Selection Tool on TI.com,,,,,,,,,,,,
+,,,,,,,,,,,,
+NOTE: The table below does not have formatting applied.,,,,,,,,,,,,
+Select the entire sheet (ctrl+A) and apply,,,,,,,,,,,,
+"""Auto-fit column width"" to make all information visible",,,,,,,,,,,,
+(Format -> Column -> Autofit column width),,,,,,,,,,,,
+,,,,,,,,,,,,
+Part number,Description,订购和质量,DAC channels,"Sampling rate
+(Max)
+(kHz)",Control interface,Analog outputs,"Resolution
+(Bits)","DAC SNR
+(Typ)
+(dB)",Analog inputs,Architecture,Package size: mm2:W x L (PKG),"Approx. price
+(US$)"
+PCM1794A-Q1,132dB、24 位、192kHz 高级分段音频立体声数模转换器,订购和质量,2,192,H/W,2,24,127,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),11.54 | 1ku
+PCM5252,具有 miniDSP 和智能放大器功能的 114dB 32 位立体声差分输出 DAC,订购和质量,2,384,"I2C,
+SPI,
+H/W",2,32,114,0,Delta Sigma with Line Driver,25 mm2: 5 x 5 (VQFN|32),3.74 | 1ku
+PCM5242,4.2VRMS DirectPath™、32 位、384kHz、114dB 音频立体声 DAC,订购和质量,2,384,"I2C,
+SPI,
+H/W",2,32,114,0,Delta Sigma with line driver,25 mm2: 5 x 5 (VQFN|32),3.08 | 1ku
+PCM5101A-Q1,具有 32 位、384kHz PCM 接口的汽车类 2VRMS DirectPath™、106dB 音频立体声 DAC,订购和质量,2,384,H/W,2,32,106,0,Delta Sigma with line driver,42 mm2: 6.4 x 6.5 (TSSOP|20),0.92 | 1ku
+PCM5102A-Q1,具有 32 位、384kHz PCM 接口的汽车类 2VRMS DirectPath™、112dB 音频立体声 DAC,订购和质量,2,384,H/W,2,32,112,0,Delta Sigma with line driver,42 mm2: 6.4 x 6.5 (TSSOP|20),2.35 | 1ku
+PCM5100A-Q1,具有 32 位、384kHz PCM 接口的汽车类 2VRMS DirectPath™、100dB 音频立体声 DAC,订购和质量,2,384,H/W,2,32,100,0,Delta Sigma with line driver,42 mm2: 6.4 x 6.5 (TSSOP|20),1.19 | 1ku
+PCM5121,具有 PCM 接口和固定音频处理功能的 2V RMS DIRECTPATH 106 dB 音频立体声 DAC,订购和质量,2,384,"I2C,
+SPI,
+H/W",2,32,106,0,Delta Sigma with line driver,62 mm2: 6.4 x 9.7 (TSSOP|28),1.32 | 1ku
+PCM5141,具有 PCM 接口和完全可编程 miniDSP 的 2V RMS DIRECTPATH 106 dB 音频立体声 DAC,订购和质量,2,384,"I2C,
+SPI,
+H/W",2,32,106,0,Delta Sigma with line driver,62 mm2: 6.4 x 9.7 (TSSOP|28),2.07 | 1ku
+PCM2707C,具有全速 USB 接口、单端耳机输出和 S/PDIF 的立体声音频 DAC,订购和质量,0,48,"HID,
+SPI",2,16,0,0, --- ,81 mm2: 9 x 9 (TQFP|32),3.17 | 1ku
+PCM2706C,具有线性输出和 S/PDIF 输出、总线供电/自加电的 98 dB SNR 立体声全速 DAC (I2S),订购和质量,0,48,"HID,
+SPI",2,16,0,0, --- ,81 mm2: 9 x 9 (TQFP|32),2.96 | 1ku
+PCM5100A,具有 32 位 384kHz PCM 接口的 2VRMS DirectPath™、100dB 音频立体声 DAC,订购和质量,2,384,H/W,2,32,100,0,Delta Sigma with line driver,42 mm2: 6.4 x 6.5 (TSSOP|20),0.84 | 1ku
+PCM5101A,具有 32 位 384kHz PCM 接口的 2VRMS DirectPath™、106dB 音频立体声 DAC,订购和质量,2,384,H/W,2,32,106,0,Delta Sigma with line driver,42 mm2: 6.4 x 6.5 (TSSOP|20),0.78 | 1ku
+PCM5102A,具有 32 位 384kHz PCM 接口的 2VRMS DirectPath™、112dB 音频立体声 DAC,订购和质量,2,384,H/W,2,32,112,0,Delta Sigma with line driver,42 mm2: 6.4 x 6.5 (TSSOP|20),1.89 | 1ku
+PCM5122,具有 PCM 接口和固定音频处理功能的 2V RMS DIRECTPATH 112 dB 音频立体声 DAC,订购和质量,2,384,"I2C,
+SPI,
+H/W",2,32,112,0,Delta Sigma with line driver,62 mm2: 6.4 x 9.7 (TSSOP|28),2.16 | 1ku
+PCM5142,具有 PCM 接口和完全可编程 miniDSP 的 2V RMS DIRECTPATH 112 dB 音频立体声 DAC,订购和质量,2,384,"I2C,
+SPI,
+H/W",2,32,112,0,Delta Sigma with line driver,62 mm2: 6.4 x 9.7 (TSSOP|28),2.86 | 1ku
+PCM1753-Q1,汽车类 106dB SNR 立体声数模转换器 (DAC)（软件控制）,订购和质量,2,192,SPI,2,24,106,0,Delta-Sigma,29 mm2: 6 x 4.9 (SSOP|16),0.79 | 1ku
+PCM2704C,具有线路输出和 S/PDIF 输出、总线供电/自供电的 98dB SNR 立体声全速 DAC（外部  ROM 接口）,订购和质量,0,48,HID,2,16,0,0, --- ,54 mm2: 5.3 x 10.2 (SSOP|28),3.01 | 1ku
+PCM2705C,具有线路输出和 S/PDIF 输出、总线供电/自供电（软件控制）的 98dB SNR 立体声全速 DAC,订购和质量,0,48,"HID,
+SPI",2,16,0,0, --- ,54 mm2: 5.3 x 10.2 (SSOP|28),3.10 | 1ku
+PCM1690-Q1,具有差动输出的汽车类 113dB SNR 8 通道音频 DAC,订购和质量,8,192,"SPI,
+I2C,
+H/W",8,24,113,0,Current Segment,101 mm2: 8.1 x 12.5 (HTSSOP|48),2.44 | 1ku
+PCM1789-Q1,汽车类 113dB SNR 立体声 DAC,订购和质量,2,192,"SPI,
+I2C,
+H/W",2,24,113,0,Current Segment DAC,34 mm2: 4.4 x 7.8 (TSSOP|24),1.71 | 1ku
+PCM1754-Q1,汽车类 106dB SNR 立体声音频数模转换器 (DAC)（硬件控制）,订购和质量,2,192,H/W,2,24,106,0,Delta-Sigma,29 mm2: 6 x 4.9 (SSOP|16),0.98 | 1ku
+PCM1795,32 位、采样频率为 192kHz 的高级分段音频立体声 DAC,订购和质量,2,200,"SPI,
+I2C,
+TDMCA",2,32,123,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),2.55 | 1ku
+PCM1789,113dB SNR 立体声 DAC,订购和质量,2,192,"SPI,
+I2C,
+H/W",2,24,113,0,Current Segment DAC,34 mm2: 4.4 x 7.8 (TSSOP|24),1.45 | 1ku
+PCM1690,具有差动输出的 113dB SNR 8 通道音频 DAC,订购和质量,8,192,"SPI,
+I2C,
+H/W",8,24,113,0,Current Segment DAC,101 mm2: 8.1 x 12.5 (HTSSOP|48),2.07 | 1ku
+PCM1681-Q1,105dB SNR 8 通道音频 DAC（汽车类）,订购和质量,8,200,"SPI,
+I2C,
+H/W",8,24,105,0,Current Segment DAC,43 mm2: 4.4 x 9.7 (HTSSOP|28),1.54 | 1ku
+PCM1681,具有 TDM 模式的 105dB SNR 8 通道音频 DAC,订购和质量,8,200,"SPI,
+I2C,
+H/W",8,24,105,0,Current Segment DAC,43 mm2: 4.4 x 9.7 (HTSSOP|28),1.23 | 1ku
+PCM1774,具有耳机放大器的 93dB SNR 低功耗立体声 DAC（软件控制）,订购和质量,2,50,"SPI,
+I2C",2,16,93,0,Delta-Sigma,16 mm2: 4 x 4 (QFN|20),1.14 | 1ku
+PCM1609A,SNR 为 105dB 的 8 通道音频 DAC,订购和质量,8,192,SPI,8,24,105,0,Multilevel Delta-Sigma,81 mm2: 9 x 9 (LQFP|48),4.10 | 1ku
+PCM1680,SNR 为 105dB 的 8 通道音频 DAC,订购和质量,8,192,"SPI,
+I2C",8,24,105,0,Delta-Sigma,59 mm2: 6 x 9.9 (SSOP|28),1.76 | 1ku
+PCM1780,106dB SNR 立体声 DAC（软件控制）,订购和质量,2,192,SPI,2,24,106,0,Delta-Sigma,29 mm2: 6 x 4.9 (SSOP|16),0.56 | 1ku
+PCM1781,106dB SNR 立体声 DAC（硬件控制）,订购和质量,2,192,H/W,2,24,106,0,Delta-Sigma,29 mm2: 6 x 4.9 (SSOP|16),0.79 | 1ku
+PCM4104,SNR 为 118dB 的 4 通道音频 DAC,订购和质量,4,192,"SPI,
+H/W",4,24,118,0,Delta-Sigma,81 mm2: 9 x 9 (TQFP|48),3.88 | 1ku
+DSD1796,123dB SNR 立体声音频 DAC（软件控制）,订购和质量,2,192,SPI,2,24,123,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),3.11 | 1ku
+PCM1796,123dB SNR 立体声 DAC（软件控制）,订购和质量,2,192,"SPI,
+I2C",2,24,123,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),2.45 | 1ku
+PCM1798,123dB SNR 立体声 DAC（硬件控制）,订购和质量,2,192,H/W,2,24,123,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),2.45 | 1ku
+PCM1753,106dB SNR 立体声数模转换器 (DAC)（软件控制）,订购和质量,2,192,SPI,2,24,106,0,Delta-Sigma,29 mm2: 6 x 4.9 (SSOP|16),0.63 | 1ku
+PCM1754,106dB SNR 立体声音频数模转换器 (DAC)（硬件控制）,订购和质量,2,192,H/W,2,24,106,0,Delta-Sigma,29 mm2: 6 x 4.9 (SSOP|16),0.78 | 1ku
+PCM1755,106dB SNR 立体声音频数模转换器 (DAC)（软件控制）,订购和质量,2,192,SPI,2,24,106,0,Delta-Sigma,29 mm2: 6 x 4.9 (SSOP|16),1.12 | 1ku
+PCM2704,具有线性输出和 S/PDIF 输出、总线供电/自加电的 98dB SNR 立体声 USB2.0 FS DAC（外部ROM 接口）,订购和质量,0,48,HID,2,16,0,0, --- ,54 mm2: 5.3 x 10.2 (SSOP|28),3.01 | 1ku
+PCM2705,具有线性输出和 S/PDIF 输出、总线供电/自加电的 98dB SNR 立体声 USB2.0 FS DAC,订购和质量,0,48,"HID,
+SPI",2,16,0,0, --- ,54 mm2: 5.3 x 10.2 (SSOP|28),3.10 | 1ku
+PCM2706,具有线路输出和 S/PDIF 输出、总线供电/自供电的 98dB SNR 立体声 USB2.0 FS DAC (I2S),订购和质量,0,48,"HID,
+SPI",2,16,0,0, --- ,81 mm2: 9 x 9 (TQFP|32),3.60 | 1ku
+PCM1794A,132dB SNR 最高性能立体声 DAC（硬件控制）,订购和质量,2,192,H/W,2,24,127,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),6.23 | 1ku
+DSD1791,113dB SNR 立体声音频 DAC（硬件控制）,订购和质量,2,192,SPI,2,24,113,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),2.36 | 1ku
+DSD1792A,132dB SNR 最高性能立体声音频 DAC（软件控制）,订购和质量,2,192,SPI,2,24,127,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),10.62 | 1ku
+DSD1793,113dB SNR 立体声音频 DAC（软件控制）,订购和质量,2,192,I2C,2,24,113,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),2.52 | 1ku
+DSD1794A,132dB SNR 最高性能立体声音频 DAC（硬件控制）,订购和质量,2,192,I2C,2,24,127,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),12.55 | 1ku
+PCM1791A,113dB SNR 立体声 DAC（软件控制）,订购和质量,2,192,"SPI,
+I2C",2,24,113,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),2.29 | 1ku
+PCM1792A,132dB SNR 最高性能立体声 DAC（软件控制）,订购和质量,2,192,"SPI,
+I2C",2,24,127,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),7.21 | 1ku
+PCM1793,113dB SNR 立体声 DAC（硬件控制）,订购和质量,2,192,H/W,2,24,113,0,Advanced Segment,54 mm2: 5.3 x 10.2 (SSOP|28),2.01 | 1ku
+DSD1608,SNR 为 108dB 的 8 通道音频 DAC,订购和质量,8,192,SPI,8,24,108,0,Direct Stream Digital,144 mm2: 12 x 12 (TQFP|52),8.97 | 1ku
+PCM1770,具有耳机放大器的 98dB SNR 低功耗立体声 DAC（软件控制）,订购和质量,2,48,SPI,2,24,98,0,Multilevel Delta-Sigma,"22 mm2: 4.4 x 5 (TSSOP|16), 18 mm2: 4.2 x 4.2 (VQFN|20)",1.36 | 1ku
+PCM1771,具有耳机放大器的 98dB SNR 低功耗立体声 DAC（硬件控制）,订购和质量,2,48,H/W,2,24,98,0,Multilevel Delta-Sigma,"22 mm2: 4.4 x 5 (TSSOP|16), 18 mm2: 4.2 x 4.2 (VQFN|20)",1.20 | 1ku
+PCM1772,具有线路输出的 98dB SNR 低功耗立体声 DAC（软件控制）,订购和质量,2,48,SPI,2,24,98,0,Multilevel Delta-Sigma,"22 mm2: 4.4 x 5 (TSSOP|16), 18 mm2: 4.2 x 4.2 (VQFN|20)",1.20 | 1ku
+PCM1773,具有线路输出的 98dB SNR 低功耗立体声 DAC（硬件控制）,订购和质量,2,48,H/W,2,24,98,0,Multilevel Delta-Sigma,"22 mm2: 4.4 x 5 (TSSOP|16), 18 mm2: 4.2 x 4.2 (VQFN|20)",1.37 | 1ku
+PCM1742,106dB SNR 立体声 DAC,订购和质量,2,192,SPI,2,24,106,0,Multilevel Delta-Sigma,29 mm2: 6 x 4.9 (SSOP|16),1.76 | 1ku
+PCM1748,106dB SNR 立体声 DAC,订购和质量,2,96,SPI,2,24,100,0,Delta-Sigma,29 mm2: 6 x 4.9 (SSOP|16),1.30 | 1ku
+PCM1723,具有可编程 PLL 的 96dB SNR 立体声 DAC,订购和质量,2,96,SPI,2,24,94,0,Delta-Sigma,64 mm2: 7.8 x 8.2 (SSOP|24),3.02 | 1ku

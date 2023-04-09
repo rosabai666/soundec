@@ -1,0 +1,31 @@
+	D14:4,//HeadRoom -24 db
+	D15:0x00,0xe39ea90,//PreGain=5.0
+	D15:0x01,0x4c3ea88,//PostGain=-4.5
+	//Type=Peaking,fc=65,Gain=11.0,Q=0.800,fs=44100 0
+	D0:0x81e0803,0xf017bef0,0x7ca65c1,0xfe84110,0xf817923c,
+	//Type=Peaking,fc=5800,Gain=2.5,Q=0.700,fs=44100 1
+	D1:0x8eb3f61,0xf8e48c4f,0x192101f,0x71b73b1,0xfd82b080,
+	//Type=Peaking,fc=2600,Gain=3.0,Q=0.800,fs=44100 2
+	D2:0x89be482,0xf3d65836,0x470554c,0xc29a7ca,0xfaf3c632,
+	//Type=Peaking,fc=9200,Gain=10.0,Q=1.000,fs=44100 3
+	D3:0xda2a919,0xfd39fe9e,0xfd26f323,0x2c60162,0xfd3663c5,
+	//Type=Peaking,fc=320,Gain=2.0,Q=1.000,fs=44100 4
+	D4:0x80bd09c,0xf05f6c28,0x798ec95,0xfa093d8,0xf85b42cf,
+	//Type=Peaking,fc=180,Gain=-2.0,Q=1.000,fs=44100 5
+	D5:0x7f94f1e,0xf04263c4,0x7c5a071,0xfbd9c3c,0xf8411070,
+	//Type=Peaking,fc=75,Gain=0.0,Q=0.900,fs=44100 6
+	D6:0x8000000,0xf0186787,0x7e7d3fc,0xfe79879,0xf8182c04,
+	//Type=HighPass,fc=40,Gain=0.0,Q=0.600,fs=44100 7
+	D7:0x7f64d99,0xf01364cd,0x7f64d99,0xfec92b9,0xf8135c54,
+	//Type=HighPass,fc=40,Gain=0.0,Q=0.600,fs=44100 8
+	D8:0x7f64d99,0xf01364cd,0x7f64d99,0xfec92b9,0xf8135c54,
+	//Type=Peaking,fc=380,Gain=-2.0,Q=1.200,fs=44100 9
+	D9:0x7f45f9b,0xf076e524,0x79a9146,0xf891adc,0xf8710f1e,
+	//Type=LowPass,fc=320,Gain=0.0,Q=0.707,fs=44100 10
+	D10:0x107e6,0x20fcc,0x107e6,0xf7bf9bf,0xf87fe6a7,
+	//Type=HighPass,fc=320,Gain=0.0,Q=0.707,fs=44100 11
+	D11:0x7bf04c6,0xf081f674,0x7bf04c6,0xf7bf9bf,0xf87fe6a7,
+	//th=-11.0,ht=20.0,at=1,rt=1000.0
+	D12:0x84,0x8000000,0x246b4e,0x2261c5,0x6e,0x544ba20,0x7ffa0e8,0x3b90f34,
+	//th=-9.2,ht=20.0,at=2,rt=100.0
+	D13:0x84,0x8000000,0x2cce2b,0x2a4c8a,0x6e,0x67dfc10,0x7fc49c8,0x306ad08,

@@ -1,0 +1,41 @@
+这只是个USB Audio界面芯片（像XMOS），采用与其他现代USB Audio界面芯片类似的USB Audio Class 2.0 Asynchronous Mode传输协议，能自动侦测及接收PCM/DoP/DSD音频。
+
+-----
+
+Guys, be careful, that chip has quite bad jitter for 44.1 and its derivatives(88.2, 176, 352). The issue is internal PLL loop within audio range. If you gonna use CT7601 with asynchronous DACs as ES9038 that' s fine, or like a slave it is ok too.
+I did use CT7601 as master with TAS5558  and got an audible bit-tones, which I fixed by AM shifting feature of TAS5558!
+伙计们，请注意，该芯片对于 44.1 及其衍生产品（88.2、176、352）的抖动非常糟糕。 问题是音频范围内的内部 PLL 环路。 如果您打算将 CT7601 与异步 DAC 一起用作 ES9038，那很好，或者像从机一样也可以。
+我确实使用 CT7601 作为 TAS5558 的主控并得到了可听的位音，我通过 TAS5558 的 AM 移位功能修复了它！
+
+------
+
+CT7601 USB解码芯片方案支持768KHZ DS512
+主要特点:
+2个播放端口，1个记录端口
+播放0:8通道I2S, 6通道DSD, 2通道SPDIF
+播放1:2通道I2S, 2通道DSD, 2通道SPDIF
+记录:8通道I2S, 6通道DSD, 2通道SPDIF
+时钟系统是独立的
+i2接口
+播放端口支持标准/左对齐格式，主模式。
+记录端口支持标准/左对齐，主/从模式。
+音频传输
+PCM支持高达768K/32位通过USB, I2S, SPDIF端口。
+DSD(PDM)通过DSD(PDM)端口支持1x/2x/4x/8x带宽。
+DSD(本机)支持1x/2x/4x/8x带宽通过USB, I2S, DSD(PDM)，SPDIF端口。
+DoP通过USB、I2S、SPDIF端口支持1x/2x/4x带宽。
+
+接口
+最多可配置16个GPIOs作为输入或输出。
+主从I2C接口。
+中断函数。
+PWM-LED。
+格式自动检测
+自动检测PCM / DoP格式。
+自动检测I2S / DSD接口。
+Misc
+8051年嵌入式控制器
+UART接口
+音量控制与淡入/退出功能。
+播放基本的自动解压功能。
+技术交流Q:2836098918
