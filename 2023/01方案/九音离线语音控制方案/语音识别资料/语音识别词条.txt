@@ -1,0 +1,50 @@
+
+出厂指令：
+char* kws[] ={
+	
+  (char*)"_zi_ding_yi_zhi_ling",//自定义指令 1
+  (char*)"_chu_chang_zhi_ling",//出厂指令 2
+  (char*)"_da_kai_kong_tiao",	//打开空调	   3
+  //(char*)"_guan_bi_kong_tiao", 	//关闭空调	
+  (char*)"_da_kai_dian_deng",   //打开电灯 4
+  (char*)"_guan_bi_dian_deng",//关闭电灯 5
+  
+  (char*)"_shang_yi_qu",//上一曲 6
+  (char*)"_xia_yi_qu",//下一曲 7
+  (char*)"_bo_fang_zan_ting",//播放暂停 8
+  (char*)"_yin_liang_zeng_jia",// 音量增加 9
+  (char*)"_yin_liang_jian_xiao",// 音量减小 10
+ 		   
+  (char*)"_xun_huan_bo_fang", //循环播放 11
+  (char*)"_da_kai_bing_xiang",//打开冰箱 12
+  (char*)"_guan_bi_bing_xiang", //关闭冰箱 13
+  (char*)"_da_kai_re_shui_qi",//打开热水器 14
+  (char*)"_guan_bi_re_shui_qi",// 关闭热水器 15
+   
+  (char*)"_da_kai_dian_shi_ji",// 打开电视机 16 		
+  (char*)"_guan_bi_dian_shi_ji", // 关闭电视机 17
+  (char*)"_shang_yi_ge_pin_dao", //上一个频道 18
+  (char*)"_xia_yi_ge_pin_dao",//下一个频道 19
+  (char*)"_sui_ji_bo_fang",//  随机播放 20
+
+};
+
+自定义指令：
+char customer_define_instruction[7][32] =
+{
+	
+    {'_','z','i','_','d','i','n','g','_','y','i','_','z','h','i','l','i','n','g',0},//自定义指令 1
+    
+    {'_','c','h','u','_','c','h','a','n','g','_','z','h','i','_','l','i','n','g',0},//出厂指令 2
+
+    {'_','n','i','_','h','a','o','_','m','a',0},//你好吗 3
+    
+    {'_','d','a','_','j','i','a','_','h','a','o',0},//大家好 4
+    
+    {'_','h','u','i','_','y','i','_','s','h','i',0},//会议室 5
+    
+    {'_','x','i','a','_','w','u','_','h','a','o',0},// 下午好 6
+
+	
+    {'_','z','a','o','_','s','h','a','n','g','_','h','a','o',0},//早上好 7
+};

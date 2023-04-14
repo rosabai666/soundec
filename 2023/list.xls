@@ -1,5 +1,6 @@
 list3.bat
 readme.txt
+原相红外手势传感器-PAJ7620U2_DS_v1.2.pdf
 From EQ to Reverb & Distortion-DSP Audio Effects in Matlab.pdf
 hifi-dsps-ds.pdf
 Implementation of sound effects in DSP.pdf
@@ -7,9 +8,15 @@ Implementation of sound effects in DSP.pdf
 浅析ADC的六种分类及六大关键性能指标.docx
 待确认的一些Features.xlsx
 音频IC相关Features.xlsx
+SNC8600(A)-DEMO板-蓝牙模块转接板原理图V0.1-20230208.txt
+~$模块设计要求V0.1-20230303.docx
+蓝牙模块设计要求V0.1-20230303.docx
+蓝牙模块转接板-V0.1-20230303.asc
+蓝牙模块转接板设计要求-V0.1-20230303(1).rar
 Q&A 硬件类.txt
 Q&A 编译类.txt
 Q&A 软件类.txt
+SNC86xx 超强抗噪ENC耳机解决方案 v1.3.pptx
 SNC86XX DSP 应用方案简介_V1.1.pdf
 SNC86XX DSP 应用方案简介_V1.1.pptx
 SNC86XX DSP 应用方案简介_V1.1.rar
@@ -64,11 +71,13 @@ snc8600 4mic会议音箱解决方案.pptx
 Soundec 会议音箱解决方案.pdf
 Soundec 会议音箱解决方案.pptx
 Soundec麦阵列方案介绍_QMZ.docx
+~$undec麦阵列方案介绍_QMZ.docx
 会议音箱产品声学结构设计建议.docx
 会议音箱产品声学结构设计建议_V1.0.docx
 会议音箱产品声学结构设计建议_V1.0.pdf
 会议音箱麦克风隔离设计建议.pdf
 下周测试三款音箱前准备.doc
+~$风阵列解决方案及设计需求_20220109.docx
 麦克风阵列产品需求_20220109.pdf
 麦克风阵列解决方案及设计需求_20220109-2.pdf
 麦克风阵列解决方案及设计需求_20220109.docx
@@ -111,6 +120,7 @@ Soundec USB指向性麦克风设计说明.pdf
 Soundec 无线降噪麦克风解决方案 - 单麦.pptx
 Soundec 无线降噪麦克风解决方案.pdf
 Soundec 无线降噪麦克风解决方案.pptx
+~$Soundec 无线降噪麦克风解决方案 - 单麦.pptx
 Little?Bee_0224_Sch_F.pdf
 小蜜蜂参考设计.rar
 SNC8600D DSP Processor_v1.0.pptx
@@ -166,27 +176,23 @@ SNC86xx_颈挂蓝牙耳机设计建议（结构、声学、Layout）.docx
 系统框图_V1.0_20210719.SchDoc
 蓝牙耳机参考设计-20210719.PrjPcb
 蓝牙耳机参考设计_V1.0-20210719.SchDoc
-Soundec?SNC8600?从机应用手册_v0.5.docx
-Soundec?SNC8600?从机应用手册_v0.5.pdf
 ECM转PDM ADC功能需求.docx
 HidTestToolV02_Boxed.rar
 Soundec HID 测试工具使用简介.docx
 激活工具解除写保护方法.docx
-~$产品线方案汇总.pptx
-~$方案收敛.xlsx
-~$方案收敛2.xlsx
-产品线方案汇总.pptx
-方案收敛.xlsx
-方案收敛2.xlsx
-DSP后级音效处理器.png
-Hi-Res耳放.png
-USB麦克风.png
-扩音器.png
-拾音器.png
-麦克风阵列.png
+Soundec?SNC8600?从机应用手册_v0.5.docx
+Soundec?SNC8600?从机应用手册_v0.5.pdf
+Soundec?SNC8600?从机应用手册_v0.61.docx
+Soundec?SNC8x 标准件软硬件设计方案_V0.6.docx
+~$undec?SNC8x 标准件软硬件设计方案_V0.61.docx
 26M晶振升级问题解决方案.pdf
 26M晶振升级问题解决方案.pptx
 26M晶振升级问题解决方案.rar
+ASCII.exe
+语音识别操作指引.docx
+语音识别词条.txt
+sscom5.13.1.exe
+sscom51.ini
 HiFi3汇编和指令集资料.docx
 SNC8600优化资料.rar
 九音DSP优化方案.pptx
@@ -198,7 +204,48 @@ isa_rm.pdf
 NatureDSP_Signal Library Performance_HiFi3.pdf
 Use Cadence's HiFi3 library-v1.0.pdf
 [DRD]实现Const定义.docx
-~$耳放竞品比较.xlsx
+snc8600应用及现状.xlsx
+~$产品线方案汇总.pptx
+产品线方案汇总.pptx
+方案收敛.xlsx
+方案收敛2.xlsx
+DSP后级音效处理器.png
+Hi-Res耳放.png
+USB麦克风.png
+扩音器.png
+拾音器.png
+麦克风阵列.png
+list.txt
+tlv320aic3104.pdf
+多路转换器-分析.xlsx
+list.txt
+pcmd3140-q1.pdf
+产品列表-直播声卡.xlsx
+SSS1700_USB声卡芯片_规格书datasheet.pdf.pdf
+ALC4030_DataSheet_1.2_04162018.pdf
+ALC4042_DataSheet_1.14_20191203.pdf
+ALC5686.pdf
+todo.txt
+ADI数模转换.xlsx
+ADI模数转换.xlsx
+ADI音频信号处理器.xlsx
+ADI音频编解码器.xlsx
+TI 产品线分析.xlsx
+TI ADC转换器.xlsx
+TI DAC转换器.csv
+TI媒体音频处理器.csv
+TI音频编解码器.csv
+~$音频-音频转换器.xlsx
+放大器-运放.xlsx
+音频-专用音频IC.xlsx
+音频-音频接口 IC.xlsx
+音频-音频放大器.xlsx
+音频-音频转换器.xlsx
+零散信息待收录.txt
+ADI VS Soundec.xlsx
+TI VS Soundec.xlsx
+关于DSP开发路线的建议.pptx
+NewCoo 规格参数表0719max(1).xlsx
 耳放竞品比较.xlsx
 AKM-DAC Family.jpg
 主流DAC信息.txt
@@ -209,13 +256,20 @@ CT7601PR选型表.jpg
 KA3 架构.jpg
 外观+性能.jpg
 USB 耳机测试20230306.pdf
+E260W扩音器说明书.pdf
+产品介绍.docx
+扩音器啸叫问题处理需求.docx
+扩音器啸叫问题处理需求2.docx
+扩音器啸叫问题处理需求2.rar
+测试及验收视频.mp4
+CP2528-8路电容触摸.pdf
+功能List.docx
+音箱.xlsx
 Anker PowerConf 会议音箱拆解图报告20220523(1).pptx
 麦克风阵列音频检查方法及标准V2.8.pdf
 e719ee103af7b15123119ea15031f46.png
 XFM-GXCMEMS-4MIC V1 规格书(1).pdf
 XFM-GXECM-46MIC V1 规格书(1).pdf
-声加科技算法参数调试工具使用说明.docx
-声智麦克风阵列方案.pdf
 CDB43131_REV_B_Schematic_Layout.pdf
 CS43131_DS1155F2.pdf
 ES9281A-80A PRO_ProductBrief.pdf
@@ -355,37 +409,10 @@ ioctrl.c
 ioctrl.h
 main.c
 main.h
-tlv320aic3104.pdf
-多路转换器-分析.xlsx
-list.txt
-pcmd3140-q1.pdf
-产品列表-直播声卡.xlsx
-ALC5686.pdf
-SSS1700_USB声卡芯片_规格书datasheet.pdf.pdf
-todo.txt
-ADI数模转换.xlsx
-ADI模数转换.xlsx
-ADI音频信号处理器.xlsx
-ADI音频编解码器.xlsx
-TI 产品线分析.xlsx
-TI ADC转换器.xlsx
-TI DAC转换器.csv
-TI媒体音频处理器.csv
-TI音频编解码器.csv
-放大器-运放.xlsx
-音频-专用音频IC.xlsx
-音频-音频接口 IC.xlsx
-音频-音频放大器.xlsx
-音频-音频转换器.xlsx
-零散信息待收录.txt
-ADI VS Soundec.xlsx
-TI VS Soundec.xlsx
-2022-客户需求信息.xlsx
-关于DSP开发路线的建议.pptx
-NewCoo 规格参数表0719max(1).xlsx
-音箱.xlsx
+探境旋风611.pdf
+探境芯片产品系列20220324.pptx
 SNC8600产品线分类.xlsx
-snc8600应用及现状.xlsx
+2022-客户需求信息.xlsx
 SNC86XX DSP 开发汇总_V0.4.pptx
 九音项目汇总表-2022.10.24.xlsx
 重要项目周小结汇总表-20230204.xlsx
@@ -415,15 +442,26 @@ output1.pk
 left_in.pk
 left_in.wav
 AI降噪算法介绍.pptx
+出门问问 - 麦克风阵列设计指南.pdf
 小问智能会议宝产品介绍（加视频）.pptx
+麦克风阵列间距.jpg
+日语离线语音操作录音需求说明.xlsx
 声菲特语音转写系统方案说明.docx
+算法商接入方案&需求.docx
+第三方算法配合规划-出门问问_V03.rar
+第三方算法配合规划-出门问问_V04.pptx
+第三方算法配合规划-出门问问_V04.rar
+第三方算法配合规划-出门问问_V03.pptx
 A8102 Datasheet v0.95(Preliminary).pdf
+声加科技算法参数调试工具使用说明.docx
+声智麦克风阵列方案.pdf
 TWS200 datasheet V0.2.pdf
 TWS200.zip
 TWS206.zip
 TWS206 datasheet V0.2.pdf
 TWS206_DEMO.pdf
 TWS20x_硬件设计指南_V0.1-1.pdf
+昂瑞微电子_SOC产品介绍_202211 V2.5.pdf
 客户列表.xlsx
 Note.txt
 Soundec DSP简介.pptx
@@ -435,7 +473,9 @@ versionList.txt
 九音科技音频信号处理器 简介-v4.4白.rar
 九音科技音频信号处理器 简介-v4.5.pdf
 九音科技音频信号处理器 简介-v4.51.pdf
-九音科技音频信号处理器 简介-v4.5白.pptx
+九音科技音频信号处理器 简介-v4.6.pdf
+九音科技音频信号处理器 简介-v4.6.pptx
+九音科技音频信号处理器 简介-v4.6.rar
 九音科技音频信号处理器 简介-v4.2.pptx
 九音科技音频信号处理器 简介-v4.3b.pptx
 九音科技音频信号处理器 简介-v4.4b.pptx
@@ -447,7 +487,20 @@ SNC8600 简介_V2.0b_en.zip
 SNC8600 简介_V2.0_ch.rar
 SNC8600 简介_V2.1b_ch.zip
 SNC8600 简介_V2.2b_ch.rar
+Soundec 九音科技 SNC8x DSP processor_V3.0_en.pdf
+Soundec 九音科技 SNC8x DSP processor_V3.0_en.pptx
+Soundec 九音科技 SNC8x DSP processor_V3.0_en.rar
+~$九音科技SNC8x系列DSP音频处理器_V3.0b_ch.pptx
 九音科技 DSP简介_V2.31b_ch.pptx
+九音科技 DSP简介_V2.32b_ch.pptx
+九音科技SNC8x系列DSP音频处理器_V3.0a_ch.pdf
+九音科技SNC8x系列DSP音频处理器_V3.0b_ch.pdf
+九音科技SNC8x系列DSP音频处理器_V3.0b_ch.pptx
+九音科技SNC8x系列DSP音频处理器_V3.0b_ch.rar
+九音科技SNC8x系列DSP音频处理器_V3.0_ch.pdf
+九音科技SNC8x系列DSP音频处理器_V3.0_ch.rar
+九音科技SNC8x系列DSP音频处理器_V3.1_ch.pptx
+九音科技SNC8x系列DSP音频处理器_V3.1_ch.rar
 readme.txt
 SNC8600 简介_to Honghe V2(2).pptx
 SNC8600 简介_V2.0_ch.pptx
@@ -500,7 +553,6 @@ TWS耳机市场分析报告（降噪）.pptx
 智能音箱市场分析报告.pptx
 网红直播麦克风方案v1.0.pptx
 耳道拾音通话降噪效果对比-海洋.pptx
-耳道拾音通话降噪效果对比.pptx
 超强抗噪ENC耳机解决方案 v1.2.pptx
 鹅颈麦克风.pptx
 九音公司简介20210608.pdf
@@ -530,7 +582,6 @@ vivo.wav
 华为.wav
 小鸟.pkf
 小鸟.wav
-耳机效果对比.pptx
 苹果.pkf
 苹果.wav
 OPPO3-4m风噪.wav
@@ -791,10 +842,25 @@ road.wav
 train.wav
 Xroad.wav
 粉噪.wav
+Soundec Playground图片.rar
+14x14模组.png
+26x模组.png
+4Mic会议音箱板子.png
+420A0886.png
+420A0893.png
+420A0906.png
+420A0911.png
+420A0924.png
+420A0926.png
 SNC8600 SDK性能测试报告_1.2.docx
 SNC8600 SDK性能测试报告_1.2.rar
+智能面板.jpg
+语音.jpg
+远程语音家居控制.jpg
 副本snc-usb.xlsx
 副本双唛降噪话务耳机-0208-zw.pptx
+参考模组资料 Parallax_BS2p24_Datasheet_2020512181925.pdf
+参考资料-Parallax_BS2p24_Manual_2020512181925.pdf
 Soundec麦阵列方案介绍.docx
 九音方案_QMZ.pptx
 九音方案_QMZ.rar
@@ -817,7 +883,11 @@ The intelligent industry of the future.pdf
 2023 工作内容和计划.pptx
 2023工作目标计划.xlsx
 Daily Action.xlsx
+SNC8xDSP 封装选择调研v1.0.rar
+SNC8xDSP 封装选择调研v1.2.rar
+SNC8xDSP 封装选择调研v1.2.xlsx
 ~$2023工作目标计划.xlsx
+~$Daily Action.xlsx
 待开发商机.xlsx
 DSP后级音效处理器 迭代计划.xlsx
 EVBPhaseVocoder算法与MaxxBass算法在虚拟低音增强应用中的比较-郭杰.pdf
@@ -831,5 +901,19 @@ leadelity.P
 LeadelityJieLi.exe
 licence.txt
 NOR NEW EQ1.bac
-IoT开发及应用规划.pptx
+IoT产品规划.pptx
+~$IoT产品规划.pptx
+~$第三方算法配合规划-出门问问_V04.pptx
+无线模块适配选型.xlsx
+第三方算法配合规划-出门问问_V04.pptx
 86盒整机说明书.pdf
+资料.txt
+深圳云腾物联科技有限公司.png
+资料.txt
+wifi控制家居.jpg
+环阵列.png
+SNC8600推广计划.pptx
+~$SNC8600推广计划.pptx
+xx 会议记录.xlsx
+康力康 拜访记录.xlsx
+保密协议_双向_九音新声V1.0.doc
