@@ -9,6 +9,35 @@ git push -u origin main
 git push -u origin master
 
 --------------------------------------------------------------------------------------------------
+后续使用，多台机器共享仓库的操作流程
+1）查看工作区的修改的文件
+	git status
+2）比较现在工作区（未提交到暂存区）与 暂存区（已经通过 git add 和 git commit 提交了）的具体的修改变化。
+	git diff 
+
+# 运行完毕，git 会告诉我们：删除了红色行 ，新增了 绿色 行的代码
+# git diff 的扩展命令
+	git diff：是查看 workspace（工作区） 与 index（暂存区） 的差别的。 
+	git diff --cached：是查看 index（暂存区） 与 local repositorty（本地仓库） 的差别的。 
+	git diff HEAD：是查看 workspace 和 local repository 的差别的。（HEAD 指向的是 local repository 中最新提交的版本）
+
+注：git diff 后跟两个参数，如果只写一个参数，表示默认跟 workspace中的代码作比较。git diff 显示的结果为 第二个参数所指的代码在第一个参数所指代码基础上的修改。如，git diff HEAD 表示 workspace 在 最新commit的基础上所做的修改
+
+3）正常更新仓库
+git pull origin main
+git add .
+git commit -m “everything”	#在commit 之前，想看看暂存区有哪些文件：git ls-files
+git push origin main
+其中第一个命令只有在有别人更新了你的远程仓库的情况下才需要，一般情况下并不需要执行。
+
+--------------------------------------------------------------------------------------------------
+
+git log,找到上次提交的前面一次提交ID
+执行git reset --soft commit id
+再进行git pull合并一下版本
+执行git rm -f 大文件
+再就是git add,git commit,git push等操作
+--------------------------------------------------------------------------------------------------
 【问题】：
 提交文件不能大于100M
 【解决】：
@@ -82,3 +111,58 @@ git 报错does not have a commit checked out
 	git bash终端输入命令：
 	git config --global core.quotepath false
 --------------------------------------------------------------------------------------------------
+# 验证gitHub是否链接
+ssh -T git@github.com
+如果提示 ：Hi xxx, You've successfully authenticated, but GitHub does not provide shell access
+通过以下命令行添加远程仓库：git remote set-url origin git@github.com:rosabai666/soundec.git
+# 初始使用参考
+# 查看目录
+ls -al ~/.ssh
+或者，键盘 shift+command+G，输入：～/.ssh
+# 打开id_rsa.pub文件
+cat ~/.ssh/id_rsa.pub
+
+--------------------------------------------------------------------------------------------------
+1.查看当前仓库地址 
+	git remote show origin 
+如果没有的话,你必须先增加一个远程url   
+	git remote add origin "xxx.git" 
+
+2.修改仓库地址 
+	git remote set-url origin git@192.168.30.29:chenwei/em-data.com.cn.git 
+
+--------------------------------------------------------------------------------------------------
+如果使用 git commit <fileName> 命令：
+会进入vim控制台，需要：
+1） shift+; 进入编辑状态
+2）随便输入，作为commit信息
+3）按 esc，退出编辑
+4）连续按两次 ZZ，退出vim，回到控制台
+--------------------------------------------------------------------------------------------------
+【问题】：git 向仓库推送代码失败
+You've successfully authenticated, but GitHub does not provide shell access.
+【解决】：
+重新生成 ssh key 将之前 GitHub 保存的秘钥删除(也可以直接添加新的,不用管之前的). 生成 ssh key 命令
+	ssh-keygen -t rsa -C “your_email.com”
+
+【问题2】：git 向仓库推送代码失败
+使用：git push origin master 向仓库推送，提示以下错误
+error: src refspec master does not match any
+error: failed to push some refs to 'github.com:rosabai666/soundec.git'
+【解决】：
+github更新了，现在github的默认分支为main；在提交时，需要提交到main，而不是master
+使用：git push origin main，即可。
+
+【问题3】：git 向仓库推送代码失败
+使用：git push origin main 向仓库推送，提示以下错误
+! [rejected]        main -> main (fetch first) 
+error: failed to push some refs to 'github.com:xxx'
+【解决】：需要先把远程仓库和本地的同步下，再提交
+	git pull origin main
+【解决2】：如果以上不生效
+先把git的东西fetch到你本地然后merge后再push
+	$ git fetch origin master
+	$ git merge origin FETCH_HEAD 
+这2句命令等价于$ git pull origin master但是使用git fetch + git merge 更加安全。
+--------------------------------------------------------------------------------------------------
+

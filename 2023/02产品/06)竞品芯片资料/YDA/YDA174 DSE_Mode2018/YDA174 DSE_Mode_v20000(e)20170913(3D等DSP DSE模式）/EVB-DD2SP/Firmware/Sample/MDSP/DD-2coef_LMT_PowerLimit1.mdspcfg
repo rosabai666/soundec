@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //*****************************************************************************
 //  CONFIDENTIAL
 //  DD-2SP/SPR-2 Coefficient File: DD-2coef_LMT_PowerLimit1.mdspcfg
@@ -43,3 +44,50 @@
 4000    // HGCSel[15:0]
 0000    // LGCThruSel[15:0]
 4000    // LGCSel[15:0]
+=======
+//*****************************************************************************
+//  CONFIDENTIAL
+//  DD-2SP/SPR-2 Coefficient File: DD-2coef_LMT_PowerLimit1.mdspcfg
+//
+//  version 1.00.00 (*RAM8 2.01.03)
+//
+//  Copyright(c) 2012-2013 Yamaha Corporation
+//*****************************************************************************
+
+@00406A // <LMT>
+0633    // HGC.GainShift[15:0]		Designed gain shift  = -2.3dB
+0633    // HGC.CurveShift[15:0]		Designed curve shift = -2.3dB
+2000    // HGC.Ratio[15:0]          Ratio           = 0.5
+078A    // HGC.Limit[15:0]          Designed limit  = -0.5dBFS
+041E    // HGC.Decay[15:0]          Release time    = 15ms
+3DC4    // HGC.PreAttack[15:0]      Pre attack time = 1ms
+
+@004070 // <LMT>
+000A    // HATK.a0[27:12]           Attack time = 15ms
+0B76    // HATK.a0[11:0]
+000A    // HATK.a1[27:12]
+0B76    // HATK.a1[11:0]
+3FEA    // HATK.b1[27:12]
+0914    // HATK.b1[11:0]
+
+@004076 // <LMT>
+0633    // LGC.GainShift[15:0]		Designed gain shift  = -2.3dB
+0633    // LGC.CurveShift[15:0]		Designed curve shift = -2.3dB
+2000    // LGC.Ratio[15:0]          Ratio          = 0.5
+078A    // LGC.Limit[15:0]          Designed limit = -0.5dB
+041E    // LGC.Decay[15:0]          Release time   = 15ms
+
+@00407B // <LMT>
+000A    // LATK.a0[27:12]           Attack time = 15ms
+0B76    // LATK.a0[11:0]
+000A    // LATK.a1[27:12]
+0B76    // LATK.a1[11:0]
+3FEA    // LATK.b1[27:12]
+0914    // LATK.b1[11:0]
+
+@004081 // <LMT>
+0000    // HGCThruSel[15:0]
+4000    // HGCSel[15:0]
+0000    // LGCThruSel[15:0]
+4000    // LGCSel[15:0]
+>>>>>>> origin

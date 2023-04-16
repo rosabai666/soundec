@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //*****************************************************************************
 //  CONFIDENTIAL
 //  DD-2SP/SPR-2 Coefficient File: DD-2coef_SV_VolumeLinkedEQOn.mdspcfg
@@ -24,3 +25,31 @@ FAC1    // EQ1.b2[15:0]
 @004050 // <SV>
 4000    // LnSel[15:0]
 0000    // LnThruSel[15:0]
+=======
+//*****************************************************************************
+//  CONFIDENTIAL
+//  DD-2SP/SPR-2 Coefficient File: DD-2coef_SV_VolumeLinkedEQOn.mdspcfg
+//
+//  version 1.00.00 (*RAM8 2.01.03)
+//
+//  Copyright(c) 2012-2013 Yamaha Corporation
+//*****************************************************************************
+
+@004044 // <SV>
+416F    // EQ0.a0[15:0]
+815F    // EQ0.a1[15:0]
+3D54    // EQ0.a2[15:0]
+7EB0    // EQ0.b1[15:0]
+C14C    // EQ0.b2[15:0]
+4FC6    // EQ1.a0[15:0]
+8378    // EQ1.a1[15:0]
+332A    // EQ1.a2[15:0]
+0ED7    // EQ1.b1[15:0]
+FAC1    // EQ1.b2[15:0]
+2688    // LnRatio[15:0]
+1739    // LnShift[15:0]
+
+@004050 // <SV>
+4000    // LnSel[15:0]
+0000    // LnThruSel[15:0]
+>>>>>>> origin
