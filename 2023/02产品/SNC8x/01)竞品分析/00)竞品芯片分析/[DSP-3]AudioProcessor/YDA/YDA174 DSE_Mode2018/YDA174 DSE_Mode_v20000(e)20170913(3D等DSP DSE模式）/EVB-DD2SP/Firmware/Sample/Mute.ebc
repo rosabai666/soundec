@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+;******************************************************************************
+;   CONFIDENTIAL
+;   DD-2SP/SPR-2 Command File: Mute.ebc
+;
+;   version 1.01.00 (*RAM8 2.01.03)
+;
+;   Copyright(c) 2012-2013 Yamaha Corporation
+;******************************************************************************
+
+;--------------------------------------------
+; Set mute
+;--------------------------------------------
+#DOWNLOADM MDSP\DD-2coef_SV_Mute.mdspcfg
+SL 14               ; Sleep 20msec
+FB 10 07 00         ; FMMUTEN=MDSPMUTEN=SDSPMUTEN=0
+=======
+;******************************************************************************
+;   CONFIDENTIAL
+;   DD-2SP/SPR-2 Command File: Mute.ebc
+;
+;   version 1.01.00 (*RAM8 2.01.03)
+;
+;   Copyright(c) 2012-2013 Yamaha Corporation
+;******************************************************************************
+
+;--------------------------------------------
+; Set mute
+;--------------------------------------------
+#DOWNLOADM MDSP\DD-2coef_SV_Mute.mdspcfg
+SL 14               ; Sleep 20msec
+FB 10 07 00         ; FMMUTEN=MDSPMUTEN=SDSPMUTEN=0
+>>>>>>> origin

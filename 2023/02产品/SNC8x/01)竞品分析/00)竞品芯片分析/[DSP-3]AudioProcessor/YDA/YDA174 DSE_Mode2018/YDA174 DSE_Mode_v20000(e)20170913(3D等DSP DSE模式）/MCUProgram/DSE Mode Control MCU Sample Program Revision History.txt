@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+* CONFIDENTIAL                                                                *
+*******************************************************************************
+*                                                                             *
+*  DSE Mode Control Microprocessor Microprocessor Sample Program              *
+*  Revision History                                                           *
+*                                                                             *
+*  09/18/2012                                                                 *
+*  Copyright(c) 2012 Yamaha Corporation                                       *
+*                                                                             *
+*******************************************************************************
+
+09/03/2012  version 1.00.00
+            Newly-created.
+
+=======
+* CONFIDENTIAL                                                                *
+*******************************************************************************
+*                                                                             *
+*  DSE Mode Control Microprocessor Microprocessor Sample Program              *
+*  Revision History                                                           *
+*                                                                             *
+*  09/18/2012                                                                 *
+*  Copyright(c) 2012 Yamaha Corporation                                       *
+*                                                                             *
+*******************************************************************************
+
+09/03/2012  version 1.00.00
+            Newly-created.
+
+>>>>>>> origin

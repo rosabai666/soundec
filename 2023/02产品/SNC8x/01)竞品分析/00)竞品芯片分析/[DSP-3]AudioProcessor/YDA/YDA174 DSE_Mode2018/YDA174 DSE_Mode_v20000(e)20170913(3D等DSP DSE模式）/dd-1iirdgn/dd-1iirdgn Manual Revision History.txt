@@ -1,0 +1,211 @@
+<<<<<<< HEAD
+/* CONFIDENTIAL */
+/********************************************************************
+  "IIR Filter Coefficient Calculation Tool dd-1iirdgn Manual"
+  Revision History
+  
+  Copyright(c) 2007-2012 Yamaha Corporation
+  06/13/2012
+ *******************************************************************/
+
+---------------------------------------------------------------------
+version 1.00.00
+  11/21/2007
+  Supported tool version: 0.01 or later
+---------------------------------------------------------------------
+Newly-created document.
+
+---------------------------------------------------------------------
+version 1.00.01
+  12/05/2007
+  Supported tool version: 0.01 or later
+---------------------------------------------------------------------
+Edit typos. 
+
+---------------------------------------------------------------------
+version 1.01.00
+  01/24/2008/
+  Supported tool version: 1.00 or later
+---------------------------------------------------------------------
+Section 4   The error message "Underflowed" was deleted.
+
+---------------------------------------------------------------------
+version 1.01.01
+  03/27/2008
+  Supported tool version: 0.01 or later
+---------------------------------------------------------------------
+Section 1   "YDA155/156/ (DD-1/DD-1SP)" was changed to "YDA155/YDA156/ (DD-1/DD-1SP)".
+Section 1   "YDA155/YDA156 (DD-1/DD-1SP)" was changed to "YDA155/YDA156/YSS951 (DD-1/DD-1SP/SPR-1)".
+Section 1   "See the 'YSS951 Application Manual'" was added.
+
+---------------------------------------------------------------------
+version 1.01.02
+  10/10/2008
+  Supported tool version: 0.01 or later
+---------------------------------------------------------------------
+Edit typos and so forth. 
+
+---------------------------------------------------------------------
+version 1.02.00
+  01/14/2010
+  Supported tool version: 1.01 or later
+---------------------------------------------------------------------
+Section 3.1      The description was added "For fixed-point format for SDSP 24bit/47bit 
+                 2's complement output format, this option is not specified.".
+                 The 4th [Note] was deleted.
+Section 3.3.1-3  Added.
+Section 3.3.1-4  Added.
+Section 3.3.2-1  The example was deleted, when outputting 24-bit 2's complement fixed-point format
+                 for SDSP.
+Section 3.3.2-2  Modified the diagram.
+Section 3.3.2-3  Added.
+Section 3.3.2-4  The description to select the -o option was deleted.
+                 Modified the diagram.
+
+---------------------------------------------------------------------
+version 1.03.00
+  04/28/2011
+  Supported tool version: 1.02 or later
+---------------------------------------------------------------------
+Overall		     Supported MDSP2.
+Section 1       "YDA155/YDA156/YDA174/YSS951/YSS952 (DD-1/DD-1SP/DD-2SP/SPR-1/SPR-2)"  was added.
+Section 1       "See the 'YDA174 Application Manual' or 'YSS952 Application Manual'" was added.
+Section 1       "Windows 7 32bit/64bit Japanese, English Versions" was added.
+Section 3.1     The option for high pass, low pass filter was added in the option -g.
+                The output format for MDSP2 was added.
+Section 3.2.1   Modified the diagram.
+Section 3.2.2   Modified the diagram.
+Section 3.3.1-1 Modified the example.
+Section 3.3.1-2 Modified the example.
+Section 3.3.1-3 Modified the example.
+Section 3.3.1-4 Modified the example.
+
+---------------------------------------------------------------------
+version 1.04.00
+  08/02/2011
+  Supported tool version: 1.03 or later
+---------------------------------------------------------------------
+Overall		     Supported MDSP2.
+Section 3.1      Added -b option.
+Section 3.3.1-1  Corrected examples.
+Section 3.3.1-2  Corrected examples.
+Section 3.3.2-1  Added the coefficient calculation method by -b option.
+                 Corrected examples.
+Section 3.3.2-2  Added the coefficient calculation method by -b option.
+                 Corrected examples.
+
+---------------------------------------------------------------------
+version 1.05.00
+  06/13/2012
+  Supported tool version: 1.04 or later
+---------------------------------------------------------------------
+Section 3.2      Renewal.
+Overall          Deleted message at time of normal termination.
+                 Edit typos. 
+
+=======
+/* CONFIDENTIAL */
+/********************************************************************
+  "IIR Filter Coefficient Calculation Tool dd-1iirdgn Manual"
+  Revision History
+  
+  Copyright(c) 2007-2012 Yamaha Corporation
+  06/13/2012
+ *******************************************************************/
+
+---------------------------------------------------------------------
+version 1.00.00
+  11/21/2007
+  Supported tool version: 0.01 or later
+---------------------------------------------------------------------
+Newly-created document.
+
+---------------------------------------------------------------------
+version 1.00.01
+  12/05/2007
+  Supported tool version: 0.01 or later
+---------------------------------------------------------------------
+Edit typos. 
+
+---------------------------------------------------------------------
+version 1.01.00
+  01/24/2008/
+  Supported tool version: 1.00 or later
+---------------------------------------------------------------------
+Section 4   The error message "Underflowed" was deleted.
+
+---------------------------------------------------------------------
+version 1.01.01
+  03/27/2008
+  Supported tool version: 0.01 or later
+---------------------------------------------------------------------
+Section 1   "YDA155/156/ (DD-1/DD-1SP)" was changed to "YDA155/YDA156/ (DD-1/DD-1SP)".
+Section 1   "YDA155/YDA156 (DD-1/DD-1SP)" was changed to "YDA155/YDA156/YSS951 (DD-1/DD-1SP/SPR-1)".
+Section 1   "See the 'YSS951 Application Manual'" was added.
+
+---------------------------------------------------------------------
+version 1.01.02
+  10/10/2008
+  Supported tool version: 0.01 or later
+---------------------------------------------------------------------
+Edit typos and so forth. 
+
+---------------------------------------------------------------------
+version 1.02.00
+  01/14/2010
+  Supported tool version: 1.01 or later
+---------------------------------------------------------------------
+Section 3.1      The description was added "For fixed-point format for SDSP 24bit/47bit 
+                 2's complement output format, this option is not specified.".
+                 The 4th [Note] was deleted.
+Section 3.3.1-3  Added.
+Section 3.3.1-4  Added.
+Section 3.3.2-1  The example was deleted, when outputting 24-bit 2's complement fixed-point format
+                 for SDSP.
+Section 3.3.2-2  Modified the diagram.
+Section 3.3.2-3  Added.
+Section 3.3.2-4  The description to select the -o option was deleted.
+                 Modified the diagram.
+
+---------------------------------------------------------------------
+version 1.03.00
+  04/28/2011
+  Supported tool version: 1.02 or later
+---------------------------------------------------------------------
+Overall		     Supported MDSP2.
+Section 1       "YDA155/YDA156/YDA174/YSS951/YSS952 (DD-1/DD-1SP/DD-2SP/SPR-1/SPR-2)"  was added.
+Section 1       "See the 'YDA174 Application Manual' or 'YSS952 Application Manual'" was added.
+Section 1       "Windows 7 32bit/64bit Japanese, English Versions" was added.
+Section 3.1     The option for high pass, low pass filter was added in the option -g.
+                The output format for MDSP2 was added.
+Section 3.2.1   Modified the diagram.
+Section 3.2.2   Modified the diagram.
+Section 3.3.1-1 Modified the example.
+Section 3.3.1-2 Modified the example.
+Section 3.3.1-3 Modified the example.
+Section 3.3.1-4 Modified the example.
+
+---------------------------------------------------------------------
+version 1.04.00
+  08/02/2011
+  Supported tool version: 1.03 or later
+---------------------------------------------------------------------
+Overall		     Supported MDSP2.
+Section 3.1      Added -b option.
+Section 3.3.1-1  Corrected examples.
+Section 3.3.1-2  Corrected examples.
+Section 3.3.2-1  Added the coefficient calculation method by -b option.
+                 Corrected examples.
+Section 3.3.2-2  Added the coefficient calculation method by -b option.
+                 Corrected examples.
+
+---------------------------------------------------------------------
+version 1.05.00
+  06/13/2012
+  Supported tool version: 1.04 or later
+---------------------------------------------------------------------
+Section 3.2      Renewal.
+Overall          Deleted message at time of normal termination.
+                 Edit typos. 
+
+>>>>>>> origin

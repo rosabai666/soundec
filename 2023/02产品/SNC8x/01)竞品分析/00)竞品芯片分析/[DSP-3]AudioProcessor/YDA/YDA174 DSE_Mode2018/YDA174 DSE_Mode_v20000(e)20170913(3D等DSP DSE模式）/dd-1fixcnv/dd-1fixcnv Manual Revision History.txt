@@ -1,0 +1,109 @@
+<<<<<<< HEAD
+/* CONFIDENTIAL */
+/********************************************************************
+  "Format Conversion Tool dd-1fixcnv Manual" Revision History
+  
+  Copyright(c) 2007-2011 Yamaha Corporation
+  04/28/2011
+ *******************************************************************/
+
+---------------------------------------------------------------------
+version 1.00.00
+  11/21/2007
+  Supported tool version : 1.00 or later.
+---------------------------------------------------------------------
+Newly-created document.
+
+---------------------------------------------------------------------
+version 1.00.01
+  12/05/2007
+  Supported tool version : 1.00 or later.
+---------------------------------------------------------------------
+Edit typos.
+
+---------------------------------------------------------------------
+version 1.00.02
+  01/24/2008
+  Supported tool version : 1.00 or later.
+---------------------------------------------------------------------
+Edit typos.
+
+---------------------------------------------------------------------
+version 1.00.03
+  03/27/2008
+  Supported tool version : 1.00 or later.
+---------------------------------------------------------------------
+Section 1   "YDA155/YDA156 (DD-1/DD-1SP)" was changed to "YDA155/YDA156/YSS951 (DD-1/DD-1SP/SPR-1)". 
+Section 1   "See the 'YSS951 Application Manual'" was added.
+
+---------------------------------------------------------------------
+version 1.00.04
+  10/10/2008
+  Supported tool version : 1.00 or later
+---------------------------------------------------------------------
+Edit typos and so forth. 
+
+---------------------------------------------------------------------
+version 1.00.05
+  04/28/2011
+  Supported tool version : 1.00 or later.
+---------------------------------------------------------------------
+Section 1   "YDA174 (DD-2SP) or "YSS952 (SPR-2)"  was added.
+Section 1   "See the 'YDA174 Application Manual' or 'YSS952 Application Manual'" was added.
+Section 1   "Windows 7 32bit/64bit Japanese, English Versions" was added.
+
+=======
+/* CONFIDENTIAL */
+/********************************************************************
+  "Format Conversion Tool dd-1fixcnv Manual" Revision History
+  
+  Copyright(c) 2007-2011 Yamaha Corporation
+  04/28/2011
+ *******************************************************************/
+
+---------------------------------------------------------------------
+version 1.00.00
+  11/21/2007
+  Supported tool version : 1.00 or later.
+---------------------------------------------------------------------
+Newly-created document.
+
+---------------------------------------------------------------------
+version 1.00.01
+  12/05/2007
+  Supported tool version : 1.00 or later.
+---------------------------------------------------------------------
+Edit typos.
+
+---------------------------------------------------------------------
+version 1.00.02
+  01/24/2008
+  Supported tool version : 1.00 or later.
+---------------------------------------------------------------------
+Edit typos.
+
+---------------------------------------------------------------------
+version 1.00.03
+  03/27/2008
+  Supported tool version : 1.00 or later.
+---------------------------------------------------------------------
+Section 1   "YDA155/YDA156 (DD-1/DD-1SP)" was changed to "YDA155/YDA156/YSS951 (DD-1/DD-1SP/SPR-1)". 
+Section 1   "See the 'YSS951 Application Manual'" was added.
+
+---------------------------------------------------------------------
+version 1.00.04
+  10/10/2008
+  Supported tool version : 1.00 or later
+---------------------------------------------------------------------
+Edit typos and so forth. 
+
+---------------------------------------------------------------------
+version 1.00.05
+  04/28/2011
+  Supported tool version : 1.00 or later.
+---------------------------------------------------------------------
+Section 1   "YDA174 (DD-2SP) or "YSS952 (SPR-2)"  was added.
+Section 1   "See the 'YDA174 Application Manual' or 'YSS952 Application Manual'" was added.
+Section 1   "Windows 7 32bit/64bit Japanese, English Versions" was added.
+
+>>>>>>> origin

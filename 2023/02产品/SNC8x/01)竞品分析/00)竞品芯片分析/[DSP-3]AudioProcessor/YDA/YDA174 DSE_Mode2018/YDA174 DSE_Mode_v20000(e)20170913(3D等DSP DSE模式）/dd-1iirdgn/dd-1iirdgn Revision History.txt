@@ -1,0 +1,71 @@
+<<<<<<< HEAD
+* CONFIDENTIAL                                                                *
+*******************************************************************************
+*                                                                             *
+*  dd-1iirdgn.exe Revision History                                            *
+*                                                                             *
+*  06/12/2012                                                                 *
+*  Copyright(c) 2007-2012 Yamaha Corporation                                  *
+*                                                                             *
+*******************************************************************************
+
+12/03/2007  version 0.01.00
+            Newly-created.
+
+01/24/2008  version 1.00.00
+            Modified and so forth. 
+
+01/13/2010  version 1.01.00
+            Modified coefficients to output the 24bit/47bit 2's complement fixed-point format 
+            for SDSP in all supported filters.
+            Modified to set the scaling value only to set the 16bit/28bit 2's complement 
+            fixed-point output format for MDSP.
+
+05/12/2011  version 1.02.01
+            Supported MDSP2.
+            Modified the -g option in generating High pass filter and Low pass filter coefficients.
+            Modified the internal processing.
+
+07/15/2011  version 1.03.00
+            Added the -b option.
+
+06/08/2012  version 1.04.00
+            Deleted "[Success]" message output function.
+            Modified and so forth. 
+
+=======
+* CONFIDENTIAL                                                                *
+*******************************************************************************
+*                                                                             *
+*  dd-1iirdgn.exe Revision History                                            *
+*                                                                             *
+*  06/12/2012                                                                 *
+*  Copyright(c) 2007-2012 Yamaha Corporation                                  *
+*                                                                             *
+*******************************************************************************
+
+12/03/2007  version 0.01.00
+            Newly-created.
+
+01/24/2008  version 1.00.00
+            Modified and so forth. 
+
+01/13/2010  version 1.01.00
+            Modified coefficients to output the 24bit/47bit 2's complement fixed-point format 
+            for SDSP in all supported filters.
+            Modified to set the scaling value only to set the 16bit/28bit 2's complement 
+            fixed-point output format for MDSP.
+
+05/12/2011  version 1.02.01
+            Supported MDSP2.
+            Modified the -g option in generating High pass filter and Low pass filter coefficients.
+            Modified the internal processing.
+
+07/15/2011  version 1.03.00
+            Added the -b option.
+
+06/08/2012  version 1.04.00
+            Deleted "[Success]" message output function.
+            Modified and so forth. 
+
+>>>>>>> origin

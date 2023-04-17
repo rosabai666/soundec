@@ -1,0 +1,37 @@
+<<<<<<< HEAD
+* CONFIDENTIAL                                                                *
+*******************************************************************************
+*                                                                             *
+*  dd-1fixcnv.exe Revision History                                            *
+*                                                                             *
+*  10/17/2008                                                                 *
+*  Copyright(c) 2007 Yamaha Corporation                                       *
+*                                                                             *
+*******************************************************************************
+
+12/03/2007  version 1.00.00
+            Newly-created.
+
+04/14/2008  version 1.00.01
+            Bug in direct convert mode is corrected that the format convert 
+            to real number from 28 bits 2's complement fixed point. 
+
+=======
+* CONFIDENTIAL                                                                *
+*******************************************************************************
+*                                                                             *
+*  dd-1fixcnv.exe Revision History                                            *
+*                                                                             *
+*  10/17/2008                                                                 *
+*  Copyright(c) 2007 Yamaha Corporation                                       *
+*                                                                             *
+*******************************************************************************
+
+12/03/2007  version 1.00.00
+            Newly-created.
+
+04/14/2008  version 1.00.01
+            Bug in direct convert mode is corrected that the format convert 
+            to real number from 28 bits 2's complement fixed point. 
+
+>>>>>>> origin

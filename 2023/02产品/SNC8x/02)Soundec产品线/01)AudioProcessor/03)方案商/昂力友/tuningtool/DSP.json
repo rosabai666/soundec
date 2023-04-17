@@ -1,0 +1,197 @@
+<<<<<<< HEAD
+{
+"SampleRate": {
+        "Setting": 44100
+},
+"HeadRoom": {
+        "Setting": 4
+},
+"PreGain": {
+        "Setting": 5
+},
+"PostGain": {
+        "Setting": -4.5
+},
+"PreEQ": {
+"filters": [
+{
+                "type": "Peaking",
+                "frequency": 65,
+                "gain": 11,
+                "Q": 0.8
+},
+{
+                "type": "Peaking",
+                "frequency": 5800,
+                "gain": 2.5,
+                "Q": 0.7
+},
+{
+                "type": "Peaking",
+                "frequency": 2600,
+                "gain": 3,
+                "Q": 0.8
+},
+{
+                "type": "Peaking",
+                "frequency": 9200,
+                "gain": 10,
+                "Q": 1
+},
+{
+                "type": "Peaking",
+                "frequency": 320,
+                "gain": 2,
+                "Q": 1
+},
+{
+                "type": "Peaking",
+                "frequency": 180,
+                "gain": -2,
+                "Q": 1
+},
+{
+                "type": "Peaking",
+                "frequency": 75,
+                "gain": 0,
+                "Q": 0.9
+}
+]
+},
+"PostEQ": {
+"filters": [
+{
+                "type": "HighPass",
+                "frequency": 40,
+                "gain": 0,
+                "Q": 0.6
+},
+{
+                "type": "HighPass",
+                "frequency": 40,
+                "gain": 0,
+                "Q": 0.6
+},
+{
+                "type": "Peaking",
+                "frequency": 380,
+                "gain": -2,
+                "Q": 1.2
+}
+]
+},
+"limiter": {
+        "crossFreq": 320,
+"Lp": {
+            "ThresHold": -11,
+"HoldTime": 20.0,
+            "AttacTime": 1,
+            "ReleasTime": 1000
+},
+"Hp": {
+            "ThresHold": -9.2,
+"HoldTime": 20.0,
+            "AttacTime": 2,
+            "ReleasTime": 100
+}
+}
+}
+=======
+{
+"SampleRate": {
+        "Setting": 44100
+},
+"HeadRoom": {
+        "Setting": 4
+},
+"PreGain": {
+        "Setting": 5
+},
+"PostGain": {
+        "Setting": -4.5
+},
+"PreEQ": {
+"filters": [
+{
+                "type": "Peaking",
+                "frequency": 65,
+                "gain": 11,
+                "Q": 0.8
+},
+{
+                "type": "Peaking",
+                "frequency": 5800,
+                "gain": 2.5,
+                "Q": 0.7
+},
+{
+                "type": "Peaking",
+                "frequency": 2600,
+                "gain": 3,
+                "Q": 0.8
+},
+{
+                "type": "Peaking",
+                "frequency": 9200,
+                "gain": 10,
+                "Q": 1
+},
+{
+                "type": "Peaking",
+                "frequency": 320,
+                "gain": 2,
+                "Q": 1
+},
+{
+                "type": "Peaking",
+                "frequency": 180,
+                "gain": -2,
+                "Q": 1
+},
+{
+                "type": "Peaking",
+                "frequency": 75,
+                "gain": 0,
+                "Q": 0.9
+}
+]
+},
+"PostEQ": {
+"filters": [
+{
+                "type": "HighPass",
+                "frequency": 40,
+                "gain": 0,
+                "Q": 0.6
+},
+{
+                "type": "HighPass",
+                "frequency": 40,
+                "gain": 0,
+                "Q": 0.6
+},
+{
+                "type": "Peaking",
+                "frequency": 380,
+                "gain": -2,
+                "Q": 1.2
+}
+]
+},
+"limiter": {
+        "crossFreq": 320,
+"Lp": {
+            "ThresHold": -11,
+"HoldTime": 20.0,
+            "AttacTime": 1,
+            "ReleasTime": 1000
+},
+"Hp": {
+            "ThresHold": -9.2,
+"HoldTime": 20.0,
+            "AttacTime": 2,
+            "ReleasTime": 100
+}
+}
+}
+>>>>>>> origin

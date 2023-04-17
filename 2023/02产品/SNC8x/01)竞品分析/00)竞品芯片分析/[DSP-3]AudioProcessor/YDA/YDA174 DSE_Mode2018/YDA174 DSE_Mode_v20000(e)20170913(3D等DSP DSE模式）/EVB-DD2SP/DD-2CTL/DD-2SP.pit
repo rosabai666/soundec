@@ -1,0 +1,659 @@
+<<<<<<< HEAD
+32,FM synthesizer,Sample,Power_On_01,2,0E,0
+33,FM synthesizer,Sample,Power_Off_01,2,0E,0
+34,FM synthesizer,Sample,Power_On_02,2,0E,0
+35,FM synthesizer,Sample,Power_On_03,2,0E,0
+36,FM synthesizer,Sample,Power_On_04,2,0E,0
+37,FM synthesizer,Sample,Power_On_05,2,0E,0
+38,FM synthesizer,Sample,Power_On_06,2,0E,0
+39,FM synthesizer,Sample,Power_On_07,2,0E,0
+40,FM synthesizer,Sample,Power_On_08,2,0E,0
+41,FM synthesizer,Sample,Power_On_09,2,0E,0
+42,FM synthesizer,Sample,Power_On_10,2,0E,0
+43,FM synthesizer,Sample,Power_On_11,2,0E,0
+44,FM synthesizer,Sample,Power_On_12,2,0E,0
+45,FM synthesizer,Sample,Power_On_13,2,0E,0
+46,FM synthesizer,Sample,Power_On_14,2,0E,0
+47,FM synthesizer,Sample,Power_On_15,2,0E,0
+48,FM synthesizer,Sample,Power_On_16,2,0E,0
+49,FM synthesizer,Sample,Power_On_17,2,0E,0
+50,FM synthesizer,Sample,Power_On_18,2,0E,0
+51,FM synthesizer,Sample,Power_On_19,2,0E,0
+52,FM synthesizer,Sample,Power_On_20,2,0E,0
+53,FM synthesizer,Sample,Power_On_21,2,0E,0
+54,FM synthesizer,Sample,Power_On_22,2,0E,0
+55,FM synthesizer,Sample,Power_On_23,2,0E,0
+56,FM synthesizer,Sample,Power_On_24,2,0E,0
+57,FM synthesizer,Sample,Power_On_25,2,0E,0
+58,FM synthesizer,Sample,Power_On_26,2,0E,0
+59,FM synthesizer,Sample,Power_On_27,2,0E,0
+60,FM synthesizer,Sample,Power_On_28,2,0E,0
+61,FM synthesizer,Sample,Power_On_29,2,0E,0
+62,FM synthesizer,Sample,Power_On_30,2,0E,0
+63,FM synthesizer,Sample,Power_On_31,2,0E,0
+64,FM synthesizer,Sample,Power_On_32,2,0E,0
+65,FM synthesizer,Sample,Power_On_33,2,0E,0
+66,FM synthesizer,Sample,Power_On_34,2,0E,0
+67,FM synthesizer,Sample,Power_On_35,2,0E,0
+68,FM synthesizer,Sample,Power_On_36,2,0E,0
+69,FM synthesizer,Sample,Power_On_37,2,0E,0
+70,FM synthesizer,Sample,Power_On_38,2,0E,0
+71,FM synthesizer,Sample,Power_On_39,2,0E,0
+72,FM synthesizer,Sample,Operation_01,2,0E,0
+73,FM synthesizer,Sample,Operation_02,2,0E,0
+74,FM synthesizer,Sample,Operation_03,2,0E,0
+75,FM synthesizer,Sample,Operation_04,2,0E,0
+76,FM synthesizer,Sample,Operation_05,2,0E,0
+77,FM synthesizer,Sample,Comical_01,2,0E,0
+78,FM synthesizer,Sample,Pafopafo_01,2,0E,0
+79,FM synthesizer,Sample,Chime_01,2,0E,0
+80,FM synthesizer,Sample,Bicycle_01,2,0E,0
+81,FM synthesizer,Sample,Telephone_01,2,0E,0
+82,FM synthesizer,Sample,Announcement_01,2,0E,0
+83,FM synthesizer,Sample,Announcement_02,2,0E,0
+84,FM synthesizer,Sample,School_Bel_01,2,0E,0
+85,FM synthesizer,Sample,Spring_01,2,0E,0
+86,FM synthesizer,Sample,SL_01,2,0E,0
+87,FM synthesizer,Sample,Cat_01,2,0E,0
+88,FM synthesizer,Sample,Cuckoo_01,2,0E,0
+89,FM synthesizer,Sample,Chime_02,2,0E,0
+227,Common,Level,Level Zero,3,0E,0
+228,Common,Level,Level Low,3,0E,0
+229,Common,Level,Level Midlow,3,0E,0
+230,Common,Level,Level Mid,3,0E,0
+231,Common,Level,Level Midhigh,3,0E,0
+232,Common,Level,Level High,3,0E,0
+589,ILD,All,ILD SDI0 Sel,1,0E,0
+590,ILD,All,ILD SDI1 Sel,1,0E,0
+690,SV,Control,SV Immediate,1,0E,0
+691,SV,Control,SV Curve Fast,1,0E,0
+692,SV,Control,SV Curve Mid,1,0E,0
+693,SV,Control,SV Curve Slow,1,0E,0
+694,SV,Control,SV Ln DEQ0 Low,1,0E,0
+695,SV,Control,SV Ln DEQ0 High,1,0E,0
+696,SV,Control,SV Ln DEQ1 Low,1,0E,0
+697,SV,Control,SV Ln DEQ1 High,1,0E,0
+698,SV,Control,SV Through,1,0E,0
+699,SV,Control,SV Ln Through,1,0E,0
+700,SV,Control,SV Ln Active,1,0E,0
+703,SV,From +18.0 to +10.5 dB,SV +18.0dB,1,0E,0
+704,SV,From +18.0 to +10.5 dB,SV +17.5dB,1,0E,0
+705,SV,From +18.0 to +10.5 dB,SV +17.0dB,1,0E,0
+706,SV,From +18.0 to +10.5 dB,SV +16.5dB,1,0E,0
+707,SV,From +18.0 to +10.5 dB,SV +16.0dB,1,0E,0
+708,SV,From +18.0 to +10.5 dB,SV +15.5dB,1,0E,0
+709,SV,From +18.0 to +10.5 dB,SV +15.0dB,1,0E,0
+710,SV,From +18.0 to +10.5 dB,SV +14.5dB,1,0E,0
+711,SV,From +18.0 to +10.5 dB,SV +14.0dB,1,0E,0
+712,SV,From +18.0 to +10.5 dB,SV +13.5dB,1,0E,0
+713,SV,From +18.0 to +10.5 dB,SV +13.0dB,1,0E,0
+714,SV,From +18.0 to +10.5 dB,SV +12.5dB,1,0E,0
+715,SV,From +18.0 to +10.5 dB,SV +12.0dB,1,0E,0
+716,SV,From +18.0 to +10.5 dB,SV +11.5dB,1,0E,0
+717,SV,From +18.0 to +10.5 dB,SV +11.0dB,1,0E,0
+718,SV,From +18.0 to +10.5 dB,SV +10.5dB,1,0E,0
+719,SV,From +10.0 to +0.5 dB,SV +10.0dB,1,0E,0
+720,SV,From +10.0 to +0.5 dB,SV +9.5dB,1,0E,0
+721,SV,From +10.0 to +0.5 dB,SV +9.0dB,1,0E,0
+722,SV,From +10.0 to +0.5 dB,SV +8.5dB,1,0E,0
+723,SV,From +10.0 to +0.5 dB,SV +8.0dB,1,0E,0
+724,SV,From +10.0 to +0.5 dB,SV +7.5dB,1,0E,0
+725,SV,From +10.0 to +0.5 dB,SV +7.0dB,1,0E,0
+726,SV,From +10.0 to +0.5 dB,SV +6.5dB,1,0E,0
+727,SV,From +10.0 to +0.5 dB,SV +6.0dB,1,0E,0
+728,SV,From +10.0 to +0.5 dB,SV +5.5dB,1,0E,0
+729,SV,From +10.0 to +0.5 dB,SV +5.0dB,1,0E,0
+730,SV,From +10.0 to +0.5 dB,SV +4.5dB,1,0E,0
+731,SV,From +10.0 to +0.5 dB,SV +4.0dB,1,0E,0
+732,SV,From +10.0 to +0.5 dB,SV +3.5dB,1,0E,0
+733,SV,From +10.0 to +0.5 dB,SV +3.0dB,1,0E,0
+734,SV,From +10.0 to +0.5 dB,SV +2.5dB,1,0E,0
+735,SV,From +10.0 to +0.5 dB,SV +2.0dB,1,0E,0
+736,SV,From +10.0 to +0.5 dB,SV +1.5dB,1,0E,0
+737,SV,From +10.0 to +0.5 dB,SV +1.0dB,1,0E,0
+738,SV,From +10.0 to +0.5 dB,SV +0.5dB,1,0E,0
+739,SV,From 0.0 to -9.5 dB,SV 0.0dB,1,0E,0
+740,SV,From 0.0 to -9.5 dB,SV -0.5dB,1,0E,0
+741,SV,From 0.0 to -9.5 dB,SV -1.0dB,1,0E,0
+742,SV,From 0.0 to -9.5 dB,SV -1.5dB,1,0E,0
+743,SV,From 0.0 to -9.5 dB,SV -2.0dB,1,0E,0
+744,SV,From 0.0 to -9.5 dB,SV -2.5dB,1,0E,0
+745,SV,From 0.0 to -9.5 dB,SV -3.0dB,1,0E,0
+746,SV,From 0.0 to -9.5 dB,SV -3.5dB,1,0E,0
+747,SV,From 0.0 to -9.5 dB,SV -4.0dB,1,0E,0
+748,SV,From 0.0 to -9.5 dB,SV -4.5dB,1,0E,0
+749,SV,From 0.0 to -9.5 dB,SV -5.0dB,1,0E,0
+750,SV,From 0.0 to -9.5 dB,SV -5.5dB,1,0E,0
+751,SV,From 0.0 to -9.5 dB,SV -6.0dB,1,0E,0
+752,SV,From 0.0 to -9.5 dB,SV -6.5dB,1,0E,0
+753,SV,From 0.0 to -9.5 dB,SV -7.0dB,1,0E,0
+754,SV,From 0.0 to -9.5 dB,SV -7.5dB,1,0E,0
+755,SV,From 0.0 to -9.5 dB,SV -8.0dB,1,0E,0
+756,SV,From 0.0 to -9.5 dB,SV -8.5dB,1,0E,0
+757,SV,From 0.0 to -9.5 dB,SV -9.0dB,1,0E,0
+758,SV,From 0.0 to -9.5 dB,SV -9.5dB,1,0E,0
+759,SV,From -10.0 to -19.5 dB,SV -10.0dB,1,0E,0
+760,SV,From -10.0 to -19.5 dB,SV -10.5dB,1,0E,0
+761,SV,From -10.0 to -19.5 dB,SV -11.0dB,1,0E,0
+762,SV,From -10.0 to -19.5 dB,SV -11.5dB,1,0E,0
+763,SV,From -10.0 to -19.5 dB,SV -12.0dB,1,0E,0
+764,SV,From -10.0 to -19.5 dB,SV -12.5dB,1,0E,0
+765,SV,From -10.0 to -19.5 dB,SV -13.0dB,1,0E,0
+766,SV,From -10.0 to -19.5 dB,SV -13.5dB,1,0E,0
+767,SV,From -10.0 to -19.5 dB,SV -14.0dB,1,0E,0
+768,SV,From -10.0 to -19.5 dB,SV -14.5dB,1,0E,0
+769,SV,From -10.0 to -19.5 dB,SV -15.0dB,1,0E,0
+770,SV,From -10.0 to -19.5 dB,SV -15.5dB,1,0E,0
+771,SV,From -10.0 to -19.5 dB,SV -16.0dB,1,0E,0
+772,SV,From -10.0 to -19.5 dB,SV -16.5dB,1,0E,0
+773,SV,From -10.0 to -19.5 dB,SV -17.0dB,1,0E,0
+774,SV,From -10.0 to -19.5 dB,SV -17.5dB,1,0E,0
+775,SV,From -10.0 to -19.5 dB,SV -18.0dB,1,0E,0
+776,SV,From -10.0 to -19.5 dB,SV -18.5dB,1,0E,0
+777,SV,From -10.0 to -19.5 dB,SV -19.0dB,1,0E,0
+778,SV,From -10.0 to -19.5 dB,SV -19.5dB,1,0E,0
+779,SV,From -20.0 to -29.5 dB,SV -20.0dB,1,0E,0
+780,SV,From -20.0 to -29.5 dB,SV -20.5dB,1,0E,0
+781,SV,From -20.0 to -29.5 dB,SV -21.0dB,1,0E,0
+782,SV,From -20.0 to -29.5 dB,SV -21.5dB,1,0E,0
+783,SV,From -20.0 to -29.5 dB,SV -22.0dB,1,0E,0
+784,SV,From -20.0 to -29.5 dB,SV -22.5dB,1,0E,0
+785,SV,From -20.0 to -29.5 dB,SV -23.0dB,1,0E,0
+786,SV,From -20.0 to -29.5 dB,SV -23.5dB,1,0E,0
+787,SV,From -20.0 to -29.5 dB,SV -24.0dB,1,0E,0
+788,SV,From -20.0 to -29.5 dB,SV -24.5dB,1,0E,0
+789,SV,From -20.0 to -29.5 dB,SV -25.0dB,1,0E,0
+790,SV,From -20.0 to -29.5 dB,SV -25.5dB,1,0E,0
+791,SV,From -20.0 to -29.5 dB,SV -26.0dB,1,0E,0
+792,SV,From -20.0 to -29.5 dB,SV -26.5dB,1,0E,0
+793,SV,From -20.0 to -29.5 dB,SV -27.0dB,1,0E,0
+794,SV,From -20.0 to -29.5 dB,SV -27.5dB,1,0E,0
+795,SV,From -20.0 to -29.5 dB,SV -28.0dB,1,0E,0
+796,SV,From -20.0 to -29.5 dB,SV -28.5dB,1,0E,0
+797,SV,From -20.0 to -29.5 dB,SV -29.0dB,1,0E,0
+798,SV,From -20.0 to -29.5 dB,SV -29.5dB,1,0E,0
+799,SV,From -30.0 to -39.5 dB,SV -30.0dB,1,0E,0
+800,SV,From -30.0 to -39.5 dB,SV -30.5dB,1,0E,0
+801,SV,From -30.0 to -39.5 dB,SV -31.0dB,1,0E,0
+802,SV,From -30.0 to -39.5 dB,SV -31.5dB,1,0E,0
+803,SV,From -30.0 to -39.5 dB,SV -32.0dB,1,0E,0
+804,SV,From -30.0 to -39.5 dB,SV -32.5dB,1,0E,0
+805,SV,From -30.0 to -39.5 dB,SV -33.0dB,1,0E,0
+806,SV,From -30.0 to -39.5 dB,SV -33.5dB,1,0E,0
+807,SV,From -30.0 to -39.5 dB,SV -34.0dB,1,0E,0
+808,SV,From -30.0 to -39.5 dB,SV -34.5dB,1,0E,0
+809,SV,From -30.0 to -39.5 dB,SV -35.0dB,1,0E,0
+810,SV,From -30.0 to -39.5 dB,SV -35.5dB,1,0E,0
+811,SV,From -30.0 to -39.5 dB,SV -36.0dB,1,0E,0
+812,SV,From -30.0 to -39.5 dB,SV -36.5dB,1,0E,0
+813,SV,From -30.0 to -39.5 dB,SV -37.0dB,1,0E,0
+814,SV,From -30.0 to -39.5 dB,SV -37.5dB,1,0E,0
+815,SV,From -30.0 to -39.5 dB,SV -38.0dB,1,0E,0
+816,SV,From -30.0 to -39.5 dB,SV -38.5dB,1,0E,0
+817,SV,From -30.0 to -39.5 dB,SV -39.0dB,1,0E,0
+818,SV,From -30.0 to -39.5 dB,SV -39.5dB,1,0E,0
+819,SV,From -40.0 to -49.5 dB,SV -40.0dB,1,0E,0
+820,SV,From -40.0 to -49.5 dB,SV -40.5dB,1,0E,0
+821,SV,From -40.0 to -49.5 dB,SV -41.0dB,1,0E,0
+822,SV,From -40.0 to -49.5 dB,SV -41.5dB,1,0E,0
+823,SV,From -40.0 to -49.5 dB,SV -42.0dB,1,0E,0
+824,SV,From -40.0 to -49.5 dB,SV -42.5dB,1,0E,0
+825,SV,From -40.0 to -49.5 dB,SV -43.0dB,1,0E,0
+826,SV,From -40.0 to -49.5 dB,SV -43.5dB,1,0E,0
+827,SV,From -40.0 to -49.5 dB,SV -44.0dB,1,0E,0
+828,SV,From -40.0 to -49.5 dB,SV -44.5dB,1,0E,0
+829,SV,From -40.0 to -49.5 dB,SV -45.0dB,1,0E,0
+830,SV,From -40.0 to -49.5 dB,SV -45.5dB,1,0E,0
+831,SV,From -40.0 to -49.5 dB,SV -46.0dB,1,0E,0
+832,SV,From -40.0 to -49.5 dB,SV -46.5dB,1,0E,0
+833,SV,From -40.0 to -49.5 dB,SV -47.0dB,1,0E,0
+834,SV,From -40.0 to -49.5 dB,SV -47.5dB,1,0E,0
+835,SV,From -40.0 to -49.5 dB,SV -48.0dB,1,0E,0
+836,SV,From -40.0 to -49.5 dB,SV -48.5dB,1,0E,0
+837,SV,From -40.0 to -49.5 dB,SV -49.0dB,1,0E,0
+838,SV,From -40.0 to -49.5 dB,SV -49.5dB,1,0E,0
+839,SV,From -50.0 to -59.5 dB,SV -50.0dB,1,0E,0
+840,SV,From -50.0 to -59.5 dB,SV -50.5dB,1,0E,0
+841,SV,From -50.0 to -59.5 dB,SV -51.0dB,1,0E,0
+842,SV,From -50.0 to -59.5 dB,SV -51.5dB,1,0E,0
+843,SV,From -50.0 to -59.5 dB,SV -52.0dB,1,0E,0
+844,SV,From -50.0 to -59.5 dB,SV -52.5dB,1,0E,0
+845,SV,From -50.0 to -59.5 dB,SV -53.0dB,1,0E,0
+846,SV,From -50.0 to -59.5 dB,SV -53.5dB,1,0E,0
+847,SV,From -50.0 to -59.5 dB,SV -54.0dB,1,0E,0
+848,SV,From -50.0 to -59.5 dB,SV -54.5dB,1,0E,0
+849,SV,From -50.0 to -59.5 dB,SV -55.0dB,1,0E,0
+850,SV,From -50.0 to -59.5 dB,SV -55.5dB,1,0E,0
+851,SV,From -50.0 to -59.5 dB,SV -56.0dB,1,0E,0
+852,SV,From -50.0 to -59.5 dB,SV -56.5dB,1,0E,0
+853,SV,From -50.0 to -59.5 dB,SV -57.0dB,1,0E,0
+854,SV,From -50.0 to -59.5 dB,SV -57.5dB,1,0E,0
+855,SV,From -50.0 to -59.5 dB,SV -58.0dB,1,0E,0
+856,SV,From -50.0 to -59.5 dB,SV -58.5dB,1,0E,0
+857,SV,From -50.0 to -59.5 dB,SV -59.0dB,1,0E,0
+858,SV,From -50.0 to -59.5 dB,SV -59.5dB,1,0E,0
+859,SV,From -60.0 to -69.5 dB,SV -60.0dB,1,0E,0
+860,SV,From -60.0 to -69.5 dB,SV -60.5dB,1,0E,0
+861,SV,From -60.0 to -69.5 dB,SV -61.0dB,1,0E,0
+862,SV,From -60.0 to -69.5 dB,SV -61.5dB,1,0E,0
+863,SV,From -60.0 to -69.5 dB,SV -62.0dB,1,0E,0
+864,SV,From -60.0 to -69.5 dB,SV -62.5dB,1,0E,0
+865,SV,From -60.0 to -69.5 dB,SV -63.0dB,1,0E,0
+866,SV,From -60.0 to -69.5 dB,SV -63.5dB,1,0E,0
+867,SV,From -60.0 to -69.5 dB,SV -64.0dB,1,0E,0
+868,SV,From -60.0 to -69.5 dB,SV -64.5dB,1,0E,0
+869,SV,From -60.0 to -69.5 dB,SV -65.0dB,1,0E,0
+870,SV,From -60.0 to -69.5 dB,SV -65.5dB,1,0E,0
+871,SV,From -60.0 to -69.5 dB,SV -66.0dB,1,0E,0
+872,SV,From -60.0 to -69.5 dB,SV -66.5dB,1,0E,0
+873,SV,From -60.0 to -69.5 dB,SV -67.0dB,1,0E,0
+874,SV,From -60.0 to -69.5 dB,SV -67.5dB,1,0E,0
+875,SV,From -60.0 to -69.5 dB,SV -68.0dB,1,0E,0
+876,SV,From -60.0 to -69.5 dB,SV -68.5dB,1,0E,0
+877,SV,From -60.0 to -69.5 dB,SV -69.0dB,1,0E,0
+878,SV,From -60.0 to -69.5 dB,SV -69.5dB,1,0E,0
+879,SV,From -70.0 to -79.5 dB,SV -70.0dB,1,0E,0
+880,SV,From -70.0 to -79.5 dB,SV -70.5dB,1,0E,0
+881,SV,From -70.0 to -79.5 dB,SV -71.0dB,1,0E,0
+882,SV,From -70.0 to -79.5 dB,SV -71.5dB,1,0E,0
+883,SV,From -70.0 to -79.5 dB,SV -72.0dB,1,0E,0
+884,SV,From -70.0 to -79.5 dB,SV -72.5dB,1,0E,0
+885,SV,From -70.0 to -79.5 dB,SV -73.0dB,1,0E,0
+886,SV,From -70.0 to -79.5 dB,SV -73.5dB,1,0E,0
+887,SV,From -70.0 to -79.5 dB,SV -74.0dB,1,0E,0
+888,SV,From -70.0 to -79.5 dB,SV -74.5dB,1,0E,0
+889,SV,From -70.0 to -79.5 dB,SV -75.0dB,1,0E,0
+890,SV,From -70.0 to -79.5 dB,SV -75.5dB,1,0E,0
+891,SV,From -70.0 to -79.5 dB,SV -76.0dB,1,0E,0
+892,SV,From -70.0 to -79.5 dB,SV -76.5dB,1,0E,0
+893,SV,From -70.0 to -79.5 dB,SV -77.0dB,1,0E,0
+894,SV,From -70.0 to -79.5 dB,SV -77.5dB,1,0E,0
+895,SV,From -70.0 to -79.5 dB,SV -78.0dB,1,0E,0
+896,SV,From -70.0 to -79.5 dB,SV -78.5dB,1,0E,0
+897,SV,From -70.0 to -79.5 dB,SV -79.0dB,1,0E,0
+898,SV,From -70.0 to -79.5 dB,SV -79.5dB,1,0E,0
+899,SV,From -80.0 to -89.5 dB,SV -80.0dB,1,0E,0
+900,SV,From -80.0 to -89.5 dB,SV -80.5dB,1,0E,0
+901,SV,From -80.0 to -89.5 dB,SV -81.0dB,1,0E,0
+902,SV,From -80.0 to -89.5 dB,SV -81.5dB,1,0E,0
+903,SV,From -80.0 to -89.5 dB,SV -82.0dB,1,0E,0
+904,SV,From -80.0 to -89.5 dB,SV -82.5dB,1,0E,0
+905,SV,From -80.0 to -89.5 dB,SV -83.0dB,1,0E,0
+906,SV,From -80.0 to -89.5 dB,SV -83.5dB,1,0E,0
+907,SV,From -80.0 to -89.5 dB,SV -84.0dB,1,0E,0
+908,SV,From -80.0 to -89.5 dB,SV -84.5dB,1,0E,0
+909,SV,From -80.0 to -89.5 dB,SV -85.0dB,1,0E,0
+910,SV,From -80.0 to -89.5 dB,SV -85.5dB,1,0E,0
+911,SV,From -80.0 to -89.5 dB,SV -86.0dB,1,0E,0
+912,SV,From -80.0 to -89.5 dB,SV -86.5dB,1,0E,0
+913,SV,From -80.0 to -89.5 dB,SV -87.0dB,1,0E,0
+914,SV,From -80.0 to -89.5 dB,SV -87.5dB,1,0E,0
+915,SV,From -80.0 to -89.5 dB,SV -88.0dB,1,0E,0
+916,SV,From -80.0 to -89.5 dB,SV -88.5dB,1,0E,0
+917,SV,From -80.0 to -89.5 dB,SV -89.0dB,1,0E,0
+918,SV,From -80.0 to -89.5 dB,SV -89.5dB,1,0E,0
+919,SV,From -90.0 to -99.5 dB,SV -90.0dB,1,0E,0
+920,SV,From -90.0 to -99.5 dB,SV -90.5dB,1,0E,0
+921,SV,From -90.0 to -99.5 dB,SV -91.0dB,1,0E,0
+922,SV,From -90.0 to -99.5 dB,SV -91.5dB,1,0E,0
+923,SV,From -90.0 to -99.5 dB,SV -92.0dB,1,0E,0
+924,SV,From -90.0 to -99.5 dB,SV -92.5dB,1,0E,0
+925,SV,From -90.0 to -99.5 dB,SV -93.0dB,1,0E,0
+926,SV,From -90.0 to -99.5 dB,SV -93.5dB,1,0E,0
+927,SV,From -90.0 to -99.5 dB,SV -94.0dB,1,0E,0
+928,SV,From -90.0 to -99.5 dB,SV -94.5dB,1,0E,0
+929,SV,From -90.0 to -99.5 dB,SV -95.0dB,1,0E,0
+930,SV,From -90.0 to -99.5 dB,SV -95.5dB,1,0E,0
+931,SV,From -90.0 to -99.5 dB,SV -96.0dB,1,0E,0
+932,SV,From -90.0 to -99.5 dB,SV -96.5dB,1,0E,0
+933,SV,From -90.0 to -99.5 dB,SV -97.0dB,1,0E,0
+934,SV,From -90.0 to -99.5 dB,SV -97.5dB,1,0E,0
+935,SV,From -90.0 to -99.5 dB,SV -98.0dB,1,0E,0
+936,SV,From -90.0 to -99.5 dB,SV -98.5dB,1,0E,0
+937,SV,From -90.0 to -99.5 dB,SV -99.0dB,1,0E,0
+938,SV,From -90.0 to -99.5 dB,SV -99.5dB,1,0E,0
+939,SV,From -100.0 to -128.0 dB,SV -100.0dB,1,0E,0
+940,SV,From -100.0 to -128.0 dB,SV -102.0dB,1,0E,0
+941,SV,From -100.0 to -128.0 dB,SV -104.0dB,1,0E,0
+942,SV,From -100.0 to -128.0 dB,SV -106.0dB,1,0E,0
+943,SV,From -100.0 to -128.0 dB,SV -108.0dB,1,0E,0
+944,SV,From -100.0 to -128.0 dB,SV -110.0dB,1,0E,0
+945,SV,From -100.0 to -128.0 dB,SV -112.0dB,1,0E,0
+946,SV,From -100.0 to -128.0 dB,SV -114.0dB,1,0E,0
+947,SV,From -100.0 to -128.0 dB,SV -116.0dB,1,0E,0
+948,SV,From -100.0 to -128.0 dB,SV -118.0dB,1,0E,0
+949,SV,From -100.0 to -128.0 dB,SV -120.0dB,1,0E,0
+950,SV,From -100.0 to -128.0 dB,SV -122.0dB,1,0E,0
+951,SV,From -100.0 to -128.0 dB,SV -124.0dB,1,0E,0
+952,SV,From -100.0 to -128.0 dB,SV -126.0dB,1,0E,0
+953,SV,From -100.0 to -128.0 dB,SV -128.0dB,1,0E,0
+=======
+32,FM synthesizer,Sample,Power_On_01,2,0E,0
+33,FM synthesizer,Sample,Power_Off_01,2,0E,0
+34,FM synthesizer,Sample,Power_On_02,2,0E,0
+35,FM synthesizer,Sample,Power_On_03,2,0E,0
+36,FM synthesizer,Sample,Power_On_04,2,0E,0
+37,FM synthesizer,Sample,Power_On_05,2,0E,0
+38,FM synthesizer,Sample,Power_On_06,2,0E,0
+39,FM synthesizer,Sample,Power_On_07,2,0E,0
+40,FM synthesizer,Sample,Power_On_08,2,0E,0
+41,FM synthesizer,Sample,Power_On_09,2,0E,0
+42,FM synthesizer,Sample,Power_On_10,2,0E,0
+43,FM synthesizer,Sample,Power_On_11,2,0E,0
+44,FM synthesizer,Sample,Power_On_12,2,0E,0
+45,FM synthesizer,Sample,Power_On_13,2,0E,0
+46,FM synthesizer,Sample,Power_On_14,2,0E,0
+47,FM synthesizer,Sample,Power_On_15,2,0E,0
+48,FM synthesizer,Sample,Power_On_16,2,0E,0
+49,FM synthesizer,Sample,Power_On_17,2,0E,0
+50,FM synthesizer,Sample,Power_On_18,2,0E,0
+51,FM synthesizer,Sample,Power_On_19,2,0E,0
+52,FM synthesizer,Sample,Power_On_20,2,0E,0
+53,FM synthesizer,Sample,Power_On_21,2,0E,0
+54,FM synthesizer,Sample,Power_On_22,2,0E,0
+55,FM synthesizer,Sample,Power_On_23,2,0E,0
+56,FM synthesizer,Sample,Power_On_24,2,0E,0
+57,FM synthesizer,Sample,Power_On_25,2,0E,0
+58,FM synthesizer,Sample,Power_On_26,2,0E,0
+59,FM synthesizer,Sample,Power_On_27,2,0E,0
+60,FM synthesizer,Sample,Power_On_28,2,0E,0
+61,FM synthesizer,Sample,Power_On_29,2,0E,0
+62,FM synthesizer,Sample,Power_On_30,2,0E,0
+63,FM synthesizer,Sample,Power_On_31,2,0E,0
+64,FM synthesizer,Sample,Power_On_32,2,0E,0
+65,FM synthesizer,Sample,Power_On_33,2,0E,0
+66,FM synthesizer,Sample,Power_On_34,2,0E,0
+67,FM synthesizer,Sample,Power_On_35,2,0E,0
+68,FM synthesizer,Sample,Power_On_36,2,0E,0
+69,FM synthesizer,Sample,Power_On_37,2,0E,0
+70,FM synthesizer,Sample,Power_On_38,2,0E,0
+71,FM synthesizer,Sample,Power_On_39,2,0E,0
+72,FM synthesizer,Sample,Operation_01,2,0E,0
+73,FM synthesizer,Sample,Operation_02,2,0E,0
+74,FM synthesizer,Sample,Operation_03,2,0E,0
+75,FM synthesizer,Sample,Operation_04,2,0E,0
+76,FM synthesizer,Sample,Operation_05,2,0E,0
+77,FM synthesizer,Sample,Comical_01,2,0E,0
+78,FM synthesizer,Sample,Pafopafo_01,2,0E,0
+79,FM synthesizer,Sample,Chime_01,2,0E,0
+80,FM synthesizer,Sample,Bicycle_01,2,0E,0
+81,FM synthesizer,Sample,Telephone_01,2,0E,0
+82,FM synthesizer,Sample,Announcement_01,2,0E,0
+83,FM synthesizer,Sample,Announcement_02,2,0E,0
+84,FM synthesizer,Sample,School_Bel_01,2,0E,0
+85,FM synthesizer,Sample,Spring_01,2,0E,0
+86,FM synthesizer,Sample,SL_01,2,0E,0
+87,FM synthesizer,Sample,Cat_01,2,0E,0
+88,FM synthesizer,Sample,Cuckoo_01,2,0E,0
+89,FM synthesizer,Sample,Chime_02,2,0E,0
+227,Common,Level,Level Zero,3,0E,0
+228,Common,Level,Level Low,3,0E,0
+229,Common,Level,Level Midlow,3,0E,0
+230,Common,Level,Level Mid,3,0E,0
+231,Common,Level,Level Midhigh,3,0E,0
+232,Common,Level,Level High,3,0E,0
+589,ILD,All,ILD SDI0 Sel,1,0E,0
+590,ILD,All,ILD SDI1 Sel,1,0E,0
+690,SV,Control,SV Immediate,1,0E,0
+691,SV,Control,SV Curve Fast,1,0E,0
+692,SV,Control,SV Curve Mid,1,0E,0
+693,SV,Control,SV Curve Slow,1,0E,0
+694,SV,Control,SV Ln DEQ0 Low,1,0E,0
+695,SV,Control,SV Ln DEQ0 High,1,0E,0
+696,SV,Control,SV Ln DEQ1 Low,1,0E,0
+697,SV,Control,SV Ln DEQ1 High,1,0E,0
+698,SV,Control,SV Through,1,0E,0
+699,SV,Control,SV Ln Through,1,0E,0
+700,SV,Control,SV Ln Active,1,0E,0
+703,SV,From +18.0 to +10.5 dB,SV +18.0dB,1,0E,0
+704,SV,From +18.0 to +10.5 dB,SV +17.5dB,1,0E,0
+705,SV,From +18.0 to +10.5 dB,SV +17.0dB,1,0E,0
+706,SV,From +18.0 to +10.5 dB,SV +16.5dB,1,0E,0
+707,SV,From +18.0 to +10.5 dB,SV +16.0dB,1,0E,0
+708,SV,From +18.0 to +10.5 dB,SV +15.5dB,1,0E,0
+709,SV,From +18.0 to +10.5 dB,SV +15.0dB,1,0E,0
+710,SV,From +18.0 to +10.5 dB,SV +14.5dB,1,0E,0
+711,SV,From +18.0 to +10.5 dB,SV +14.0dB,1,0E,0
+712,SV,From +18.0 to +10.5 dB,SV +13.5dB,1,0E,0
+713,SV,From +18.0 to +10.5 dB,SV +13.0dB,1,0E,0
+714,SV,From +18.0 to +10.5 dB,SV +12.5dB,1,0E,0
+715,SV,From +18.0 to +10.5 dB,SV +12.0dB,1,0E,0
+716,SV,From +18.0 to +10.5 dB,SV +11.5dB,1,0E,0
+717,SV,From +18.0 to +10.5 dB,SV +11.0dB,1,0E,0
+718,SV,From +18.0 to +10.5 dB,SV +10.5dB,1,0E,0
+719,SV,From +10.0 to +0.5 dB,SV +10.0dB,1,0E,0
+720,SV,From +10.0 to +0.5 dB,SV +9.5dB,1,0E,0
+721,SV,From +10.0 to +0.5 dB,SV +9.0dB,1,0E,0
+722,SV,From +10.0 to +0.5 dB,SV +8.5dB,1,0E,0
+723,SV,From +10.0 to +0.5 dB,SV +8.0dB,1,0E,0
+724,SV,From +10.0 to +0.5 dB,SV +7.5dB,1,0E,0
+725,SV,From +10.0 to +0.5 dB,SV +7.0dB,1,0E,0
+726,SV,From +10.0 to +0.5 dB,SV +6.5dB,1,0E,0
+727,SV,From +10.0 to +0.5 dB,SV +6.0dB,1,0E,0
+728,SV,From +10.0 to +0.5 dB,SV +5.5dB,1,0E,0
+729,SV,From +10.0 to +0.5 dB,SV +5.0dB,1,0E,0
+730,SV,From +10.0 to +0.5 dB,SV +4.5dB,1,0E,0
+731,SV,From +10.0 to +0.5 dB,SV +4.0dB,1,0E,0
+732,SV,From +10.0 to +0.5 dB,SV +3.5dB,1,0E,0
+733,SV,From +10.0 to +0.5 dB,SV +3.0dB,1,0E,0
+734,SV,From +10.0 to +0.5 dB,SV +2.5dB,1,0E,0
+735,SV,From +10.0 to +0.5 dB,SV +2.0dB,1,0E,0
+736,SV,From +10.0 to +0.5 dB,SV +1.5dB,1,0E,0
+737,SV,From +10.0 to +0.5 dB,SV +1.0dB,1,0E,0
+738,SV,From +10.0 to +0.5 dB,SV +0.5dB,1,0E,0
+739,SV,From 0.0 to -9.5 dB,SV 0.0dB,1,0E,0
+740,SV,From 0.0 to -9.5 dB,SV -0.5dB,1,0E,0
+741,SV,From 0.0 to -9.5 dB,SV -1.0dB,1,0E,0
+742,SV,From 0.0 to -9.5 dB,SV -1.5dB,1,0E,0
+743,SV,From 0.0 to -9.5 dB,SV -2.0dB,1,0E,0
+744,SV,From 0.0 to -9.5 dB,SV -2.5dB,1,0E,0
+745,SV,From 0.0 to -9.5 dB,SV -3.0dB,1,0E,0
+746,SV,From 0.0 to -9.5 dB,SV -3.5dB,1,0E,0
+747,SV,From 0.0 to -9.5 dB,SV -4.0dB,1,0E,0
+748,SV,From 0.0 to -9.5 dB,SV -4.5dB,1,0E,0
+749,SV,From 0.0 to -9.5 dB,SV -5.0dB,1,0E,0
+750,SV,From 0.0 to -9.5 dB,SV -5.5dB,1,0E,0
+751,SV,From 0.0 to -9.5 dB,SV -6.0dB,1,0E,0
+752,SV,From 0.0 to -9.5 dB,SV -6.5dB,1,0E,0
+753,SV,From 0.0 to -9.5 dB,SV -7.0dB,1,0E,0
+754,SV,From 0.0 to -9.5 dB,SV -7.5dB,1,0E,0
+755,SV,From 0.0 to -9.5 dB,SV -8.0dB,1,0E,0
+756,SV,From 0.0 to -9.5 dB,SV -8.5dB,1,0E,0
+757,SV,From 0.0 to -9.5 dB,SV -9.0dB,1,0E,0
+758,SV,From 0.0 to -9.5 dB,SV -9.5dB,1,0E,0
+759,SV,From -10.0 to -19.5 dB,SV -10.0dB,1,0E,0
+760,SV,From -10.0 to -19.5 dB,SV -10.5dB,1,0E,0
+761,SV,From -10.0 to -19.5 dB,SV -11.0dB,1,0E,0
+762,SV,From -10.0 to -19.5 dB,SV -11.5dB,1,0E,0
+763,SV,From -10.0 to -19.5 dB,SV -12.0dB,1,0E,0
+764,SV,From -10.0 to -19.5 dB,SV -12.5dB,1,0E,0
+765,SV,From -10.0 to -19.5 dB,SV -13.0dB,1,0E,0
+766,SV,From -10.0 to -19.5 dB,SV -13.5dB,1,0E,0
+767,SV,From -10.0 to -19.5 dB,SV -14.0dB,1,0E,0
+768,SV,From -10.0 to -19.5 dB,SV -14.5dB,1,0E,0
+769,SV,From -10.0 to -19.5 dB,SV -15.0dB,1,0E,0
+770,SV,From -10.0 to -19.5 dB,SV -15.5dB,1,0E,0
+771,SV,From -10.0 to -19.5 dB,SV -16.0dB,1,0E,0
+772,SV,From -10.0 to -19.5 dB,SV -16.5dB,1,0E,0
+773,SV,From -10.0 to -19.5 dB,SV -17.0dB,1,0E,0
+774,SV,From -10.0 to -19.5 dB,SV -17.5dB,1,0E,0
+775,SV,From -10.0 to -19.5 dB,SV -18.0dB,1,0E,0
+776,SV,From -10.0 to -19.5 dB,SV -18.5dB,1,0E,0
+777,SV,From -10.0 to -19.5 dB,SV -19.0dB,1,0E,0
+778,SV,From -10.0 to -19.5 dB,SV -19.5dB,1,0E,0
+779,SV,From -20.0 to -29.5 dB,SV -20.0dB,1,0E,0
+780,SV,From -20.0 to -29.5 dB,SV -20.5dB,1,0E,0
+781,SV,From -20.0 to -29.5 dB,SV -21.0dB,1,0E,0
+782,SV,From -20.0 to -29.5 dB,SV -21.5dB,1,0E,0
+783,SV,From -20.0 to -29.5 dB,SV -22.0dB,1,0E,0
+784,SV,From -20.0 to -29.5 dB,SV -22.5dB,1,0E,0
+785,SV,From -20.0 to -29.5 dB,SV -23.0dB,1,0E,0
+786,SV,From -20.0 to -29.5 dB,SV -23.5dB,1,0E,0
+787,SV,From -20.0 to -29.5 dB,SV -24.0dB,1,0E,0
+788,SV,From -20.0 to -29.5 dB,SV -24.5dB,1,0E,0
+789,SV,From -20.0 to -29.5 dB,SV -25.0dB,1,0E,0
+790,SV,From -20.0 to -29.5 dB,SV -25.5dB,1,0E,0
+791,SV,From -20.0 to -29.5 dB,SV -26.0dB,1,0E,0
+792,SV,From -20.0 to -29.5 dB,SV -26.5dB,1,0E,0
+793,SV,From -20.0 to -29.5 dB,SV -27.0dB,1,0E,0
+794,SV,From -20.0 to -29.5 dB,SV -27.5dB,1,0E,0
+795,SV,From -20.0 to -29.5 dB,SV -28.0dB,1,0E,0
+796,SV,From -20.0 to -29.5 dB,SV -28.5dB,1,0E,0
+797,SV,From -20.0 to -29.5 dB,SV -29.0dB,1,0E,0
+798,SV,From -20.0 to -29.5 dB,SV -29.5dB,1,0E,0
+799,SV,From -30.0 to -39.5 dB,SV -30.0dB,1,0E,0
+800,SV,From -30.0 to -39.5 dB,SV -30.5dB,1,0E,0
+801,SV,From -30.0 to -39.5 dB,SV -31.0dB,1,0E,0
+802,SV,From -30.0 to -39.5 dB,SV -31.5dB,1,0E,0
+803,SV,From -30.0 to -39.5 dB,SV -32.0dB,1,0E,0
+804,SV,From -30.0 to -39.5 dB,SV -32.5dB,1,0E,0
+805,SV,From -30.0 to -39.5 dB,SV -33.0dB,1,0E,0
+806,SV,From -30.0 to -39.5 dB,SV -33.5dB,1,0E,0
+807,SV,From -30.0 to -39.5 dB,SV -34.0dB,1,0E,0
+808,SV,From -30.0 to -39.5 dB,SV -34.5dB,1,0E,0
+809,SV,From -30.0 to -39.5 dB,SV -35.0dB,1,0E,0
+810,SV,From -30.0 to -39.5 dB,SV -35.5dB,1,0E,0
+811,SV,From -30.0 to -39.5 dB,SV -36.0dB,1,0E,0
+812,SV,From -30.0 to -39.5 dB,SV -36.5dB,1,0E,0
+813,SV,From -30.0 to -39.5 dB,SV -37.0dB,1,0E,0
+814,SV,From -30.0 to -39.5 dB,SV -37.5dB,1,0E,0
+815,SV,From -30.0 to -39.5 dB,SV -38.0dB,1,0E,0
+816,SV,From -30.0 to -39.5 dB,SV -38.5dB,1,0E,0
+817,SV,From -30.0 to -39.5 dB,SV -39.0dB,1,0E,0
+818,SV,From -30.0 to -39.5 dB,SV -39.5dB,1,0E,0
+819,SV,From -40.0 to -49.5 dB,SV -40.0dB,1,0E,0
+820,SV,From -40.0 to -49.5 dB,SV -40.5dB,1,0E,0
+821,SV,From -40.0 to -49.5 dB,SV -41.0dB,1,0E,0
+822,SV,From -40.0 to -49.5 dB,SV -41.5dB,1,0E,0
+823,SV,From -40.0 to -49.5 dB,SV -42.0dB,1,0E,0
+824,SV,From -40.0 to -49.5 dB,SV -42.5dB,1,0E,0
+825,SV,From -40.0 to -49.5 dB,SV -43.0dB,1,0E,0
+826,SV,From -40.0 to -49.5 dB,SV -43.5dB,1,0E,0
+827,SV,From -40.0 to -49.5 dB,SV -44.0dB,1,0E,0
+828,SV,From -40.0 to -49.5 dB,SV -44.5dB,1,0E,0
+829,SV,From -40.0 to -49.5 dB,SV -45.0dB,1,0E,0
+830,SV,From -40.0 to -49.5 dB,SV -45.5dB,1,0E,0
+831,SV,From -40.0 to -49.5 dB,SV -46.0dB,1,0E,0
+832,SV,From -40.0 to -49.5 dB,SV -46.5dB,1,0E,0
+833,SV,From -40.0 to -49.5 dB,SV -47.0dB,1,0E,0
+834,SV,From -40.0 to -49.5 dB,SV -47.5dB,1,0E,0
+835,SV,From -40.0 to -49.5 dB,SV -48.0dB,1,0E,0
+836,SV,From -40.0 to -49.5 dB,SV -48.5dB,1,0E,0
+837,SV,From -40.0 to -49.5 dB,SV -49.0dB,1,0E,0
+838,SV,From -40.0 to -49.5 dB,SV -49.5dB,1,0E,0
+839,SV,From -50.0 to -59.5 dB,SV -50.0dB,1,0E,0
+840,SV,From -50.0 to -59.5 dB,SV -50.5dB,1,0E,0
+841,SV,From -50.0 to -59.5 dB,SV -51.0dB,1,0E,0
+842,SV,From -50.0 to -59.5 dB,SV -51.5dB,1,0E,0
+843,SV,From -50.0 to -59.5 dB,SV -52.0dB,1,0E,0
+844,SV,From -50.0 to -59.5 dB,SV -52.5dB,1,0E,0
+845,SV,From -50.0 to -59.5 dB,SV -53.0dB,1,0E,0
+846,SV,From -50.0 to -59.5 dB,SV -53.5dB,1,0E,0
+847,SV,From -50.0 to -59.5 dB,SV -54.0dB,1,0E,0
+848,SV,From -50.0 to -59.5 dB,SV -54.5dB,1,0E,0
+849,SV,From -50.0 to -59.5 dB,SV -55.0dB,1,0E,0
+850,SV,From -50.0 to -59.5 dB,SV -55.5dB,1,0E,0
+851,SV,From -50.0 to -59.5 dB,SV -56.0dB,1,0E,0
+852,SV,From -50.0 to -59.5 dB,SV -56.5dB,1,0E,0
+853,SV,From -50.0 to -59.5 dB,SV -57.0dB,1,0E,0
+854,SV,From -50.0 to -59.5 dB,SV -57.5dB,1,0E,0
+855,SV,From -50.0 to -59.5 dB,SV -58.0dB,1,0E,0
+856,SV,From -50.0 to -59.5 dB,SV -58.5dB,1,0E,0
+857,SV,From -50.0 to -59.5 dB,SV -59.0dB,1,0E,0
+858,SV,From -50.0 to -59.5 dB,SV -59.5dB,1,0E,0
+859,SV,From -60.0 to -69.5 dB,SV -60.0dB,1,0E,0
+860,SV,From -60.0 to -69.5 dB,SV -60.5dB,1,0E,0
+861,SV,From -60.0 to -69.5 dB,SV -61.0dB,1,0E,0
+862,SV,From -60.0 to -69.5 dB,SV -61.5dB,1,0E,0
+863,SV,From -60.0 to -69.5 dB,SV -62.0dB,1,0E,0
+864,SV,From -60.0 to -69.5 dB,SV -62.5dB,1,0E,0
+865,SV,From -60.0 to -69.5 dB,SV -63.0dB,1,0E,0
+866,SV,From -60.0 to -69.5 dB,SV -63.5dB,1,0E,0
+867,SV,From -60.0 to -69.5 dB,SV -64.0dB,1,0E,0
+868,SV,From -60.0 to -69.5 dB,SV -64.5dB,1,0E,0
+869,SV,From -60.0 to -69.5 dB,SV -65.0dB,1,0E,0
+870,SV,From -60.0 to -69.5 dB,SV -65.5dB,1,0E,0
+871,SV,From -60.0 to -69.5 dB,SV -66.0dB,1,0E,0
+872,SV,From -60.0 to -69.5 dB,SV -66.5dB,1,0E,0
+873,SV,From -60.0 to -69.5 dB,SV -67.0dB,1,0E,0
+874,SV,From -60.0 to -69.5 dB,SV -67.5dB,1,0E,0
+875,SV,From -60.0 to -69.5 dB,SV -68.0dB,1,0E,0
+876,SV,From -60.0 to -69.5 dB,SV -68.5dB,1,0E,0
+877,SV,From -60.0 to -69.5 dB,SV -69.0dB,1,0E,0
+878,SV,From -60.0 to -69.5 dB,SV -69.5dB,1,0E,0
+879,SV,From -70.0 to -79.5 dB,SV -70.0dB,1,0E,0
+880,SV,From -70.0 to -79.5 dB,SV -70.5dB,1,0E,0
+881,SV,From -70.0 to -79.5 dB,SV -71.0dB,1,0E,0
+882,SV,From -70.0 to -79.5 dB,SV -71.5dB,1,0E,0
+883,SV,From -70.0 to -79.5 dB,SV -72.0dB,1,0E,0
+884,SV,From -70.0 to -79.5 dB,SV -72.5dB,1,0E,0
+885,SV,From -70.0 to -79.5 dB,SV -73.0dB,1,0E,0
+886,SV,From -70.0 to -79.5 dB,SV -73.5dB,1,0E,0
+887,SV,From -70.0 to -79.5 dB,SV -74.0dB,1,0E,0
+888,SV,From -70.0 to -79.5 dB,SV -74.5dB,1,0E,0
+889,SV,From -70.0 to -79.5 dB,SV -75.0dB,1,0E,0
+890,SV,From -70.0 to -79.5 dB,SV -75.5dB,1,0E,0
+891,SV,From -70.0 to -79.5 dB,SV -76.0dB,1,0E,0
+892,SV,From -70.0 to -79.5 dB,SV -76.5dB,1,0E,0
+893,SV,From -70.0 to -79.5 dB,SV -77.0dB,1,0E,0
+894,SV,From -70.0 to -79.5 dB,SV -77.5dB,1,0E,0
+895,SV,From -70.0 to -79.5 dB,SV -78.0dB,1,0E,0
+896,SV,From -70.0 to -79.5 dB,SV -78.5dB,1,0E,0
+897,SV,From -70.0 to -79.5 dB,SV -79.0dB,1,0E,0
+898,SV,From -70.0 to -79.5 dB,SV -79.5dB,1,0E,0
+899,SV,From -80.0 to -89.5 dB,SV -80.0dB,1,0E,0
+900,SV,From -80.0 to -89.5 dB,SV -80.5dB,1,0E,0
+901,SV,From -80.0 to -89.5 dB,SV -81.0dB,1,0E,0
+902,SV,From -80.0 to -89.5 dB,SV -81.5dB,1,0E,0
+903,SV,From -80.0 to -89.5 dB,SV -82.0dB,1,0E,0
+904,SV,From -80.0 to -89.5 dB,SV -82.5dB,1,0E,0
+905,SV,From -80.0 to -89.5 dB,SV -83.0dB,1,0E,0
+906,SV,From -80.0 to -89.5 dB,SV -83.5dB,1,0E,0
+907,SV,From -80.0 to -89.5 dB,SV -84.0dB,1,0E,0
+908,SV,From -80.0 to -89.5 dB,SV -84.5dB,1,0E,0
+909,SV,From -80.0 to -89.5 dB,SV -85.0dB,1,0E,0
+910,SV,From -80.0 to -89.5 dB,SV -85.5dB,1,0E,0
+911,SV,From -80.0 to -89.5 dB,SV -86.0dB,1,0E,0
+912,SV,From -80.0 to -89.5 dB,SV -86.5dB,1,0E,0
+913,SV,From -80.0 to -89.5 dB,SV -87.0dB,1,0E,0
+914,SV,From -80.0 to -89.5 dB,SV -87.5dB,1,0E,0
+915,SV,From -80.0 to -89.5 dB,SV -88.0dB,1,0E,0
+916,SV,From -80.0 to -89.5 dB,SV -88.5dB,1,0E,0
+917,SV,From -80.0 to -89.5 dB,SV -89.0dB,1,0E,0
+918,SV,From -80.0 to -89.5 dB,SV -89.5dB,1,0E,0
+919,SV,From -90.0 to -99.5 dB,SV -90.0dB,1,0E,0
+920,SV,From -90.0 to -99.5 dB,SV -90.5dB,1,0E,0
+921,SV,From -90.0 to -99.5 dB,SV -91.0dB,1,0E,0
+922,SV,From -90.0 to -99.5 dB,SV -91.5dB,1,0E,0
+923,SV,From -90.0 to -99.5 dB,SV -92.0dB,1,0E,0
+924,SV,From -90.0 to -99.5 dB,SV -92.5dB,1,0E,0
+925,SV,From -90.0 to -99.5 dB,SV -93.0dB,1,0E,0
+926,SV,From -90.0 to -99.5 dB,SV -93.5dB,1,0E,0
+927,SV,From -90.0 to -99.5 dB,SV -94.0dB,1,0E,0
+928,SV,From -90.0 to -99.5 dB,SV -94.5dB,1,0E,0
+929,SV,From -90.0 to -99.5 dB,SV -95.0dB,1,0E,0
+930,SV,From -90.0 to -99.5 dB,SV -95.5dB,1,0E,0
+931,SV,From -90.0 to -99.5 dB,SV -96.0dB,1,0E,0
+932,SV,From -90.0 to -99.5 dB,SV -96.5dB,1,0E,0
+933,SV,From -90.0 to -99.5 dB,SV -97.0dB,1,0E,0
+934,SV,From -90.0 to -99.5 dB,SV -97.5dB,1,0E,0
+935,SV,From -90.0 to -99.5 dB,SV -98.0dB,1,0E,0
+936,SV,From -90.0 to -99.5 dB,SV -98.5dB,1,0E,0
+937,SV,From -90.0 to -99.5 dB,SV -99.0dB,1,0E,0
+938,SV,From -90.0 to -99.5 dB,SV -99.5dB,1,0E,0
+939,SV,From -100.0 to -128.0 dB,SV -100.0dB,1,0E,0
+940,SV,From -100.0 to -128.0 dB,SV -102.0dB,1,0E,0
+941,SV,From -100.0 to -128.0 dB,SV -104.0dB,1,0E,0
+942,SV,From -100.0 to -128.0 dB,SV -106.0dB,1,0E,0
+943,SV,From -100.0 to -128.0 dB,SV -108.0dB,1,0E,0
+944,SV,From -100.0 to -128.0 dB,SV -110.0dB,1,0E,0
+945,SV,From -100.0 to -128.0 dB,SV -112.0dB,1,0E,0
+946,SV,From -100.0 to -128.0 dB,SV -114.0dB,1,0E,0
+947,SV,From -100.0 to -128.0 dB,SV -116.0dB,1,0E,0
+948,SV,From -100.0 to -128.0 dB,SV -118.0dB,1,0E,0
+949,SV,From -100.0 to -128.0 dB,SV -120.0dB,1,0E,0
+950,SV,From -100.0 to -128.0 dB,SV -122.0dB,1,0E,0
+951,SV,From -100.0 to -128.0 dB,SV -124.0dB,1,0E,0
+952,SV,From -100.0 to -128.0 dB,SV -126.0dB,1,0E,0
+953,SV,From -100.0 to -128.0 dB,SV -128.0dB,1,0E,0
+>>>>>>> origin
