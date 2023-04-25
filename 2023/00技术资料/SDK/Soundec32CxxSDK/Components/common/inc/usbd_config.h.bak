@@ -1,0 +1,794 @@
+/**
+***********************************************************
+ *
+ * @file name	: usbd_config.h
+ * @author		: usbd user base config
+ * @version		: Vxx.xx
+ * @date		: 2020-03-05
+ * @brief		: usbd user base config
+ *
+***********************************************************
+ * @attention
+ *
+ * Copyright (c) 2020 Soundec Co., Ltd.
+ * All rights reserved.
+ *
+ * IMPORTANT: Your use of this Software is limited to those specific rights
+ * granted under the terms of a software license agreement between the user
+ * who uses the software, his/her employer (which must be your employer
+ * and Soundec Co. Ltd. (the "License"). You may not use this file except
+ * in compliance with the License.
+ *
+***********************************************************/
+
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __USBD_CONFIG_H__
+#define __USBD_CONFIG_H__
+
+/* Includes ------------------------------------------------------------------*/
+#include "boardConfig.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/* Private typedef -----------------------------------------------------------*/
+
+/* Private macro -------------------------------------------------------------*/
+#define SAMPLING_FREQUENCY_192000       (192000)
+#define SAMPLING_FREQUENCY_96000        (96000)
+#define SAMPLING_FREQUENCY_48000        (48000)
+#define SAMPLING_FREQUENCY_16000        (16000)
+#define SAMPLING_FREQUENCY_32000        (32000)
+#define SAMPLING_FREQUENCY_8000        	(8000)
+#define SAMPLING_FREQUENCY_44100        (44100)
+#define SAMPLING_FREQUENCY_88200        (88200)
+#define SAMPLING_FREQUENCY_176400       (176400)
+
+
+#define SAMPLING_FREQUENCY_DEFAULT      (CONFIG_USB_SPK_FREQUENCY)
+#define SAMPLING_FREQUENCY_MAX          (CONFIG_USB_SPK_FREQUENCY)
+#define SAMPLING_FREQUENCY_MAX_16BIT    (CONFIG_USB_SPK_FREQUENCY)
+#define SAMPLING_FREQUENCY_MAX_24BIT    (CONFIG_USB_SPK_FREQUENCY)
+#define SAMPLING_FREQUENCY_MAX_32BIT    (CONFIG_USB_SPK_FREQUENCY)
+
+#define BITWIDTH_16                     (16)
+#define BITWIDTH_24                     (24)
+#define BITWIDTH_32                     (32)
+
+
+/* Packet size and interval. */
+
+
+
+#define ALL_USB_BITS BITWIDTH_16
+
+/* ----- audio format ---- */
+#define	USB_SPK_CHANNELS				2
+#define USB_SPK_BYTES                   (ALL_USB_BITS/8)
+#define USB_SPK_SAMPLING_RATE_HZ        CONFIG_USB_SPK_FREQUENCY
+#define	USB_SPK_SAMPLING_RATE_KHZ		(USB_SPK_SAMPLING_RATE_HZ/1000)
+
+#define	USB_GEN_CHANNELS				2
+#define USB_GEN_BYTES                   (ALL_USB_BITS/8)
+#define	USB_GEN_SAMPLING_RATE_HZ		CONFIG_USB_MIC_FREQUENCY
+#define	USB_GEN_SAMPLING_RATE_KHZ		(USB_GEN_SAMPLING_RATE_HZ/1000)
+
+#define FS_ISO_OUT_ENDP_PACKET_SIZE_16BIT          (USB_SPK_SAMPLING_RATE_HZ/1000 * 2 * 2 )
+#define FS_ISO_OUT_ENDP_PACKET_SIZE_24BIT          (USB_SPK_SAMPLING_RATE_HZ/1000 * 2 * 3 )
+
+#define FS_ISO_IN_ENDP_DEFAULT_PACKET_SIZE_16BIT   (CONFIG_USB_MIC_FREQUENCY/1000 * 2 * 2 )
+#define FS_ISO_IN_ENDP_DEFAULT_PACKET_SIZE_24BIT   (CONFIG_USB_MIC_FREQUENCY/1000 * 2 * 3 )
+
+#define FS_ISO_OUT_ENDP_MAX_PACKET_SIZE_192X24BIT  (0x0800 | 0x240)
+#define FS_ISO_IN_ENDP_MAX_PACKET_SIZE_192X24BIT   (0x0800 | 0x240)
+
+
+#define HID_ISO_IN_ENDP_PACKET_SIZE                  3
+#define FS_ISO_OUT_SPK_EP_PACKET_SIZE                USB_SPK_SAMPLING_RATE_HZ/1000*(USB_SPK_CHANNELS * USB_SPK_BYTES);
+#define FS_ISO_IN_GEN_EP_PACKET_SIZE                 USB_GEN_SAMPLING_RATE_HZ/1000*(USB_GEN_CHANNELS * USB_GEN_BYTES);
+
+#define USB_SHORT_GET_LOW(x) (((uint16_t)x) & 0xFFU)
+#define USB_SHORT_GET_HIGH(x) ((uint8_t)(((uint16_t)x) >> 8U) & 0xFFU)
+
+
+#define	arrayof(__arr__)	\
+			( sizeof( __arr__ ) / sizeof( __arr__[0] ))
+
+#define	UNREF(__var__)		((void)(__var__))
+
+#define	PARSE_UINT32_B0(__v__)		((((uint32_t)(__v__))       ) & 0xFF )
+#define	PARSE_UINT32_B1(__v__)		((((uint32_t)(__v__)) >>  8 ) & 0xFF )
+#define	PARSE_UINT32_B2(__v__)		((((uint32_t)(__v__)) >> 16 ) & 0xFF )
+#define	PARSE_UINT32_B3(__v__)		((((uint32_t)(__v__)) >> 24 ) & 0xFF )
+
+#define	PARSE_UINT16_B0(__v__)		((((uint16_t)(__v__))       ) & 0xFF )
+#define	PARSE_UINT16_B1(__v__)		((((uint16_t)(__v__)) >>  8 ) & 0xFF )
+
+#define	DECLARE_LE24_BYTES(__v__)	PARSE_UINT32_B0(__v__),		\
+									PARSE_UINT32_B1(__v__),		\
+									PARSE_UINT32_B2(__v__)
+
+#define	DECLARE_LE16_BYTES(__v__)	PARSE_UINT16_B0(__v__),		\
+									PARSE_UINT16_B1(__v__)
+
+#define	getLE16(__p__)				((((uint16_t)((const uint8_t*)(__p__))[0])       )	|	\
+									 (((uint16_t)((const uint8_t*)(__p__))[1]) <<  8 ))
+#define	getLE24(__p__)				((((uint32_t)((const uint8_t*)(__p__))[0])       )	|	\
+									 (((uint32_t)((const uint8_t*)(__p__))[1]) <<  8 )	|	\
+									 (((uint32_t)((const uint8_t*)(__p__))[2]) << 16 ))
+#define	getLE32(__p__)				((((uint32_t)((const uint8_t*)(__p__))[0])       )	|	\
+									 (((uint32_t)((const uint8_t*)(__p__))[1]) <<  8 )	|	\
+									 (((uint32_t)((const uint8_t*)(__p__))[2]) << 16 )	|	\
+									 (((uint32_t)((const uint8_t*)(__p__))[3]) << 24 ))
+#define	setLE16(__p__,__v__)		{												\
+										((uint8_t*)(__p__))[0]	= (uint8_t)((__v__)       ) ;	\
+										((uint8_t*)(__p__))[1]	= (uint8_t)((__v__) >>  8 ) ;	\
+									}
+#define	setLE24(__p__,__v__)		{												\
+										((uint8_t*)(__p__))[0]	= (uint8_t)((__v__)       ) ;	\
+										((uint8_t*)(__p__))[1]	= (uint8_t)((__v__) >>  8 ) ;	\
+										((uint8_t*)(__p__))[2]	= (uint8_t)((__v__) >> 16 ) ;	\
+									}
+#define	setLE32(__p__,__v__)		{												\
+										((uint8_t*)(__p__))[0]	= (uint8_t)((__v__)       ) ;	\
+										((uint8_t*)(__p__))[1]	= (uint8_t)((__v__) >>  8 ) ;	\
+										((uint8_t*)(__p__))[2]	= (uint8_t)((__v__) >> 16 ) ;	\
+										((uint8_t*)(__p__))[3]	= (uint8_t)((__v__) >> 24 ) ;	\
+									}
+
+#define SOF_RATE                                      0x05U//0x02U
+#define HS_ISO_OUT_ENDP_INTERVAL        (0x04)
+#define HS_ISO_IN_ENDP_INTERVAL         (0x04)
+#define FS_ISO_OUT_ENDP_INTERVAL        (0x01)
+#define FS_ISO_IN_ENDP_INTERVAL         (0x01)
+#define HS_INTERRUPT_IN_INTERVAL        (0x07U) /* 2^(7-1) = 8ms */
+#define FS_INTERRUPT_IN_INTERVAL        (0x08U)
+#define HID_HS_BINTERVAL                 0x07U
+#define HID_FS_BINTERVAL                 0x01U
+#define USBD_ENDPOINT_RXFIFO                      800
+#define USBD_ENDPOINT0_TXFIFO                     256//128
+
+#if SUPPORT_USBD_SPEAKER
+#define USBD_ENDPOINT1_TXFIFO                     64    //feedback
+#if SUPPORT_USBD_MIC
+#define USBD_ENDPOINT2_TXFIFO                     600
+#else
+#define USBD_ENDPOINT2_TXFIFO                     64
+#endif
+#else
+#if SUPPORT_USBD_MIC
+#define USBD_ENDPOINT1_TXFIFO                     800
+#else
+#define USBD_ENDPOINT1_TXFIFO                     64
+#endif
+#define USBD_ENDPOINT2_TXFIFO                     64
+#endif // SUPPORT_USBD_SPEAKER
+
+
+#define USBD_ENDPOINT3_TXFIFO                     64
+#define USBD_ENDPOINT4_TXFIFO                     64
+
+#if(USBD_SPEED_CFG == USBD_SPEED_CFG_HIGH)
+#define ISO_OUT_ENDP_INTERVAL       HS_ISO_OUT_ENDP_INTERVAL
+#define ISO_IN_ENDP_INTERVAL        HS_ISO_IN_ENDP_INTERVAL
+#define HID_BINTERVAL               HID_HS_BINTERVAL
+#define INTERRUPT_IN_INTERVAL       HS_INTERRUPT_IN_INTERVAL
+#elif(USBD_SPEED_CFG == USBD_SPEED_CFG_FULL)
+#define ISO_OUT_ENDP_INTERVAL       FS_ISO_OUT_ENDP_INTERVAL
+#define ISO_IN_ENDP_INTERVAL        FS_ISO_IN_ENDP_INTERVAL
+#define HID_BINTERVAL               HID_FS_BINTERVAL
+#define INTERRUPT_IN_INTERVAL       FS_INTERRUPT_IN_INTERVAL
+#else
+#define ISO_OUT_ENDP_INTERVAL       FS_ISO_OUT_ENDP_INTERVAL
+#define ISO_IN_ENDP_INTERVAL        FS_ISO_IN_ENDP_INTERVAL
+#define HID_BINTERVAL               HID_FS_BINTERVAL
+#define INTERRUPT_IN_INTERVAL       FS_INTERRUPT_IN_INTERVAL
+#endif
+
+#if  SUPPORT_USBD_SPEAKER
+#define SPEAKER_FS_8K           0
+#define SPEAKER_FS_16K          0
+#define SPEAKER_FS_32K          0
+#define SPEAKER_FS_44P1K        1
+#define SPEAKER_FS_48K          1
+#define SPEAKER_FS_88P2K        1
+#define SPEAKER_FS_96K          1
+#define SPEAKER_FS_176P4K       0
+#define SPEAKER_FS_192K         0
+
+#define SPEAKER_AUDIO_16BIT     1
+#define SPEAKER_AUDIO_24BIT     1
+#define SPEAKER_AUDIO_32BIT     0
+
+#if  SPEAKER_AUDIO_16BIT
+#define SPEAKER_16BIT_FS_NUM  ( SPEAKER_FS_8K +\
+	                            SPEAKER_FS_16K + \
+	                            SPEAKER_FS_32K +\
+	                            SPEAKER_FS_44P1K +\
+	                            SPEAKER_FS_48K +\
+	                            SPEAKER_FS_88P2K +\
+	                            SPEAKER_FS_96K  +\
+	                            SPEAKER_FS_192K )
+#define SPKER_16BIT_DESC_SIZE	    40 + SPEAKER_16BIT_FS_NUM*3
+#else
+#define SPEAKER_16BIT_FS_NUM    0
+#define SPKER_16BIT_DESC_SIZE	0
+#endif // SPEAKER_AUDIO_16BIT
+
+#if SPEAKER_AUDIO_24BIT
+#define SPEAKER_24BIT_FS_NUM  ( SPEAKER_FS_8K +\
+	                            SPEAKER_FS_16K + \
+	                            SPEAKER_FS_32K +\
+	                            SPEAKER_FS_44P1K +\
+	                            SPEAKER_FS_48K +\
+	                            SPEAKER_FS_88P2K +\
+	                            SPEAKER_FS_96K  )
+#if(USBD_SPEED_CFG == USBD_SPEED_CFG_HIGH)
+//#define SUPPORT_SPKER_192KX24BIT           //ONLY HIGH SPEED SUPPORT
+#endif
+
+#define SPKER_24BIT_DESC_SIZE	    40 + SPEAKER_24BIT_FS_NUM *3
+
+#ifdef SUPPORT_SPKER_192KX24BIT
+#define SPKER_192KX24BIT_DESC_SIZE	40 + 3
+#else
+#define SPKER_192KX24BIT_DESC_SIZE	0
+#endif
+
+#else
+#define SPEAKER_24BIT_FS_NUM      0
+#define SPKER_192KX24BIT_DESC_SIZE	0
+#define SPKER_24BIT_DESC_SIZE	0
+#endif // SPEAKER_AUDIO_24BIT
+
+
+#ifdef SUPPORT_SPKER_192KX24BIT
+#define SPKER_MULT_FS_NUM            ( 1 + SPEAKER_24BIT_FS_NUM + SPEAKER_16BIT_FS_NUM )
+#else
+#define SPKER_MULT_FS_NUM            ( SPEAKER_24BIT_FS_NUM + SPEAKER_16BIT_FS_NUM )
+#endif
+
+#define SPEAKER_AUDIO_INTERFACE_BYTES  ( 0x09 +  \
+                                         SPKER_192KX24BIT_DESC_SIZE + \
+                                         SPKER_16BIT_DESC_SIZE + \
+                                         SPKER_24BIT_DESC_SIZE )
+#define SPEAKER_CONTROL_INTERFACE_BYTES  0x1f
+#else
+#define SPEAKER_CONTROL_INTERFACE_BYTES  0
+#define SPEAKER_AUDIO_INTERFACE_BYTES    0
+#define SPKER_MULT_FS_NUM                0
+#endif
+
+#if  SUPPORT_USBD_MIC
+#define MIC_FS_8K               0
+#define MIC_FS_16K              0
+#define MIC_FS_32K              0
+#define MIC_FS_44P1K            0
+#define MIC_FS_48K              1
+#define MIC_FS_88P2K            1
+#define MIC_FS_96K              1
+#define MIC_FS_176P4K           1
+#define MIC_FS_192K             0
+#define MIC_AUDIO_16BIT         1
+#define MIC_AUDIO_24BIT         0
+#define MIC_AUDIO_32IT          0
+#if MIC_AUDIO_16BIT
+#define MIC_16BIT_FS_NUM      ( MIC_FS_8K +\
+	                            MIC_FS_16K + \
+	                            MIC_FS_32K +\
+	                            MIC_FS_44P1K +\
+	                            MIC_FS_48K +\
+	                            MIC_FS_88P2K +\
+								MIC_FS_96K	+\
+								MIC_FS_192K )
+#define MIC_16BIT_DESC_SIZE	    40 + MIC_16BIT_FS_NUM*3
+#else
+#define MIC_16BIT_DESC_SIZE	    0
+#define MIC_16BIT_FS_NUM        0
+#endif
+#if MIC_AUDIO_24BIT
+#define MIC_24BIT_FS_NUM      ( MIC_FS_8K +\
+	                            MIC_FS_16K + \
+	                            MIC_FS_32K +\
+	                            MIC_FS_44P1K +\
+	                            MIC_FS_48K +\
+	                            MIC_FS_88P2K +\
+	                            MIC_FS_96K )
+#if(USBD_SPEED_CFG == USBD_SPEED_CFG_HIGH)
+#define SUPPORT_MIC_192KX24BIT   //ONLY HIGH SPEED SUPPORT
+#endif
+#define MIC_24BIT_DESC_SIZE	        40 + MIC_24BIT_FS_NUM *3
+#ifdef SUPPORT_MIC_192KX24BIT
+#define MIC_192KX24BIT_DESC_SIZE	40 + 3
+#else
+#define MIC_192KX24BIT_DESC_SIZE	0
+#endif
+#else
+#define MIC_192KX24BIT_DESC_SIZE	0
+#define MIC_24BIT_DESC_SIZE	        0
+#define MIC_24BIT_FS_NUM            0
+#endif
+#ifdef SUPPORT_MIC_192KX24BIT
+#define MIC_MULT_FS_NUM            ( 1 + MIC_24BIT_FS_NUM + MIC_16BIT_FS_NUM )
+#else
+#define MIC_MULT_FS_NUM            (  MIC_24BIT_FS_NUM + MIC_16BIT_FS_NUM )
+#endif
+#define MIC_AUDIO_INTERFACE_BYTES  ( 0x09 +  \
+                                         MIC_192KX24BIT_DESC_SIZE + \
+                                         MIC_16BIT_DESC_SIZE + \
+                                         MIC_24BIT_DESC_SIZE )
+#define MIC_CONTROL_INTERFACE_BYTES   0x1E
+#else
+#define MIC_MULT_FS_NUM               0
+#define MIC_CONTROL_INTERFACE_BYTES   0
+#define MIC_AUDIO_INTERFACE_BYTES     0
+#endif
+#if (SUPPORT_USBD_MIC&&SUPPORT_USBD_SPEAKER)
+#define MULT_FS_SUPPORT       (((MIC_MULT_FS_NUM + SPKER_MULT_FS_NUM) >= 3) ? 1:0 )
+#elif (SUPPORT_USBD_MIC || SUPPORT_USBD_SPEAKER)
+#define MULT_FS_SUPPORT       (((MIC_MULT_FS_NUM + SPKER_MULT_FS_NUM) >= 2) ? 1:0 )
+#else
+#define MULT_FS_SUPPORT       0
+#endif
+#if(SUPPORT_SPEAKER_SIDETONE == 1)
+#define SIDETONE_CONTROL_INTERFACE_BYTES  0x16
+#else
+#define SIDETONE_CONTROL_INTERFACE_BYTES  0
+#endif
+#ifdef SUPPPORT_HID_KEYBOARD
+#define HIDKEY_DESC_SIZ                               32
+#else
+#define HIDKEY_DESC_SIZ                               0
+#endif
+
+#define USB_AUDIO_NUM                                (SUPPORT_USBD_SPEAKER + SUPPORT_USBD_MIC)
+#if (USB_AUDIO_NUM == 2 )
+#define USB_AUDIO_INTERFACE_HEAD_DESC_BYTES                 0x0A
+#elif (USB_AUDIO_NUM == 1 )
+#define USB_AUDIO_INTERFACE_HEAD_DESC_BYTES                 0x09
+#elif (USB_AUDIO_NUM == 0 )
+#define USB_AUDIO_INTERFACE_HEAD_DESC_BYTES                 0
+#else
+##########"Err!"
+#endif
+#define USB_AUDIO_CONTROL_INTERFACE_DESC_BYTES       ( USB_AUDIO_INTERFACE_HEAD_DESC_BYTES  +  \
+	                                                   SPEAKER_CONTROL_INTERFACE_BYTES +\
+	                                                   MIC_CONTROL_INTERFACE_BYTES +\
+	                                                   SIDETONE_CONTROL_INTERFACE_BYTES  \
+	                                                   )
+#if (SUPPORT_USBD_SPEAKER ||SUPPORT_USBD_MIC)
+#define USB_AUDIO_INTERFACE_DESC_BYTES                 0x09
+#else
+#define USB_AUDIO_INTERFACE_DESC_BYTES                 0
+#endif
+
+
+
+
+
+//#define USB_AUDIO_CONFIG_DESC_SIZ                     (192 + HIDKEY_DESC_SIZ + HIDCOMPROTOCOL_DESC_SIZ )
+#ifdef SUPPORT_USBD_UAC20
+
+#define SUPPORT_UAC20_MIC_MULTIPLE_CHANNEL
+#ifdef SUPPPORT_HID_KEYBOARD
+#define SUPPORT_HID_KEYBOARD_DES_LENGTH    32
+#else
+#define SUPPORT_HID_KEYBOARD_DES_LENGTH    0
+#endif
+
+#ifdef MIC_AUDIO_16BIT
+#define SUPPORT_MIC_16BIT_DES_LENGTH                 46
+#else
+#define SUPPORT_MIC_16BIT_DES_LENGTH                 0
+#endif
+
+#ifdef MIC_AUDIO_24BIT
+#define SUPPORT_MIC_24BIT_DES_LENGTH                 46
+#else
+#define SUPPORT_MIC_24BIT_DES_LENGTH                 0
+#endif
+
+#if SUPPORT_USBD_MIC
+#define USBD_AUDIO_MIC_SUPPORT_SAMPLE_RATE_NUM     (MIC_FS_8K     +  \
+													MIC_FS_16K    +	 \
+												    MIC_FS_32K    +	 \
+													MIC_FS_44P1K  +	 \
+													MIC_FS_48K    +  \
+													MIC_FS_88P2K  +  \
+													MIC_FS_96K    +  \
+													MIC_FS_192K)
+#else
+#define USBD_AUDIO_MIC_SUPPORT_SAMPLE_RATE_NUM     0
+#endif
+#define USBD_AUDIO_MIC_SUPPORT_SAMPLE_RATE_LIST_LEN      (USBD_AUDIO_MIC_SUPPORT_SAMPLE_RATE_NUM * 12 + 2)
+#if SUPPORT_USBD_MIC
+#if SUPPORT_USBD_SPEAKER
+#define MIC_TRACK_DES_LENGTH                          60
+#else
+#define MIC_TRACK_DES_LENGTH                          59
+#endif
+#define MIC_DES_LENGTH                               (9                           + \
+													  MIC_TRACK_DES_LENGTH        + \
+	                                                  SUPPORT_MIC_16BIT_DES_LENGTH +\
+	                                                  SUPPORT_MIC_24BIT_DES_LENGTH )
+#else
+#define MIC_TRACK_DES_LENGTH                          0
+#define MIC_DES_LENGTH                                0
+#endif
+#ifdef SPEAKER_AUDIO_16BIT
+#define SUPPORT_SPK_16BIT_DES_LENGTH                 46
+#else
+#define SUPPORT_SPK_16BIT_DES_LENGTH                 0
+#endif
+#ifdef SPEAKER_AUDIO_24BIT
+#define SUPPORT_SPK_24BIT_DES_LENGTH                 46
+#else
+#define SUPPORT_SPK_24BIT_DES_LENGTH                 0
+#endif
+
+
+#if SPEAKER_AUDIO_32BIT
+#define SUPPORT_SPK_32BIT_DES_LENGTH                 46
+#else
+#define SUPPORT_SPK_32BIT_DES_LENGTH                 0
+#endif
+
+#define SPEAKER_FS_384K    0
+#if SUPPORT_USBD_SPEAKER
+#define USBD_AUDIO_SPKER_SUPPORT_SAMPLE_RATE_NUM       (SPEAKER_FS_8K     + \
+														SPEAKER_FS_16K    +	\
+													    SPEAKER_FS_32K    +	\
+														SPEAKER_FS_44P1K  +	\
+														SPEAKER_FS_48K    +	\
+														SPEAKER_FS_88P2K  + \
+														SPEAKER_FS_96K    +	\
+														SPEAKER_FS_176P4K + \
+														SPEAKER_FS_192K   +	\
+														SPEAKER_FS_384K)
+#else
+#define USBD_AUDIO_SPKER_SUPPORT_SAMPLE_RATE_NUM        0
+#endif
+#define USBD_AUDIO_SPKER_SUPPORT_SAMPLE_RATE_LIST_LEN      (USBD_AUDIO_SPKER_SUPPORT_SAMPLE_RATE_NUM*12 + 2)
+#if SUPPORT_USBD_SPEAKER
+#if SUPPORT_USBD_MIC
+#define SPEAKER_TRACK_DES_LENGTH                     64
+#else
+#define SPEAKER_TRACK_DES_LENGTH                     63
+#endif
+#define SPEAKER_DES_LENGTH                          (9                            + \
+	                                                 SPEAKER_TRACK_DES_LENGTH     + \
+	                                                 SUPPORT_SPK_16BIT_DES_LENGTH + \
+	                                                 SUPPORT_SPK_24BIT_DES_LENGTH + \
+	                                                 SUPPORT_SPK_32BIT_DES_LENGTH )
+#else
+#define SPEAKER_TRACK_DES_LENGTH                     0
+#define SPEAKER_DES_LENGTH                           0
+#endif
+#if (SUPPORT_USBD_MIC||SUPPORT_USBD_SPEAKER)
+#define AUDIO_HEAD_DES_LENGTH                        26
+#else
+#define AUDIO_HEAD_DES_LENGTH                        0
+#endif
+#ifdef SUPPORT_MIXER
+#define USB_AUDIO_MIXER_CONFIG_DESC_SIZ              30
+#else
+#define USB_AUDIO_MIXER_CONFIG_DESC_SIZ              0
+
+#endif
+
+#define USB_AUDIO20_CONFIG_DESC_SIZ                     (9                                + \
+														 AUDIO_HEAD_DES_LENGTH            + \
+                                                         SPEAKER_DES_LENGTH               + \
+                                                         MIC_DES_LENGTH                   + \
+                                                         USB_AUDIO_MIXER_CONFIG_DESC_SIZ  + \
+                                                         SUPPORT_HID_KEYBOARD_DES_LENGTH  )
+#else
+
+#endif
+
+#define USB_AUDIO_CONFIG_DESC_SIZ                     ( 9 +  \
+													    USB_AUDIO_INTERFACE_DESC_BYTES + \
+	                                                    USB_AUDIO_CONTROL_INTERFACE_DESC_BYTES +  \
+                                                        HIDKEY_DESC_SIZ  + \
+														SPEAKER_AUDIO_INTERFACE_BYTES   + \
+														MIC_AUDIO_INTERFACE_BYTES  \
+														)
+#define USB_AUDIO_OTHERSPEED_CONFIG_DESC_SIZ           (221 + HIDKEY_DESC_SIZ)
+
+#define AUDIO_INTERFACE_DESC_SIZE                     0x09U
+#define USB_AUDIO_DESC_SIZ                            0x09U
+#define AUDIO_STANDARD_ENDPOINT_DESC_SIZE             0x09U
+#define AUDIO_STREAMING_ENDPOINT_DESC_SIZE            0x07U
+
+#define AUDIO_DESCRIPTOR_TYPE                         0x21U
+#define USB_DEVICE_CLASS_AUDIO                        0x01U
+#define AUDIO_SUBCLASS_AUDIOCONTROL                   0x01U
+#define AUDIO_SUBCLASS_AUDIOSTREAMING                 0x02U
+#define AUDIO_PROTOCOL_UNDEFINED                      0x00U
+#define AUDIO_STREAMING_GENERAL                       0x01U
+#define AUDIO_STREAMING_FORMAT_TYPE                   0x02U
+
+/* Audio Descriptor Types */
+#define AUDIO_INTERFACE_DESCRIPTOR_TYPE               0x24U
+#define AUDIO_ENDPOINT_DESCRIPTOR_TYPE                0x25U
+
+/* Audio Control Interface Descriptor Subtypes */
+#define AUDIO_CONTROL_HEADER                          0x01U
+#define AUDIO_CONTROL_INPUT_TERMINAL                  0x02U
+#define AUDIO_CONTROL_OUTPUT_TERMINAL                 0x03U
+#define AUDIO_CONTROL_FEATURE_UNIT                    0x06U
+
+#define AUDIO_INPUT_TERMINAL_DESC_SIZE                0x0CU
+#define AUDIO_OUTPUT_TERMINAL_DESC_SIZE               0x09U
+#define AUDIO_STREAMING_INTERFACE_DESC_SIZE           0x07U
+
+#define AUDIO_CONTROL_MUTE                            0x0001U
+#define AUDIO_CONTROL_VOL                             0x0002U
+
+#define AUDIO_FORMAT_TYPE_I                           0x01U
+#define AUDIO_FORMAT_TYPE_III                         0x03U
+
+#define AUDIO_ENDPOINT_GENERAL                        0x01U
+
+
+/* Feedback is limited to +/- 1kHz */
+#define AUDIO_FB_DELTA (uint32_t)(1 << 22)
+// clang-format on
+
+#define USB_DESCRIPTOR_LENGTH_AC_INTERRUPT_ENDPOINT         (9)
+#define USB_DESCRIPTOR_TYPE_ENDPOINT (0x05U)
+/* USB  standard descriptor endpoint type */
+#define USB_ENDPOINT_CONTROL (0x00U)
+#define USB_ENDPOINT_ISOCHRONOUS (0x01U)
+#define USB_ENDPOINT_BULK (0x02U)
+#define USB_ENDPOINT_INTERRUPT (0x03U)
+
+/*! @brief Audio device class-specific control interface descriptor subtype */
+#define USB_DESCRIPTOR_SUBTYPE_AUDIO_CONTROL_HEADER (0x01)
+#define USB_DESCRIPTOR_SUBTYPE_AUDIO_CONTROL_INPUT_TERMINAL (0x02)
+#define USB_DESCRIPTOR_SUBTYPE_AUDIO_CONTROL_OUTPUT_TERMINAL (0x03)
+#define USB_DESCRIPTOR_SUBTYPE_AUDIO_CONTROL_FEATURE_UNIT (0x06)
+/*! @brief Audio device class-specific stream interface descriptor subtype */
+#define USB_DESCRIPTOR_SUBTYPE_AUDIO_STREAMING_GENERAL (0x01)
+#define USB_DESCRIPTOR_SUBTYPE_AUDIO_STREAMING_FORMAT_TYPE (0x02)
+
+
+/* Audio Requests */
+#define AUDIO_REQ_GET_CUR                             0x81U
+#define AUDIO_REQ_GET_MIN                             0x82U
+#define AUDIO_REQ_GET_MAX                             0x83U
+#define AUDIO_REQ_GET_RES                             0x84U
+#define AUDIO_REQ_SET_CUR                             0x01U
+#define AUDIO_REQ_SET_MIN                             0x02U
+#define AUDIO_REQ_SET_MAX                             0x03U
+#define AUDIO_REQ_SET_RES                             0x04U
+
+
+#define AUDIO_OUT_STREAMING_CTRL                      0x02U
+
+/* Audio Control Requests */
+#define AUDIO_CONTROL_REQ                             0x01U
+/* Feature Unit, UAC Spec 1.0 p.102 */
+#define AUDIO_CONTROL_REQ_FU_MUTE                     0x01U
+#define AUDIO_CONTROL_REQ_FU_VOL                      0x02U
+
+#define AUDIO_CONTROL_REQ_FU_RES                      0x04U
+/* Audio Streaming Requests */
+#define AUDIO_STREAMING_REQ                           0x02U
+#define AUDIO_STREAMING_REQ_FREQ_CTRL                 0x01U
+#define AUDIO_STREAMING_REQ_PITCH_CTRL                0x02U
+#define AUDIO_AUTOMATIC_GAIN_CTRL                     0x07U
+
+#define AUDIO_CONTROL_REQ_MIC_VOL                     0x05
+#define AUDIO_CONTROL_REQ_SPKER_VOL                   0x06
+#define AUDIO_CONTROL_REQ_SIDETONE_VOL                0x07
+#define AUDIO_CONTROL_REQ_MIXER                       0x08
+
+/* ---- Generator Interface alternate index ---- */
+enum    {
+    USB_AUDIO_ALTERNATE_OFFLINE = 0,
+    USB_AUDIO_ALTERNATE_16BIT,
+    USB_AUDIO_ALTERNATE_24BIT,
+    USB_AUDIO_ALTERNATE_192K24BIT = 3,
+    USB_AUDIO_ALTERNATE_32BIT  = 3
+};
+
+
+/* ----- terminal/unit IDs ----- */
+#define USB_AUDIO_SPEAKER_INPUT_TERMINAL_ID 	         1
+#define USB_AUDIO_SPEAKER_FEATURE_UNIT_ID                6
+#if (SUPPORT_SPEAKER_SIDETONE == 1)
+#define USB_AUDIO_SPEAKER_FEATURE_BSOURCE_ID             8
+#else
+#define USB_AUDIO_SPEAKER_FEATURE_BSOURCE_ID             1
+#endif
+#define USB_AUDIO_SPEAKER_OUTPUT_TERMINAL_ID             3
+#define USB_AUDIO_SPEAKER_OUTPUT_BSOURCE_ID              6
+#if SUPPORT_USBD_SPEAKER
+#define USB_AUDIO_GENERATOR_INPUT_TERMINAL_ID            4
+#define USB_AUDIO_GENERATOR_FEATURE_UNIT_ID              5
+#define USB_AUDIO_GENERATOR_FEATURE_BSOURCE_ID           4
+#define USB_AUDIO_GENERATOR_OUTPUT_TERMINAL_ID           2
+#define USB_AUDIO_GENERATOR_OUTPUT_BSOURCE_ID            5
+#else
+#define USB_AUDIO_GENERATOR_INPUT_TERMINAL_ID            4
+#define USB_AUDIO_GENERATOR_FEATURE_UNIT_ID              5
+#define USB_AUDIO_GENERATOR_FEATURE_BSOURCE_ID           4
+#define USB_AUDIO_GENERATOR_OUTPUT_TERMINAL_ID           2
+#define USB_AUDIO_GENERATOR_OUTPUT_BSOURCE_ID            5
+#endif
+
+#define USB_AUDIO_MIXER_UNIT_ID                          7
+#define USB_AUDIO_MIXER_BSOURCE_ID                       4
+#define USB_AUDIO_MIXER_FEATURE_ID                       8
+#define USB_AUDIO_MIXER_FEATURE_BASOURCE_ID1             1
+#define USB_AUDIO_MIXER_FEATURE_BASOURCE_ID2             7
+
+/* ----- interface indexes ----- */
+enum	{
+	USB_AUDIO_CONTROL_INTERFACE_INDEX				= 0,
+#if SUPPORT_USBD_SPEAKER
+	USB_AUDIO_SPEAKER_STREAM_INTERFACE_INDEX        = 1,
+#else
+	USB_AUDIO_SPEAKER_STREAM_INTERFACE_INDEX        = 0,
+#endif
+#if SUPPORT_USBD_MIC
+	USB_AUDIO_GENERATOR_STREAM_INTERFACE_INDEX      = 1 + USB_AUDIO_SPEAKER_STREAM_INTERFACE_INDEX,
+#else
+	USB_AUDIO_GENERATOR_STREAM_INTERFACE_INDEX		= USB_AUDIO_SPEAKER_STREAM_INTERFACE_INDEX,
+#endif
+#ifdef SUPPPORT_HID_KEYBOARD
+	USB_HID_KEYBOARD_INTERFACE_INDEX                = 1 + SUPPORT_USBD_SPEAKER + SUPPORT_USBD_MIC,
+#endif
+
+	USB_INTERFACE_COUNT 							// DON'T EDIT THIS LINE
+} ;
+
+/* USB standard descriptor endpoint bmAttributes */
+#define USB_DESCRIPTOR_ENDPOINT_ADDRESS_DIRECTION_MASK (0x80U)
+#define USB_DESCRIPTOR_ENDPOINT_ADDRESS_DIRECTION_SHIFT (7U)
+#define USB_DESCRIPTOR_ENDPOINT_ADDRESS_DIRECTION_OUT (0U)
+#define USB_DESCRIPTOR_ENDPOINT_ADDRESS_DIRECTION_IN (0x80U)
+
+#define EP_INPUT    (USB_DESCRIPTOR_ENDPOINT_ADDRESS_DIRECTION_IN)
+#define EP_OUTPUT   (USB_DESCRIPTOR_ENDPOINT_ADDRESS_DIRECTION_OUT)
+#define USB_SHORT_GET_LOW(x) (((uint16_t)x) & 0xFFU)
+#define USB_SHORT_GET_HIGH(x) ((uint8_t)(((uint16_t)x) >> 8U) & 0xFFU)
+
+/* ----- endpoint indexes ----- */
+
+enum	{
+	USB_AUDIO_SPEAKER_CONTROL_ENDPOINT		= 1,
+	USB_AUDIO_SPEAKER_STREAM_ENDPOINT		= 1,
+	USB_AUDIO_SPEAKER_FEEDBACK_ENDPOINT 	= 1,
+#if  (SUPPORT_USBD_SPEAKER == 0)
+	USB_AUDIO_GENERATOR_STREAM_ENDPOINT 	= 1,
+#else
+	USB_AUDIO_GENERATOR_STREAM_ENDPOINT 	= 1 + SUPPORT_USBD_SPEAKER ,
+#endif
+	USB_HID_HID_DEVICE_ENDPOINT				= 1 + SUPPORT_USBD_SPEAKER + SUPPORT_USBD_MIC ,
+} ;
+
+    /* bEndpointAddress, see UAC 1.0 spec, p.61 */
+#define AUDIO_CTRL_EP              (USB_AUDIO_SPEAKER_CONTROL_ENDPOINT  | EP_INPUT)
+#define AUDIO_OUT_EP               (USB_AUDIO_SPEAKER_STREAM_ENDPOINT | EP_OUTPUT)
+#define AUDIO_IN_EP                (USB_AUDIO_SPEAKER_FEEDBACK_ENDPOINT | EP_INPUT)
+#define AUDIO_GEN_EP               (USB_AUDIO_GENERATOR_STREAM_ENDPOINT | EP_INPUT)
+#define AUDIO_HID_IN_EP            (USB_HID_HID_DEVICE_ENDPOINT | EP_INPUT)
+#define AUDIO_HID_OUT_EP           (USB_HID_HID_DEVICE_ENDPOINT | EP_OUTPUT)
+
+// clang-format off
+#define AUDIO_SAMPLE_FREQ(frq) (uint8_t)(frq), (uint8_t)((frq >> 8)), (uint8_t)((frq >> 16))
+
+/* Feature Unit Config */
+#define AUDIO_CONTROL_FEATURES AUDIO_CONTROL_MUTE | AUDIO_CONTROL_VOL
+
+
+/* Consumer Control */
+
+
+
+
+
+/* USB standard descriptor length */
+#define USB_DESCRIPTOR_LENGTH_DEVICE (0x12U)
+#define USB_DESCRIPTOR_LENGTH_CONFIGURE (0x09U)
+#define USB_DESCRIPTOR_LENGTH_INTERFACE (0x09U)
+#define USB_DESCRIPTOR_LENGTH_ENDPOINT (0x07U)
+#define USB_DESCRIPTOR_LENGTH_DEVICE_QUALITIER (0x0AU)
+#define USB_DESCRIPTOR_LENGTH_OTG_DESCRIPTOR (5U)
+#define USB_DESCRIPTOR_LENGTH_BOS_DESCRIPTOR (5U)
+
+/* USB standard descriptor type */
+#define USB_DESCRIPTOR_TYPE_DEVICE (0x01U)
+#define USB_DESCRIPTOR_TYPE_CONFIGURE (0x02U)
+#define USB_DESCRIPTOR_TYPE_STRING (0x03U)
+#define USB_DESCRIPTOR_TYPE_INTERFACE (0x04U)
+#define USB_DESCRIPTOR_TYPE_ENDPOINT (0x05U)
+#define USB_DESCRIPTOR_TYPE_DEVICE_QUALITIER (0x06U)
+#define USB_DESCRIPTOR_TYPE_OTHER_SPEED_CONFIGURATION (0x07U)
+#define USB_DESCRIPTOR_TYPE_INTERFAACE_POWER (0x08U)
+#define USB_DESCRIPTOR_TYPE_OTG (0x09U)
+#define USB_DESCRIPTOR_TYPE_INTERFACE_ASSOCIATION (0x0BU)
+#define USB_DESCRIPTOR_TYPE_BOS (0x0F)
+#define USB_DESCRIPTOR_TYPE_DEVICE_CAPABILITY (0x10)
+
+#define USB_DESCRIPTOR_TYPE_HID (0x21U)
+#define USB_DESCRIPTOR_TYPE_HID_REPORT (0x22U)
+#define USB_DESCRIPTOR_TYPE_HID_PHYSICAL (0x23U)
+#define USB_DESCRIPTOR_LENGTH_HID (9U)
+
+#define USB_HID_KEYBOARD_CLASS                      (0x03U)
+#define USB_HID_KEYBOARD_SUBCLASS                   (0x01U)
+#define USB_HID_KEYBOARD_PROTOCOL                   (0x01U)
+
+#define USB_HID_KEYBOARD_ENDPOINT_COUNT             (2U)
+
+#define HS_HID_KEYBOARD_INTERRUPT_IN_PACKET_SIZE    (16U)
+#define FS_HID_KEYBOARD_INTERRUPT_IN_PACKET_SIZE    (16U)
+#define HS_HID_KEYBOARD_INTERRUPT_IN_INTERVAL       (0x06U)
+#define FS_HID_KEYBOARD_INTERRUPT_IN_INTERVAL       (0x03)
+
+#if(USBD_SPEED_CFG == USBD_SPEED_CFG_FULL)
+#if SPEAKER_FS_192K
+#define FS_ISO_OUT_ENDP_MAX_PACKET_SIZE_16BIT      (SAMPLING_FREQUENCY_192000/1000 * 2 * 2 )
+#define FS_ISO_IN_ENDP_PACKET_SIZE_16BIT	       (SAMPLING_FREQUENCY_48000/1000 * 2 * 2  )
+#else
+#define FS_ISO_OUT_ENDP_MAX_PACKET_SIZE_16BIT      (SAMPLING_FREQUENCY_96000/1000 * 2 * 2 )
+#define FS_ISO_IN_ENDP_PACKET_SIZE_16BIT	       (SAMPLING_FREQUENCY_96000/1000 * 2 * 2  )
+#endif
+#define FS_ISO_OUT_ENDP_MAX_PACKET_SIZE_24BIT      (SAMPLING_FREQUENCY_96000/1000 * 2 * 3  )
+#define FS_ISO_IN_ENDP_PACKET_SIZE_24BIT	       (SAMPLING_FREQUENCY_96000/1000 * 2 * 3  )
+#else
+#define FS_ISO_OUT_ENDP_MAX_PACKET_SIZE_16BIT      (SAMPLING_FREQUENCY_192000/1000 * 2 * 2 +  2*20)
+#define FS_ISO_OUT_ENDP_MAX_PACKET_SIZE_24BIT      (SAMPLING_FREQUENCY_96000/1000 * 2 * 3 + 3*20)
+#define FS_ISO_IN_ENDP_PACKET_SIZE_16BIT	       (SAMPLING_FREQUENCY_192000/1000 * 2 * 2 + 2*20 )
+#define FS_ISO_IN_ENDP_PACKET_SIZE_24BIT	       (SAMPLING_FREQUENCY_96000/1000 * 2 * 3 + 3*20 )
+#endif
+
+
+#if  SUPPORT_USBD_UAC20
+#define USBD_HID_BDESCRIPTORTYPE                    0x0A
+#define SPKER_CLOCK_SOURCE_BCLK_ID                  0x09
+#define SPKER_CLOCK_SELECTOR_BCK_ID                 0x0B
+#define MIC_CLOCK_SOURCE_BCLK_ID                    0x0A
+#define MIC_CLOCK_SELECTOR_BCK_ID                   0x0C
+#define USBD_SPKER_VOLUME_RANGE_ID                  0x02
+#define USBD_MIC_VOLUME_RANGE_ID                    0x05
+#define USBD_MIXER_VOLUME_RANGE_ID                  0x07
+
+#define SPKER_CLOCK_SELECTOR_BICK_INDEX             0x01
+#if SUPPORT_USBD_SPEAKER
+#define MIC_CLOCK_SELECTOR_BICK_INDEX               0x02
+#else
+#define MIC_CLOCK_SELECTOR_BICK_INDEX               0x01
+#endif
+#define SPKER_CLOCK_BICK_NUM                        0x01
+#define MIC_CLOCK_BICK_NUM                          0x01
+#define SPKER_SAMPLING_FREQUENCY_LEN                0x04
+#define MIC_SAMPLING_FREQUENCY_LEN                  0x04
+
+#define USBD_SPKER_VOLUME_RANGE_LEFT_ID               0x01
+#define USBD_SPKER_VOLUME_RANGE_RIGHT_ID              0x02
+#define AUDIO_REQ_CUR                                 0x01
+#define AUDIO_REQ_RANGE                               0x02
+
+#define AUDIO_SAM_FREQ_AND_CLK_SELECT                 0x01
+#define USBD_AUDIO_SPKER_SAMPLE_RATE_NUM              0x02
+#define USBD_AUDIO_MIC_SAMPLE_RATE_NUM                0x02
+#define USB_DEVICE_AUDIO_SET_REQUEST_INTERFACE (0x21)
+#define USB_DEVICE_AUDIO_SET_REQUEST_ENDPOINT (0x22)
+
+#define USB_DEVICE_AUDIO_GET_REQUEST_INTERFACE (0xA1)
+#define USB_DEVICE_AUDIO_GET_REQUEST_ENDPOINT (0xA2)
+
+#endif
+#define AUDIO_SPKER_REQ_FREQ_CTRL                     0x01U
+#define AUDIO_MIC_REQ_FREQ_CTRL                       0x02U
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  /* __USBD_CONFIG_H__ */
